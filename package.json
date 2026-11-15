@@ -1,0 +1,30 @@
+{
+  "name": "asias-little-library",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --experimental-strip-types --test tests/*.test.ts scripts/*.test.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "audio:catalog": "node scripts/generate-audio.mjs --catalog-only",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "build:public": "npm run build && node scripts/verify-public-build.mjs",
+    "verify:public": "node scripts/verify-public-build.mjs",
+    "export:public": "node scripts/export-public.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "ws": "^8.18.3"
+  }
+}

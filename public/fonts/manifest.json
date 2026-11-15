@@ -1,0 +1,42 @@
+[
+  {
+    "id": "heebo",
+    "family": "Heebo",
+    "sourceUrl": "https://github.com/google/fonts/blob/main/ofl/heebo/Heebo[wght].ttf",
+    "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/heebo/Heebo%5Bwght%5D.ttf",
+    "src": "fonts/heebo.woff2",
+    "license": "OFL-1.1",
+    "missingRequiredGlyphs": "",
+    "bytes": 63672
+  },
+  {
+    "id": "rubik",
+    "family": "Rubik Light",
+    "sourceUrl": "https://github.com/google/fonts/blob/main/ofl/rubik/Rubik[wght].ttf",
+    "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/Rubik%5Bwght%5D.ttf",
+    "src": "fonts/rubik.woff2",
+    "license": "OFL-1.1",
+    "missingRequiredGlyphs": "",
+    "bytes": 112732
+  },
+  {
+    "id": "frankruhllibre",
+    "family": "Frank Ruhl Libre",
+    "sourceUrl": "https://github.com/google/fonts/blob/main/ofl/frankruhllibre/FrankRuhlLibre[wght].ttf",
+    "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/FrankRuhlLibre%5Bwght%5D.ttf",
+    "src": "fonts/frankruhllibre.woff2",
+    "license": "OFL-1.1",
+    "missingRequiredGlyphs": "",
+    "bytes": 76228
+  },
+  {
+    "id": "assistant",
+    "family": "Assistant ExtraLight",
+    "sourceUrl": "https://github.com/google/fonts/blob/main/ofl/assistant/Assistant[wght].ttf",
+    "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/assistant/Assistant%5Bwght%5D.ttf",
+    "src": "fonts/assistant.woff2",
+    "license": "OFL-1.1",
+    "missingRequiredGlyphs": "",
+    "bytes": 39464
+  }
+]

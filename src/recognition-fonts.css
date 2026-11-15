@@ -1,0 +1,42 @@
+/* Recognition targets only. Instructions inherit the application's one UI font. */
+@font-face {
+  font-family: 'Recognition Heebo';
+  src: url('../public/fonts/heebo.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recognition Rubik';
+  src: url('../public/fonts/rubik.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recognition Frank Ruhl';
+  src: url('../public/fonts/frankruhllibre.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recognition Assistant';
+  src: url('../public/fonts/assistant.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+.recognition-font-0 { font-family: 'Recognition Heebo', Arial, sans-serif; }
+.recognition-font-1 { font-family: 'Recognition Rubik', Arial, sans-serif; }
+.recognition-font-2 { font-family: 'Recognition Frank Ruhl', Georgia, serif; }
+.recognition-font-3 { font-family: 'Recognition Assistant', Arial, sans-serif; }
+.recognition-font-0,
+.recognition-font-1,
+.recognition-font-2,
+.recognition-font-3 {
+  font-style: normal;
+  font-synthesis: none;
+  font-variant-numeric: lining-nums;
+  font-variant-ligatures: none;
+}

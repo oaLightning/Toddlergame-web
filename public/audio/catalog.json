@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "feedback.success.he",
+    "text": "כל הכבוד! הצלחת!",
+    "lang": "he"
+  },
+  {
+    "id": "feedback.retry.he",
+    "text": "בואי ננסה שוב, לאט לאט.",
+    "lang": "he"
+  },
+  {
+    "id": "feedback.success.en",
+    "text": "Well done! You did it!",
+    "lang": "en"
+  },
+  {
+    "id": "feedback.retry.en",
+    "text": "Let’s try again, slowly.",
+    "lang": "en"
+  },
+  {
+    "id": "he-alef-hello",
+    "text": "זאת האות אלף. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-hello.example.0",
+    "text": "אסיה",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות אלף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות אלף. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-words.example.0",
+    "text": "אסיה",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-words.example.1",
+    "text": "אבא",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-words.example.2",
+    "text": "אבטיח",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-words.example.3",
+    "text": "ארנב",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-choose",
+    "text": "איזו מילה מתחילה באות אלף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-find-name",
+    "text": "מצאי את כל הפעמים שהאות אלף מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-paint",
+    "text": "צבעי את הדברים ששמם מתחיל באות אלף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות אלף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-hello",
+    "text": "זאת האות בית. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-hello.example.0",
+    "text": "בננה",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות בית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות בית. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-words.example.0",
+    "text": "בננה",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-words.example.1",
+    "text": "בית",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-words.example.2",
+    "text": "בלון",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-words.example.3",
+    "text": "ברווז",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-choose",
+    "text": "איזו מילה מתחילה באות בית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-find-name",
+    "text": "מצאי את כל הפעמים שהאות בית מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-paint",
+    "text": "צבעי את הדברים ששמם מתחיל באות בית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות בית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות אלף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-hello",
+    "text": "זאת האות גימל. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-hello.example.0",
+    "text": "גזר",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות גימל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות גימל. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-words.example.0",
+    "text": "גזר",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-words.example.1",
+    "text": "גלידה",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-words.example.2",
+    "text": "גמל",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-words.example.3",
+    "text": "גבינה",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-choose",
+    "text": "איזו מילה מתחילה באות גימל?",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-find-name",
+    "text": "מצאי את כל הפעמים שהאות גימל מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-paint",
+    "text": "צבעי את הדברים ששמם מתחיל באות גימל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות גימל?",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות בית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-hello",
+    "text": "זאת האות דלת. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-hello.example.0",
+    "text": "דג",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות דלת.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות דלת. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-words.example.0",
+    "text": "דג",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-words.example.1",
+    "text": "דוב",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-words.example.2",
+    "text": "דלת",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-words.example.3",
+    "text": "דבש",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-choose",
+    "text": "איזו מילה מתחילה באות דלת?",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-find-name",
+    "text": "מצאי את כל הפעמים שהאות דלת מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-paint",
+    "text": "צבעי את הדברים ששמם מתחיל באות דלת.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות דלת?",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות גימל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-explain",
+    "text": "עכשיו נבנה מילים מהאותיות שפגשנו. אני אגיד את המילה, ואת תסדרי את האותיות שלה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words.he-known-words-explain.example.0",
+    "text": "אבא",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words.he-known-words-explain.example.1",
+    "text": "דג",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-dad",
+    "text": "המילה היא אבא. בני את המילה אבא. התחילי מצד ימין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-fish",
+    "text": "המילה היא דג. בני את המילה דג.",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-roof",
+    "text": "המילה היא גג. בני את המילה גג.",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-letter-count-dad",
+    "text": "הסתכלי על המילה אבא. ספרי את האותיות. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-letter-count-fish",
+    "text": "הסתכלי על המילה דג. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-asia-count",
+    "text": "זה השם שלך, אסיה. ספרי את האותיות בשם שלך. כמה אותיות יש בו?",
+    "lang": "he"
+  },
+  {
+    "id": "he-known-words-find-review",
+    "text": "בואי ניזכר באות אלף. מצאי את כל האותיות אלף.",
+    "lang": "he"
+  },
+  {
+    "id": "en-s-hello",
+    "text": "This is the letter S. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-hello.example.0",
+    "text": "sun",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-hello.example.1",
+    "text": "sock",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-hello.example.2",
+    "text": "sand",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-listen",
+    "text": "Listen to the first sound in sun. Sun. Sock. Sand.",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-listen.example.0",
+    "text": "sun",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-listen.example.1",
+    "text": "sock",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-listen.example.2",
+    "text": "sand",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-trace",
+    "text": "Trace the lowercase letter S.",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-find",
+    "text": "Find every lowercase S in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-match",
+    "text": "Which word starts with lowercase S?",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-color",
+    "text": "Color the pictures whose words start with lowercase S.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-hello",
+    "text": "This is the letter A. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-hello.example.0",
+    "text": "apple",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-hello.example.1",
+    "text": "ant",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-listen",
+    "text": "Listen to the short vowel at the start of apple. Apple. Ant.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-listen.example.0",
+    "text": "apple",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-listen.example.1",
+    "text": "ant",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-trace",
+    "text": "Trace the lowercase letter A.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-find",
+    "text": "Find every lowercase A in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-match",
+    "text": "Which word starts with lowercase A?",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-color",
+    "text": "Color the pictures whose words start with lowercase A.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-hello",
+    "text": "This is the letter T. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-hello.example.0",
+    "text": "tomato",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-hello.example.1",
+    "text": "turtle",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-hello.example.2",
+    "text": "tiger",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-listen",
+    "text": "Listen to the first sound in tomato. Tomato. Turtle. Tiger.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-listen.example.0",
+    "text": "tomato",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-listen.example.1",
+    "text": "turtle",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-listen.example.2",
+    "text": "tiger",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-trace",
+    "text": "Trace the lowercase letter T.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-find",
+    "text": "Find every lowercase T in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-match",
+    "text": "Which word starts with lowercase T?",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-color",
+    "text": "Color the pictures whose words start with lowercase T.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-hello",
+    "text": "This is the letter M. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-hello.example.0",
+    "text": "moon",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-hello.example.1",
+    "text": "milk",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-hello.example.2",
+    "text": "monkey",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-listen",
+    "text": "Listen to the first sound in moon. Moon. Milk. Monkey.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-listen.example.0",
+    "text": "moon",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-listen.example.1",
+    "text": "milk",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-listen.example.2",
+    "text": "monkey",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-trace",
+    "text": "Trace the lowercase letter M.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-find",
+    "text": "Find every lowercase M in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-match",
+    "text": "Which word starts with lowercase M?",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-color",
+    "text": "Color the pictures whose words start with lowercase M.",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words-intro",
+    "text": "Let us put familiar letters together. Listen: mat. A mat is a small rug.",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words.en-first-words-intro.example.0",
+    "text": "mat",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words.en-first-words-intro.example.1",
+    "text": "sat",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words-mat",
+    "text": "Build the word mat. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words-sat",
+    "text": "Build the word sat. Sat means someone was sitting.",
+    "lang": "en"
+  },
+  {
+    "id": "en-first-words-count",
+    "text": "Count the written letters in mat. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "numbers-0-5-count-0",
+    "text": "אין כאן אף פריט. איזה מספר מתאים?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-0",
+    "text": "עקבי אחרי הספרה 0.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-count-1",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-1",
+    "text": "עקבי אחרי הספרה 1.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-count-2",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-2",
+    "text": "עקבי אחרי הספרה 2.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-count-3",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-3",
+    "text": "עקבי אחרי הספרה 3.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-count-4",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-4",
+    "text": "עקבי אחרי הספרה 4.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-count-5",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-trace-5",
+    "text": "עקבי אחרי הספרה 5.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-paint-quantity",
+    "text": "צבעי קבוצות שיש בהן 3 פריטים.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-color-numeral",
+    "text": "צבעי את המספר 3.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-keypad",
+    "text": "ספרי את הפריטים והקישי את המספר.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-count-6",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-trace-6",
+    "text": "עקבי אחרי הספרה 6.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-count-7",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-trace-7",
+    "text": "עקבי אחרי הספרה 7.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-count-8",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-trace-8",
+    "text": "עקבי אחרי הספרה 8.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-count-9",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-trace-9",
+    "text": "עקבי אחרי הספרה 9.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-count-10",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-trace-10",
+    "text": "עקבי אחרי המספר 10.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-paint-quantity",
+    "text": "צבעי קבוצות שיש בהן 6 פריטים.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-color-numeral",
+    "text": "צבעי את המספר 10.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-keypad",
+    "text": "ספרי את הפריטים והקישי את המספר.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-11",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-11",
+    "text": "עקבי אחרי המספר 11.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-12",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-12",
+    "text": "עקבי אחרי המספר 12.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-13",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-13",
+    "text": "עקבי אחרי המספר 13.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-14",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-14",
+    "text": "עקבי אחרי המספר 14.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-15",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-15",
+    "text": "עקבי אחרי המספר 15.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-16",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-16",
+    "text": "עקבי אחרי המספר 16.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-17",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-17",
+    "text": "עקבי אחרי המספר 17.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-18",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-18",
+    "text": "עקבי אחרי המספר 18.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-19",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-19",
+    "text": "עקבי אחרי המספר 19.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-count-20",
+    "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-trace-20",
+    "text": "עקבי אחרי המספר 20.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-paint-quantity",
+    "text": "צבעי קבוצות שיש בהן 11 פריטים.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-color-numeral",
+    "text": "צבעי את המספר 20.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-keypad",
+    "text": "ספרי את הפריטים והקישי את המספר.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-1",
+    "text": "יש לנו תפוח אחד. נוסיף עוד תפוח אחד. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-2",
+    "text": "יש לנו שני תפוחים. נוסיף עוד תפוח אחד. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-3",
+    "text": "יש לנו שני תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-4",
+    "text": "יש לנו שלושה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-5",
+    "text": "יש לנו ארבעה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-6",
+    "text": "יש לנו ארבעה תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-7",
+    "text": "יש לנו חמישה תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-8",
+    "text": "יש לנו חמישה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-9",
+    "text": "יש לנו שישה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-story-10",
+    "text": "יש לנו אפס תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-independent-1",
+    "text": "יש לנו שלושה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-independent-2",
+    "text": "יש לנו חמישה תפוחים. נוסיף עוד חמישה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-independent-3",
+    "text": "יש לנו שישה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-1",
+    "text": "יש לנו שני תפוחים. ניקח תפוח אחד. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-2",
+    "text": "יש לנו שלושה תפוחים. ניקח תפוח אחד. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-3",
+    "text": "יש לנו ארבעה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-4",
+    "text": "יש לנו חמישה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-5",
+    "text": "יש לנו שישה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-6",
+    "text": "יש לנו שבעה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-7",
+    "text": "יש לנו שמונה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-8",
+    "text": "יש לנו תשעה תפוחים. ניקח ארבעה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-9",
+    "text": "יש לנו עשרה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-story-10",
+    "text": "יש לנו שלושה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-independent-1",
+    "text": "יש לנו עשרה תפוחים. ניקח ארבעה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-independent-2",
+    "text": "יש לנו שמונה תפוחים. ניקח חמישה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-independent-3",
+    "text": "יש לנו שבעה תפוחים. ניקח שבעה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-2",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-4",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-5",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-7",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-9",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-try-keypad-answer-10",
+    "text": "ספרי את התותים והקישי כמה יש.",
+    "lang": "he"
+  },
+  {
+    "id": "play.freeze.instructions",
+    "text": "בואי נעשה קסם כמו אלזה! לחצי על הדברים שזזים והקפיאי אותם. אין צורך למהר.",
+    "lang": "he"
+  },
+  {
+    "id": "play.puzzle.instructions",
+    "text": "בחרי תמונה וכמה חלקים תרצי. גררי כל חלק צבעוני למקום שלו בתמונה. אם הוא לא מתאים, הוא יחזור למגש.",
+    "lang": "he"
+  },
+  {
+    "id": "play.keybash.instructions",
+    "text": "לחצי על משטח המשחק. עכשיו אפשר להקיש על המקלדת, או לגעת במסך, ולגלות הפתעות!",
+    "lang": "he"
+  },
+  {
+    "id": "typing.he.find",
+    "text": "מצאי את האות הגדולה במקלדת ולחצי עליה. אפשר גם לגעת במקלדת שעל המסך.",
+    "lang": "he"
+  },
+  {
+    "id": "typing.he.repeat",
+    "text": "נסתכל על רצף של אותיות. אחר כך הקלידי אותו לפי הסדר. אפשר לשמוע שוב בכל רגע.",
+    "lang": "he"
+  },
+  {
+    "id": "typing.en.find",
+    "text": "Find the big letter on the keyboard. You can also tap the keyboard on the screen.",
+    "lang": "en"
+  },
+  {
+    "id": "typing.en.repeat",
+    "text": "Watch the letters. Then type the same letters in order. You can play the example again.",
+    "lang": "en"
+  },
+  {
+    "id": "typing.numbers.find",
+    "text": "הסתכלי על הספרה הגדולה ולחצי עליה במקלדת. אפשר גם לגעת במספר שעל המסך.",
+    "lang": "he"
+  },
+  {
+    "id": "typing.numbers.repeat",
+    "text": "נראה רצף של ספרות. הקלידי אותן לפי הסדר. זה רצף ספרות, ולא תרגיל חשבון.",
+    "lang": "he"
+  }
+]
