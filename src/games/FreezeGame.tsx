@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import type { MouseEvent } from 'react';
 import { assetUrl, sound, speak } from '../audio';
 import './play-games.css';
+import { freezeDuration } from './freeze-logic';
 
 interface GameProps { onComplete: () => void; onRestart?: () => void; narration: boolean; effects: boolean }
 const objects = [
@@ -19,12 +20,14 @@ export default function FreezeGame({ onComplete, onRestart, narration, effects }
   const stage = useRef<HTMLDivElement>(null);
   const frozenIds = useRef(new Set<string>());
   const [frozen, setFrozen] = useState<Record<string,{x:number;y:number}>>({});
+  const [miss, setMiss] = useState(0);
   const [beam, setBeam] = useState<{x:number;y:number;id:number}|null>(null);
   const count = Object.keys(frozen).length;
   const won = count === objects.length;
 
   function freeze(event: MouseEvent<HTMLButtonElement>, id: string) {
-    if (frozenIds.current.has(id) || !stage.current) return;
+    event.stopPropagation();
+    if (frozenIds.current.has(id) || !stage.current) { if(effects)sound(false); setMiss(v=>v+1); return; }
     const arena = stage.current.getBoundingClientRect();
     const item = event.currentTarget.getBoundingClientRect();
     const point = { x:(item.left + item.width/2 - arena.left)/arena.width*100, y:(item.top + item.height/2 - arena.top)/arena.height*100 };
@@ -37,21 +40,21 @@ export default function FreezeGame({ onComplete, onRestart, narration, effects }
       onComplete();
     }
   }
-  function replay() { onRestart?.(); frozenIds.current.clear(); setFrozen({}); setBeam(null); }
+  function replay() { onRestart?.(); frozenIds.current.clear(); setFrozen({}); setBeam(null); setMiss(0); if(effects)sound(true); }
 
   return <div className="freeze-game">
     <div className="play-instructions"><span>❄️</span><p>לחצי על כל דבר שזז, והקסם יקפיא אותו.<br/><small>אפשר לקחת את כל הזמן שבעולם.</small></p></div>
     <div className="freeze-progress" aria-live="polite">{won?'כל הדברים קפואים! ✨':`${count} מתוך ${objects.length} דברים קפואים`}<div><span style={{width:`${count/objects.length*100}%`}}/></div></div>
-    <div ref={stage} className="freeze-stage" aria-label="גן הקסם של אלזה">
+    <div ref={stage} className="freeze-stage" aria-label="גן הקסם של אלזה" data-speed={Math.pow(1.28,count).toFixed(2)} onClick={()=>{if(effects)sound(false);setMiss(v=>v+1);}}>
       <span className="ice-hill ice-hill-one" aria-hidden="true"/><span className="ice-hill ice-hill-two" aria-hidden="true"/>
       <span className="ice-sparkle ice-sparkle-one" aria-hidden="true">✦</span><span className="ice-sparkle ice-sparkle-two" aria-hidden="true">✧</span>
       <figure className="elsa-helper"><img src={assetUrl('characters/elsa.webp')} alt="אלזה"/><figcaption>קסם הקרח שלך</figcaption></figure>
       {beam&&<svg className="freeze-beam" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" key={beam.id}><line x1="13" y1="77" x2={beam.x} y2={beam.y} className="beam-glow"/><line x1="13" y1="77" x2={beam.x} y2={beam.y} className="beam-core"/><circle cx={beam.x} cy={beam.y} r="6" className="beam-ring"/></svg>}
       {objects.map((item,i)=>{
         const ice=frozen[item.id];
-        return <button key={item.id} disabled={!!ice} onClick={event=>freeze(event,item.id)} className={`freeze-object ${ice?'is-frozen':''} drift-${i%4}`} aria-label={ice?`${item.name} קפוא`:`הקפיאי ${item.name}`} style={{left:`${ice?.x??item.x}%`,top:`${ice?.y??item.y}%`,animationDelay:`-${i*1.7}s`,animationDuration:`${12+i%3*3}s`}}><span className="freeze-item-icon" aria-hidden="true">{item.icon}</span>{ice&&<><span className="ice-crystal" aria-hidden="true"/><span className="ice-mark" aria-hidden="true">❄</span></>}</button>;
+        return <button key={item.id} aria-disabled={!!ice} onClick={event=>freeze(event,item.id)} className={`freeze-object ${ice?'is-frozen':''} drift-${i%4}`} aria-label={ice?`${item.name} קפוא`:`הקפיאי ${item.name}`} style={{left:`${ice?.x??item.x}%`,top:`${ice?.y??item.y}%`,animationDelay:`-${i*1.7}s`,animationDuration:`${freezeDuration(i,count)}s`}}><span className="freeze-item-icon" aria-hidden="true">{item.icon}</span>{ice&&<><span className="ice-crystal" aria-hidden="true"/><span className="ice-mark" aria-hidden="true">❄</span></>}</button>;
       })}
     </div>
-    <div className="play-footer">{won?<><span role="status">🌟 אלזה ואת הקפאתן את כל הגן!</span><button className="primary" onClick={replay}>נשחק שוב ❄️</button></>:<span>אין שעון. רק קצת קסם.</span>}</div>
+    <p className="freeze-miss" aria-live="polite">{miss>0&&!won?'עוד ניסיון קטן, הקסם יצליח!':'הדברים שנשארו זזים מהר יותר אחרי כל הקפאה.'}</p><div className="play-footer">{won?<><span role="status">🌟 אלזה ואת הקפאתן את כל הגן!</span><button className="primary" onClick={replay}>נשחק שוב ❄️</button></>:<span>אין שעון. רק קצת קסם.</span>}</div>
   </div>;
 }

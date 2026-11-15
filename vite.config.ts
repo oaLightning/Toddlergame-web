@@ -8,6 +8,7 @@ export default defineConfig(({ mode, command }) => {
   if (env.GITHUB_ACTIONS === 'true' && privatePhotos) throw new Error('GitHub Actions must never build private portraits.');
   return {
     base: './',
+    server: { watch: { ignored: ['**/public/audio/**'] } },
     // Public builds copy an allowlist, rather than copying portraits and deleting them later.
     publicDir: privatePhotos || command === 'serve' ? 'public' : false,
     plugins: [{

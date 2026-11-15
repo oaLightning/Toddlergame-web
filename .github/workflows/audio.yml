@@ -1,0 +1,85 @@
+name: Generate speech recordings
+
+on:
+  workflow_dispatch:
+    inputs:
+      engine:
+        description: Speech provider
+        type: choice
+        options: [gemini, speech]
+        default: gemini
+      delay_ms:
+        description: Delay between requests (milliseconds)
+        default: '6500'
+        required: true
+      limit:
+        description: Maximum pending clips to generate in this run
+        default: '500'
+        required: true
+      prefix:
+        description: Optional clip ID prefix; leave empty for every pending clip
+        default: ''
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: speech-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TTS_ENGINE: ${{ inputs.engine }}
+    steps:
+      - name: Check speech credentials
+        id: credentials
+        run: |
+          if [ "$TTS_ENGINE" = 'gemini' ]; then
+            if [ -z "$GEMINI_API_KEY" ]; then
+              echo 'Add the GEMINI_API_KEY repository secret, then rerun.'
+              exit 1
+            fi
+          elif [ -z "$OPENAI_API_KEY" ]; then
+            echo 'Add the OPENAI_API_KEY repository secret, then rerun.'
+            exit 1
+          fi
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Generate missing recordings
+        id: speech
+        continue-on-error: true
+        env:
+          CLIP_LIMIT: ${{ inputs.limit }}
+          CLIP_PREFIX: ${{ inputs.prefix }}
+          CLIP_DELAY: ${{ inputs.delay_ms }}
+        run: node scripts/generate-audio.mjs --engine "$TTS_ENGINE" --limit "$CLIP_LIMIT" --only "$CLIP_PREFIX" --delay-ms "$CLIP_DELAY"
+      - name: Commit generated assets, including resumable partial results
+        id: assets
+        run: |
+          git add public/audio
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Generate missing speech recordings'
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Deploy the updated audio
+        if: steps.assets.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
+      - name: Report a paused generation run
+        if: steps.speech.outcome == 'failure'
+        run: |
+          echo 'Generation stopped early. Any completed clips were committed; rerun to resume.'
+          exit 1

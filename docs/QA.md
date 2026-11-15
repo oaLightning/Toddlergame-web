@@ -26,3 +26,10 @@ Mouse tracing verified that main+upper strokes alone (78% total) no longer earn 
 +- Four self-hosted upright fonts build as relative hashed assets for repository-path hosting.
 +- Browser verified freeze-all victory, puzzle wrong-drop return, correct drag snap, and full 20-piece completion through accessible tap/keyboard controls.
 +- Physical and on-screen Hebrew key entry and sequence demonstration/retry checked. Actual iPad touch still needs device testing.
+
+## Painting, richer puzzles, speech and iPhone feedback update
++- Selection pages and freehand painting now use separate exercise kinds. Browser verified freehand ink and undo; selection no longer has a cosmetic palette.
++- Added target-appropriate printable outlines, expanded Hebrew and English vocabulary, and alternating reward corners.
++- Puzzles have rich themed backgrounds with landmarks in every dense-grid cell and animated wrong-drop returns.
++- Audio feedback uses bundled WAV media files; explicit enable/test control and visible playback diagnostics were added for iOS. Physical iPhone validation still requires the user's device.
++- Gemini generated real narration WAVs. Quota/transient missing-output handling is resumable; completed clips are preserved. GitHub secret storage remains pending user authorization; no Gemini credential is in source or frontend output.

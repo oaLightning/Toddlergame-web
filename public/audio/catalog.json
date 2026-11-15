@@ -1,5 +1,10 @@
 [
   {
+    "id": "audio.activation.he",
+    "text": "הקול מופעל. בואי נשחק!",
+    "lang": "he"
+  },
+  {
     "id": "feedback.success.he",
     "text": "כל הכבוד! הצלחת!",
     "lang": "he"
@@ -17,6 +22,261 @@
   {
     "id": "feedback.retry.en",
     "text": "Let’s try again, slowly.",
+    "lang": "en"
+  },
+  {
+    "id": "game.freeze.win",
+    "text": "איזה קסם! הכול קפוא. הצלחת!",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.0",
+    "text": "אפס",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.1",
+    "text": "אחת",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.2",
+    "text": "שתיים",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.3",
+    "text": "שלוש",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.4",
+    "text": "ארבע",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.5",
+    "text": "חמש",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.6",
+    "text": "שש",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.7",
+    "text": "שבע",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.8",
+    "text": "שמונה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.9",
+    "text": "תשע",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.10",
+    "text": "עשר",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.11",
+    "text": "אחת עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.12",
+    "text": "שתים עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.13",
+    "text": "שלוש עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.14",
+    "text": "ארבע עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.15",
+    "text": "חמש עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.16",
+    "text": "שש עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.17",
+    "text": "שבע עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.18",
+    "text": "שמונה עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.19",
+    "text": "תשע עשרה",
+    "lang": "he"
+  },
+  {
+    "id": "number.he.20",
+    "text": "עשרים",
+    "lang": "he"
+  },
+  {
+    "id": "number.en.0",
+    "text": "zero",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.1",
+    "text": "one",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.2",
+    "text": "two",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.3",
+    "text": "three",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.4",
+    "text": "four",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.5",
+    "text": "five",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.6",
+    "text": "six",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.7",
+    "text": "seven",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.8",
+    "text": "eight",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.9",
+    "text": "nine",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.10",
+    "text": "ten",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.11",
+    "text": "eleven",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.12",
+    "text": "twelve",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.13",
+    "text": "thirteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.14",
+    "text": "fourteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.15",
+    "text": "fifteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.16",
+    "text": "sixteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.17",
+    "text": "seventeen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.18",
+    "text": "eighteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.19",
+    "text": "nineteen",
+    "lang": "en"
+  },
+  {
+    "id": "number.en.20",
+    "text": "twenty",
+    "lang": "en"
+  },
+  {
+    "id": "key.he.alef",
+    "text": "אָלֶף",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.bet",
+    "text": "בֵּית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.gimel",
+    "text": "גִּימֶל",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.dalet",
+    "text": "דָּלֶת",
+    "lang": "he"
+  },
+  {
+    "id": "key.en.a",
+    "text": "A",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.s",
+    "text": "S",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.t",
+    "text": "T",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.m",
+    "text": "M",
     "lang": "en"
   },
   {
@@ -71,12 +331,47 @@
   },
   {
     "id": "he-alef-paint",
-    "text": "צבעי את הדברים ששמם מתחיל באות אלף.",
+    "text": "בחרי את הדברים ששמם מתחיל באות אלף.",
     "lang": "he"
   },
   {
     "id": "he-alef-letter-hunt",
     "text": "עוד חיפוש קטן. איפה האות אלף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-more-words",
+    "text": "הנה עוד מילים שמתחילות באות אלף. לחצי על התמונות והקשיבי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-more-words.example.0",
+    "text": "אגס",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-more-words.example.1",
+    "text": "אריה",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-more-words.example.2",
+    "text": "אוזן",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef.he-alef-more-words.example.3",
+    "text": "אננס",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-more-choices",
+    "text": "מצאי עוד תמונות ששמן מתחיל באות אלף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-alef-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he"
   },
   {
@@ -131,12 +426,47 @@
   },
   {
     "id": "he-bet-paint",
-    "text": "צבעי את הדברים ששמם מתחיל באות בית.",
+    "text": "בחרי את הדברים ששמם מתחיל באות בית.",
     "lang": "he"
   },
   {
     "id": "he-bet-letter-hunt",
     "text": "עוד חיפוש קטן. איפה האות בית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-more-words",
+    "text": "הנה עוד מילים שמתחילות באות בית. לחצי על התמונות והקשיבי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-more-words.example.0",
+    "text": "ביצה",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-more-words.example.1",
+    "text": "בובה",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-more-words.example.2",
+    "text": "בייגלה",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet.he-bet-more-words.example.3",
+    "text": "ברק",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-more-choices",
+    "text": "מצאי עוד תמונות ששמן מתחיל באות בית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-bet-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he"
   },
   {
@@ -196,12 +526,47 @@
   },
   {
     "id": "he-gimel-paint",
-    "text": "צבעי את הדברים ששמם מתחיל באות גימל.",
+    "text": "בחרי את הדברים ששמם מתחיל באות גימל.",
     "lang": "he"
   },
   {
     "id": "he-gimel-letter-hunt",
     "text": "עוד חיפוש קטן. איפה האות גימל?",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-more-words",
+    "text": "הנה עוד מילים שמתחילות באות גימל. לחצי על התמונות והקשיבי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-more-words.example.0",
+    "text": "גיטרה",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-more-words.example.1",
+    "text": "גרב",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-more-words.example.2",
+    "text": "גשר",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel.he-gimel-more-words.example.3",
+    "text": "גינה",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-more-choices",
+    "text": "מצאי עוד תמונות ששמן מתחיל באות גימל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-gimel-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he"
   },
   {
@@ -261,12 +626,47 @@
   },
   {
     "id": "he-dalet-paint",
-    "text": "צבעי את הדברים ששמם מתחיל באות דלת.",
+    "text": "בחרי את הדברים ששמם מתחיל באות דלת.",
     "lang": "he"
   },
   {
     "id": "he-dalet-letter-hunt",
     "text": "עוד חיפוש קטן. איפה האות דלת?",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-more-words",
+    "text": "הנה עוד מילים שמתחילות באות דלת. לחצי על התמונות והקשיבי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-more-words.example.0",
+    "text": "דולפין",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-more-words.example.1",
+    "text": "דובדבן",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-more-words.example.2",
+    "text": "דגל",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet.he-dalet-more-words.example.3",
+    "text": "דינוזאור",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-more-choices",
+    "text": "מצאי עוד תמונות ששמן מתחיל באות דלת.",
+    "lang": "he"
+  },
+  {
+    "id": "he-dalet-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he"
   },
   {
@@ -345,23 +745,68 @@
     "lang": "en"
   },
   {
+    "id": "en-s.en-s-hello.example.3",
+    "text": "star",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-hello.example.4",
+    "text": "snake",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-hello.example.5",
+    "text": "strawberry",
+    "lang": "en"
+  },
+  {
     "id": "en-s-listen",
     "text": "Listen to the first sound in sun. Sun. Sock. Sand.",
     "lang": "en"
   },
   {
     "id": "en-s.en-s-listen.example.0",
-    "text": "sun",
+    "text": "sand",
     "lang": "en"
   },
   {
     "id": "en-s.en-s-listen.example.1",
-    "text": "sock",
+    "text": "star",
     "lang": "en"
   },
   {
     "id": "en-s.en-s-listen.example.2",
-    "text": "sand",
+    "text": "snake",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-listen.example.3",
+    "text": "strawberry",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-more-words.example.0",
+    "text": "star",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-more-words.example.1",
+    "text": "snake",
+    "lang": "en"
+  },
+  {
+    "id": "en-s.en-s-more-words.example.2",
+    "text": "strawberry",
+    "lang": "en"
+  },
+  {
+    "id": "en-s-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en"
   },
   {
@@ -381,7 +826,7 @@
   },
   {
     "id": "en-s-color",
-    "text": "Color the pictures whose words start with lowercase S.",
+    "text": "Choose the pictures whose words start with lowercase S.",
     "lang": "en"
   },
   {
@@ -400,18 +845,73 @@
     "lang": "en"
   },
   {
+    "id": "en-a.en-a-hello.example.2",
+    "text": "alligator",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-hello.example.3",
+    "text": "ambulance",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-hello.example.4",
+    "text": "astronaut",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-hello.example.5",
+    "text": "axe",
+    "lang": "en"
+  },
+  {
     "id": "en-a-listen",
-    "text": "Listen to the short vowel at the start of apple. Apple. Ant.",
+    "text": "Listen to the short vowel at the start of apple. Apple. Ant. Alligator. Ambulance.",
     "lang": "en"
   },
   {
     "id": "en-a.en-a-listen.example.0",
-    "text": "apple",
+    "text": "alligator",
     "lang": "en"
   },
   {
     "id": "en-a.en-a-listen.example.1",
-    "text": "ant",
+    "text": "ambulance",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-listen.example.2",
+    "text": "astronaut",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-listen.example.3",
+    "text": "axe",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-more-words.example.0",
+    "text": "ambulance",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-more-words.example.1",
+    "text": "astronaut",
+    "lang": "en"
+  },
+  {
+    "id": "en-a.en-a-more-words.example.2",
+    "text": "axe",
+    "lang": "en"
+  },
+  {
+    "id": "en-a-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en"
   },
   {
@@ -431,7 +931,7 @@
   },
   {
     "id": "en-a-color",
-    "text": "Color the pictures whose words start with lowercase A.",
+    "text": "Choose the pictures whose words start with lowercase A.",
     "lang": "en"
   },
   {
@@ -455,23 +955,68 @@
     "lang": "en"
   },
   {
+    "id": "en-t.en-t-hello.example.3",
+    "text": "tree",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-hello.example.4",
+    "text": "train",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-hello.example.5",
+    "text": "tent",
+    "lang": "en"
+  },
+  {
     "id": "en-t-listen",
     "text": "Listen to the first sound in tomato. Tomato. Turtle. Tiger.",
     "lang": "en"
   },
   {
     "id": "en-t.en-t-listen.example.0",
-    "text": "tomato",
+    "text": "tiger",
     "lang": "en"
   },
   {
     "id": "en-t.en-t-listen.example.1",
-    "text": "turtle",
+    "text": "tree",
     "lang": "en"
   },
   {
     "id": "en-t.en-t-listen.example.2",
-    "text": "tiger",
+    "text": "train",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-listen.example.3",
+    "text": "tent",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-more-words.example.0",
+    "text": "tree",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-more-words.example.1",
+    "text": "train",
+    "lang": "en"
+  },
+  {
+    "id": "en-t.en-t-more-words.example.2",
+    "text": "tent",
+    "lang": "en"
+  },
+  {
+    "id": "en-t-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en"
   },
   {
@@ -491,7 +1036,7 @@
   },
   {
     "id": "en-t-color",
-    "text": "Color the pictures whose words start with lowercase T.",
+    "text": "Choose the pictures whose words start with lowercase T.",
     "lang": "en"
   },
   {
@@ -515,23 +1060,68 @@
     "lang": "en"
   },
   {
+    "id": "en-m.en-m-hello.example.3",
+    "text": "mouse",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-hello.example.4",
+    "text": "mushroom",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-hello.example.5",
+    "text": "mango",
+    "lang": "en"
+  },
+  {
     "id": "en-m-listen",
     "text": "Listen to the first sound in moon. Moon. Milk. Monkey.",
     "lang": "en"
   },
   {
     "id": "en-m.en-m-listen.example.0",
-    "text": "moon",
+    "text": "monkey",
     "lang": "en"
   },
   {
     "id": "en-m.en-m-listen.example.1",
-    "text": "milk",
+    "text": "mouse",
     "lang": "en"
   },
   {
     "id": "en-m.en-m-listen.example.2",
-    "text": "monkey",
+    "text": "mushroom",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-listen.example.3",
+    "text": "mango",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-more-words.example.0",
+    "text": "mouse",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-more-words.example.1",
+    "text": "mushroom",
+    "lang": "en"
+  },
+  {
+    "id": "en-m.en-m-more-words.example.2",
+    "text": "mango",
+    "lang": "en"
+  },
+  {
+    "id": "en-m-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en"
   },
   {
@@ -551,7 +1141,7 @@
   },
   {
     "id": "en-m-color",
-    "text": "Color the pictures whose words start with lowercase M.",
+    "text": "Choose the pictures whose words start with lowercase M.",
     "lang": "en"
   },
   {
@@ -646,12 +1236,12 @@
   },
   {
     "id": "numbers-0-5-paint-quantity",
-    "text": "צבעי קבוצות שיש בהן 3 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 3 פריטים.",
     "lang": "he"
   },
   {
     "id": "numbers-0-5-color-numeral",
-    "text": "צבעי את המספר 3.",
+    "text": "בחרי את המספר 3.",
     "lang": "he"
   },
   {
@@ -711,12 +1301,12 @@
   },
   {
     "id": "numbers-6-10-paint-quantity",
-    "text": "צבעי קבוצות שיש בהן 6 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 6 פריטים.",
     "lang": "he"
   },
   {
     "id": "numbers-6-10-color-numeral",
-    "text": "צבעי את המספר 10.",
+    "text": "בחרי את המספר 10.",
     "lang": "he"
   },
   {
@@ -826,12 +1416,12 @@
   },
   {
     "id": "numbers-11-20-paint-quantity",
-    "text": "צבעי קבוצות שיש בהן 11 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 11 פריטים.",
     "lang": "he"
   },
   {
     "id": "numbers-11-20-color-numeral",
-    "text": "צבעי את המספר 20.",
+    "text": "בחרי את המספר 20.",
     "lang": "he"
   },
   {

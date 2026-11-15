@@ -2,7 +2,7 @@ export type Locale = 'he' | 'en';
 export type Theme = 'hebrew' | 'english' | 'numbers' | 'play';
 export interface Choice { id: string; label: string; emoji?: string; image?: string; correct?: boolean }
 export interface WordExample { word: string; highlight: string; emoji?: string; image?: string }
-export type ExerciseKind = 'introduce' | 'trace' | 'find' | 'match' | 'color' | 'count' | 'arithmetic' | 'keypad' | 'build' | 'freeze' | 'puzzle' | 'keybash' | 'typing';
+export type ExerciseKind = 'introduce' | 'trace' | 'find' | 'match' | 'color' | 'select' | 'paint' | 'count' | 'arithmetic' | 'keypad' | 'build' | 'freeze' | 'puzzle' | 'keybash' | 'typing';
 export interface Exercise {
   id: string;
   kind: ExerciseKind;

@@ -1,2092 +1,3283 @@
 {
+  "audio.activation.he": {
+    "text": "הקול מופעל. בואי נשחק!",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/audio.activation.he.wav",
+    "fingerprint": "827cb8b11e81fcb2a8e081503dc20157a4819204e188886bae9c85961252f818",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:18:44.552Z"
+  },
   "feedback.success.he": {
     "text": "כל הכבוד! הצלחת!",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "c50771863b7cd38c47d1ede5f384c93e9ce484b5e57f3701f924f82c58fd2b1a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "status": "ready",
+    "src": "audio/feedback.success.he.wav",
+    "fingerprint": "10f03911fa97afdc7e8ad5fa7d361b1c834e926d41ffa18ab303f6cdd87bb249",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:15:40.009Z"
   },
   "feedback.retry.he": {
     "text": "בואי ננסה שוב, לאט לאט.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "3b3556e0f91319b4dfc299bedae89e0d7eee67fdd395619e546dd66aed26a644",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "status": "ready",
+    "src": "audio/feedback.retry.he.wav",
+    "fingerprint": "33b89e087e3253d44aebd239066fbe8170bb9d83b7ef0fa9bfeb0b2480cc612b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:18:48.069Z"
   },
   "feedback.success.en": {
     "text": "Well done! You did it!",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "ff971a7b33becf6583c219338d7a4b75e0fe77c0833ae4f2f0a8fd52225a50a0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "status": "ready",
+    "src": "audio/feedback.success.en.wav",
+    "fingerprint": "452db741d3d808016d58436f244407c928e8290e781793c1ab4c18bc2c85fc0e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:18:51.953Z"
   },
   "feedback.retry.en": {
     "text": "Let’s try again, slowly.",
     "lang": "en",
+    "status": "ready",
+    "src": "audio/feedback.retry.en.wav",
+    "fingerprint": "8f9136036dd59a9ba98fcf4b553a11e74bc06b261b6884d110d0a489bfe5c7fc",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:18:55.296Z"
+  },
+  "game.freeze.win": {
+    "text": "איזה קסם! הכול קפוא. הצלחת!",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/game.freeze.win.wav",
+    "fingerprint": "bc8dbcc8a2189b3d0b71c1c70beff1e42a7ec76403210c64a7a8545ede68ae5f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:21:45.361Z"
+  },
+  "number.he.0": {
+    "text": "אפס",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/number.he.0.wav",
+    "fingerprint": "99af0b564cfa04a51fa63200292b9357e5efdd425f4c52f08d3eaa12364a4999",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:21:58.146Z"
+  },
+  "number.he.1": {
+    "text": "אחת",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/number.he.1.wav",
+    "fingerprint": "1fa45933d138ea1ddddea2ab1c661293aefdd3e4d41847aa1ac814bcc0c4fd5f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:22:11.614Z"
+  },
+  "number.he.2": {
+    "text": "שתיים",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/number.he.2.wav",
+    "fingerprint": "31efc9189b7890fc144e129dbbd6add5a980a4ee06dc7dbc0f4b14a85b60ebe1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:24:48.139Z"
+  },
+  "number.he.3": {
+    "text": "שלוש",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/number.he.3.wav",
+    "fingerprint": "364d333a81a408e9cecee71fce5928f1b3f71ea3392a47104ba4def2ac835f21",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:25:00.305Z"
+  },
+  "number.he.4": {
+    "text": "ארבע",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/number.he.4.wav",
+    "fingerprint": "ec22ac69478454ab75525470d6718a04267b6eee799726a249ac5107e9a75f04",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:25:13.021Z"
+  },
+  "number.he.5": {
+    "text": "חמש",
+    "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "df3d5f181e677495aab8f73c4fb203c0b14e961db1956e4e369d469ebe85322f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "aed24a9b871b3fa74bf71856f73d3dde8f90b80ac1afda33a75b414cff76021c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.6": {
+    "text": "שש",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0da388b134552059ef14737d40f23cc2df8907059cbd7da3d8009526d8e34735",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.7": {
+    "text": "שבע",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6c45de47ad63245094f24eaa1114ab53e0974e073e6e31a27aad1c1640c901c3",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.8": {
+    "text": "שמונה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "090cb28ab5d3917425a6f4641fed373ab0b6057f99329e701d90916297725dc6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.9": {
+    "text": "תשע",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a5ba6520e4193520925d0d62e7acdc8b8c516995f27f59325df3a2380d8e8707",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.10": {
+    "text": "עשר",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5cc7fb43b28bcbf699bd88a59071357eec3b019a8a935026e0f9db6a6e3e8baa",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.11": {
+    "text": "אחת עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5463bc0c9062f7c918e10bef79aa3c92e0a396b8b19e6d75b541f1c9e9e021b9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.12": {
+    "text": "שתים עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f8cf417be841394972f9f07f7ce3fc7392006ccc52b7c973fe1fd6e755f43909",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.13": {
+    "text": "שלוש עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1620702a7dabf6af17ce34b95831d9e571864a95c1a3758db789d61eb849e34c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.14": {
+    "text": "ארבע עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "83873ac086ed44c9148d3aaa7fd5ea84095ee58995aa9a0b99b259bd6c14731d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.15": {
+    "text": "חמש עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e1f40f10f7652faed70b1c20a3c5416b59e2145f0ebe3bdc4e3ab067056ef05f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.16": {
+    "text": "שש עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "398f3804c2e8ae0c11a89bf77a12fb6076b0da43c1790902d99877ef64efd4c9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.17": {
+    "text": "שבע עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f81085a1e53628a7fe1914a205a6fbfa511fbe9ef89fc32b9845f59b903f6455",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.18": {
+    "text": "שמונה עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "42c9d4a52b8d4dc12b206b06c3acdc0c6a85fb86c61905f7be3e008a45c46b0e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.19": {
+    "text": "תשע עשרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "98995cd3b6406a62078d2b607475c69d42d09fd6ba368766e49fd17e37c83784",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.he.20": {
+    "text": "עשרים",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a35b3ef465c19d9909574901491293bec64b40764cfa16b1f526f60d363321c8",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.0": {
+    "text": "zero",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6d81a4ed26d86e8048107b4c37462be01d5be04268c35d09a1d409c0e0140c4e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.1": {
+    "text": "one",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "ba5ea0277794d4adb0981092132f2081c6659f50fb7555f7705385859b83f7fb",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.2": {
+    "text": "two",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "edc04b695766b643110b40d0b3f2d44c2b347eaa1980ec03697812db1f9bc07f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.3": {
+    "text": "three",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "12574ed8c175d4943efc004e32ccbde7542e9436cda77eba4aa65bfc52102f29",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.4": {
+    "text": "four",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "53d48a8d7e5d0906f9707c987e7f31fe086c4f4349d6ae79a7103f19b4a807a1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.5": {
+    "text": "five",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "782df81959017eb8fa8b49657f143e45a4e726a97c7403b60aa924a5a4f9344d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.6": {
+    "text": "six",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6ef6207c95b5860ae02ae1d21ffb2f7ddd67e0715c9f7aef187c23569774807f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.7": {
+    "text": "seven",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "77c3648467c8e57b440cad2f3b9df4481c870203c80b785ada99f4572ce96838",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.8": {
+    "text": "eight",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "35dc62657889530e23216bb4ba8039fc73dd9bdbc9dab30383f0e606bc8db2e1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.9": {
+    "text": "nine",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5c0fe29aee2eb171d53073f28da1e4c7cf53c42fb624b130b63f837c136cacd3",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.10": {
+    "text": "ten",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f5165898f669ca795c20bbe94a1790ad801ba366a9c4a84b435c00f52835cf6d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.11": {
+    "text": "eleven",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f9f5788480335da9d698c6d8cbe6263af4d215760a294b328e41a4f79abe28b3",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.12": {
+    "text": "twelve",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "c1fe7a82c46eb40062fc60e7811eb49de4cda1bc16b0dd5fb7faf307f63e3236",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.13": {
+    "text": "thirteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6004f698e0ea8f751110865649bc07b2f321054f42b746aad2cf5a14bf35af00",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.14": {
+    "text": "fourteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a7af8a7940978518e1d65bfc27124cf962584f27b012eba6b1fad334e0986093",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.15": {
+    "text": "fifteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "4adce51db50107a2c9169d716f2deab9fe7bd03f1a73ea89ec4c3055ea496330",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.16": {
+    "text": "sixteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e078840a7a1b5b7ef9a2d962144b1984d134e678d2a206b50ecab1511febf882",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.17": {
+    "text": "seventeen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "95a543416920f699795a51dfa7e95980ddad8511a40ea25326fd2ef4b8d387e7",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.18": {
+    "text": "eighteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "980e54a950ffe31367b06aab159350b1d4f54e9856cdbb3b31fa19b8131c04ce",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.19": {
+    "text": "nineteen",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "d20fc71bb7c1f5156b1156f3431299fc3927f73af3b2018d51fa3e10f5ea8e26",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "number.en.20": {
+    "text": "twenty",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "ad2de106c329c3dc0ca4dbb23f680bf5752d98b73740835441a56381ef31b8b3",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.he.alef": {
+    "text": "אָלֶף",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "4f60792fdb7270e4c2f40f0e141544b6bf4ddf7a4f462005304ecc7583ced690",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.he.bet": {
+    "text": "בֵּית",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "3b67addb752e6e8ca11366412adb5ee46eb7fef8d57206c680122cfac74fe78c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.he.gimel": {
+    "text": "גִּימֶל",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "36e72545d07cfd54e6f2bf422e912c61a07faa8093c6af6ce98f776f328269a4",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.he.dalet": {
+    "text": "דָּלֶת",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a0725ee67006e948b376a126e8341efde5d58cd23002e2ad9be8402102eac897",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.en.a": {
+    "text": "A",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "896f25096be721d3480ab2949883d56a7c0473e8602ede8fe36b40c4284359ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.en.s": {
+    "text": "S",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5422fe3b87972e5ebbd5da19a2e347d8663308df62b300f5744360b1753805c7",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.en.t": {
+    "text": "T",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "863dfde7db16e706df7346c1450c0892b2e192c1b3879249ddb936f739a796c4",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "key.en.m": {
+    "text": "M",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "c82f1c8b0783fe333a3551a31122819973859c5a9170d57ddcb56f493ab1ee4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-hello": {
     "text": "זאת האות אלף. בואי נכיר אותה יחד.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "7eb1768c01f1a4ada0a24bec722a22e4510aa0cf2e50d2d9d61f7eebef826771",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6d4613208c00bd51c4db31bc0cf6504f779edf75f45b749ebfd9ae4d66a4d1fb",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef.he-alef-hello.example.0": {
     "text": "אסיה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "7d6f9b865b4494a744cfad05e481d24f1f9f444ac5bfa489582e0db60a4bdbd4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e70d64a550f4cbe8c4995c18c2bba2b8ebb10cf0768cc2548f5b9c736d0ce6cb",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-trace": {
     "text": "עקבי באצבע אחרי הקווים של האות אלף.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "0a6f0f6277b6958fa3043a2473cb3cbde3d43482b366b839b8fb2f4a6b326df4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6c566c1c15b5a00e8d8fa6cdaeb0a4b11846674ad9b5e4ad94d4665adc2c64ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-words": {
     "text": "בואי נסתכל על מילים שמתחילות באות אלף. לחצי על תמונה כדי לשמוע את המילה.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8c2e59f24b02bccd47a4c8d5cf0c5a4b96ee73adc7fd4ce169828988d209a46a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "646d6019e1f54da730dbf5b6861eb48c77d1a028144b7ba1a0fd5ebbd36d4968",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef.he-alef-words.example.0": {
     "text": "אסיה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "7d6f9b865b4494a744cfad05e481d24f1f9f444ac5bfa489582e0db60a4bdbd4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e70d64a550f4cbe8c4995c18c2bba2b8ebb10cf0768cc2548f5b9c736d0ce6cb",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef.he-alef-words.example.1": {
     "text": "אבא",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b2de739c0f0b806de5f81e423252c0bff4ea15b23b50008dbcbe6dbb99271a88",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "563b67c0f1c1f4022bfbb5e01d5cea4dec7c1ecb1c9a8479e0ee33825d2dd962",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef.he-alef-words.example.2": {
     "text": "אבטיח",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "2ba73b7f6e8e61e0d75c3a1a71623696501d188f57036fb395c5618ae5b2230a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b060553799cd54b1f4693ce1ab0c969bce12f44c717f9e237e05e86cc8848bfd",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef.he-alef-words.example.3": {
     "text": "ארנב",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "149a9ceac5eacfa8ab0a390e6f4ffed1cb9bae8c77d882be1145152dbb9a4028",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ce55a34c4ff632cc4c5797b6034ea447e29951e4598ab1d46ece4bc626d4305c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-choose": {
     "text": "איזו מילה מתחילה באות אלף?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "5230629eb4e08d6427fd9846a3ba4482d281bc408bdc06d401adbb7368798de6",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "832d10f9a58a0db0c937daea8c0e3087a0b28214bef67e48de290006c03ebcfc",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-find-name": {
     "text": "מצאי את כל הפעמים שהאות אלף מופיעה במילים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ef766e55eef4b5381573f824bfe3fb2623e5749036a2a37b5d088e77266153b8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ae74c375c331a893ef82a3d18a98cdac6d99d3e957f471f760731a179126a0be",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-paint": {
-    "text": "צבעי את הדברים ששמם מתחיל באות אלף.",
+    "text": "בחרי את הדברים ששמם מתחיל באות אלף.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "578db43408125cd59ef0ad85f34044383eeb3adbaf06c0167e3d0a4409519a69",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ede84d547d7d385d42feec46d64761a2142569110fafebd748a9bdfd66023e94",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-alef-letter-hunt": {
     "text": "עוד חיפוש קטן. איפה האות אלף?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9bc1eb69ec13bbe7431165362a8a795d0b7c8f339ee8b0f4af88d5715840fafd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "140582c35de669d0e17bafccfb62555d15cb7b430f394fae120625857185f9c8",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef-more-words": {
+    "text": "הנה עוד מילים שמתחילות באות אלף. לחצי על התמונות והקשיבי.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "69f5cc5b75d9152f941c769aee485875b593f4eca42efb0a4f80bded1e3e7ae5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef.he-alef-more-words.example.0": {
+    "text": "אגס",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "949e174d7c3183d791f64bd4b8850b90d6943e8c2324746da318402b48627137",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef.he-alef-more-words.example.1": {
+    "text": "אריה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "43f8ad06f005ed2cb577ba210f8c12c8b853be5f48d91c7f188a46795ea1c50a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef.he-alef-more-words.example.2": {
+    "text": "אוזן",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "13991e65d940c0b651faa6090afb15aad5b4698d832971413feb9b35a2862ad4",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef.he-alef-more-words.example.3": {
+    "text": "אננס",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "c43b81e0cb769c501ce14c08fdea3e959d28801309bae6cce52eaa524024130b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef-more-choices": {
+    "text": "מצאי עוד תמונות ששמן מתחיל באות אלף.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a0667a4393af94abd93f386d0a0935909abcea4d362531f49b0d41c15dc5d4e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-alef-free-paint": {
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-hello": {
     "text": "זאת האות בית. בואי נכיר אותה יחד.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "be0afec306dbc289b73ddd90467e3e89916838a5107ed563c3cf3446a83e40d7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "892f09a62b125224591fc7f351523a446accaf928bd2895e75a01153c6bc7973",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet.he-bet-hello.example.0": {
     "text": "בננה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "26009d3afd9077fe33135fe45b5af2e6a5d448ba86b459c8b5f1c92a50fa3266",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "22aae9a178905e23c2fee0c3f3b5568d7479fb618424836ccdae1581d81ec4e5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-trace": {
     "text": "עקבי באצבע אחרי הקווים של האות בית.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "91b8a530dd096ecc67bef0db241f64391d9155becd9e86619b95ad4e41f96e28",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "cc98e087e9bb03302fca1de65ae5fd6a09418028df6749b3900378209da86388",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-words": {
     "text": "בואי נסתכל על מילים שמתחילות באות בית. לחצי על תמונה כדי לשמוע את המילה.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8d7a6b26c6a8b5819d7f6aca4cbc2aadf206ccf1225ddfa650f13f20b5e15108",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "719723651de51aad2c8cf8d48e76b03890d07d00547ed4c0cf3bb973b7abafd0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet.he-bet-words.example.0": {
     "text": "בננה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "26009d3afd9077fe33135fe45b5af2e6a5d448ba86b459c8b5f1c92a50fa3266",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "22aae9a178905e23c2fee0c3f3b5568d7479fb618424836ccdae1581d81ec4e5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet.he-bet-words.example.1": {
     "text": "בית",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "5ff96f4d163301d158ecf034cb35ed858424330aaf6aeda6127ad949a88bcd59",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "77068239405b6883ff928baeb2a51fc7d5d766bc535894748fe5094fff61d551",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet.he-bet-words.example.2": {
     "text": "בלון",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ed16127046be8c9d71512529d9cf819369741312c2b291d80e4145d4bdafddf6",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e2a19c2a48fc980e075ad8291c2fbd09f03da6957e3d5dec25182d496d520c9a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet.he-bet-words.example.3": {
     "text": "ברווז",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "6873c152bfde3cd757bda3a85e45997e48d1e1235d3a54786720918ec1589e96",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "7c827ddc4c23724eb588e710b182fa6f744b02a2aa86291fb37b31ff4d8a246d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-choose": {
     "text": "איזו מילה מתחילה באות בית?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8f48be67b170ed57e179218225eef975f9bf13c358a724f2f6e44f43583b4a1e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "92b73d95b567d8d5b528d4b4f95730d6869e5f8fb6b3e33ee4a966084efa3ed5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-find-name": {
     "text": "מצאי את כל הפעמים שהאות בית מופיעה במילים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "81338d5caa3558ce846b5a5beb6ba77313d1b110fe5371c2a307e8b4461d9a73",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "8a681fb1f87dc7fc1414e38865879ea5cf4ed94175eef5412fe76a8b46b885c3",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-paint": {
-    "text": "צבעי את הדברים ששמם מתחיל באות בית.",
+    "text": "בחרי את הדברים ששמם מתחיל באות בית.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "922b16336bf432a8c4e210de51155c547d13de76bb3bc20f23d16245625b9958",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "bf9debecd0386e1c80364322d543d333d1dd2cced1f61df46456901478a4860c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-letter-hunt": {
     "text": "עוד חיפוש קטן. איפה האות בית?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "be3761c5478a2a11a89fba19f8a474f2e309bc3aee22913292961cc2a9539acd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "145b7856e2ce2bd234c80440cca49d3e6f9cc06f144f82e9ecaecc1afee9cfd9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet-more-words": {
+    "text": "הנה עוד מילים שמתחילות באות בית. לחצי על התמונות והקשיבי.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "53c47afa455ee2ff26821982e39d01ba37463a4ee71a7b500084ad2f8c72de59",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet.he-bet-more-words.example.0": {
+    "text": "ביצה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "db8dfb6d6f5f08872e7adc01744f5d638d815c81a860ff32bf030fa2c531a002",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet.he-bet-more-words.example.1": {
+    "text": "בובה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "069003dd08cc5eaf4194b05cf63ba99ceeef9f1148e54223efde9a7df4af037a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet.he-bet-more-words.example.2": {
+    "text": "בייגלה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "2c3107d298ad15be66ccd5d49e7ed0661ec3e7f4068149cbc375d1ca12e51ac1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet.he-bet-more-words.example.3": {
+    "text": "ברק",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0640218c30ac0b3a77045faad38c69b498e8a40ea2fcaf1d265c23b4cb4d93c2",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet-more-choices": {
+    "text": "מצאי עוד תמונות ששמן מתחיל באות בית.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "41c6e165793479b21ab1dba6a7bcf2aa262978c7b2f4fcfab0487d330b5b0e2d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-bet-free-paint": {
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-bet-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות אלף.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a1f4e1f71d02d67d2ac73dbde50b20078ac9e9069f1b9dd910ccf18a0360743e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b09eacaf90e160d57c802d90aed6837115d8e6e13374ad24bbd42650cb5994cf",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-hello": {
     "text": "זאת האות גימל. בואי נכיר אותה יחד.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "0756fe9f33db9af745543171c872def7d326c473f8fcfb7da94c4ef3b533a37f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "40f82f2d93e744c529633a1902b2cadda85da33260692dbdd0b644069b825a8f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel.he-gimel-hello.example.0": {
     "text": "גזר",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b78e7ca3a0c8464a84d1d57681caa0c350ed3cb5cde4b899c643ceca6906a8f6",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "9eb1675c649c30bf94b76acfa18cd2cbd3f182f5299421bdc23621cbae966276",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-trace": {
     "text": "עקבי באצבע אחרי הקווים של האות גימל.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "c0621e9b0c0e51c711e1285558ce4434c7bbf7add69960c0ce586f4b6cbf3c2e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "574e323aa126345958450faac880597df214b9c0887274ed2b2ae51642c7e63a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-words": {
     "text": "בואי נסתכל על מילים שמתחילות באות גימל. לחצי על תמונה כדי לשמוע את המילה.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ea9400c122ef2471eda8b2d03874524d730b3e7ed0eedf15421b398859697c04",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "d197ce36c3d20834f60e17b6eabb781740ff1342e22739ca40a9ceb658586862",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel.he-gimel-words.example.0": {
     "text": "גזר",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b78e7ca3a0c8464a84d1d57681caa0c350ed3cb5cde4b899c643ceca6906a8f6",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "9eb1675c649c30bf94b76acfa18cd2cbd3f182f5299421bdc23621cbae966276",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel.he-gimel-words.example.1": {
     "text": "גלידה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "7a4af415c553a3489356d1bc1e86fcfc0fa6259c4ccaf779a879b6f318545ff0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ae3727104fe9f93698cda7ea5bf6db3e4d3bd3942db17c79462800b60f332bdf",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel.he-gimel-words.example.2": {
     "text": "גמל",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "117cadb85b4555a1331b409d40c7c76f707a91895b39338fe9a2aef158fe2431",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "4d0cb42af6f688c6541b2062429b8d9b003f78d331c8d85c44f11f99ad5c6727",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel.he-gimel-words.example.3": {
     "text": "גבינה",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "53e6b256aea287f561ab39aa1e5039ae2fa909aebf39ce6fd6239d9e1b6da4a0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6c1a252e3b338e0a0549f6ca6a57850280cea0289ccb9bc6ee923e45696f9a1d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-choose": {
     "text": "איזו מילה מתחילה באות גימל?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "da491e244745601e0eec47314529fa7d5a29493e0daf93464423fd7a5a0d7616",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0b5c6811658c09bd7078d0903519fb4725920119f1eb79f775346b7968526aca",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-find-name": {
     "text": "מצאי את כל הפעמים שהאות גימל מופיעה במילים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "d6c64dadea366f98a150cae9b19f50c51355f1975b1b0a9f583ca9e597e9f6ad",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "bb40de5c1a5cc51990a6e813b355b4d57c49ee8a13a3850a0d060d45c3456499",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-paint": {
-    "text": "צבעי את הדברים ששמם מתחיל באות גימל.",
+    "text": "בחרי את הדברים ששמם מתחיל באות גימל.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "c6bb15c5b0fcb2fef215b5afe5f7d14fc67be207e741ed61779c11f48bce3fe2",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f92890b8547ae9b73181bf96fa2a5d51fa08b0569a919e2221bc2bf0279a3c7c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-letter-hunt": {
     "text": "עוד חיפוש קטן. איפה האות גימל?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "c1235f8adae4da271edfd2fd0fa75c5a96c02b4a1ffee6d5d49e1dee84e8b0f3",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "743ea383658020046a430c89e1f65098d668fdc42032520115bcee92252d4507",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel-more-words": {
+    "text": "הנה עוד מילים שמתחילות באות גימל. לחצי על התמונות והקשיבי.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "c77ff14af332cdbc4ae5521af90b3334f7c8dcdf43b6e7ebd24bd94ae44439fd",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel.he-gimel-more-words.example.0": {
+    "text": "גיטרה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "b56d9b3a80f793ca2a2b60fa3b193d9431f6e23194bd6ba701afa7afdd6016d7",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel.he-gimel-more-words.example.1": {
+    "text": "גרב",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a2e0bef263e7b05c02a9e0d4940476093d0275eaf2fa117104aaafd94b8752e6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel.he-gimel-more-words.example.2": {
+    "text": "גשר",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "846768599baeea2719552110aeb8d57f97c69a14b6316ac05cfdd3a8ad594438",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel.he-gimel-more-words.example.3": {
+    "text": "גינה",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "de53bf5c010ab98560cc0a9081a4dbfd3d25fccd5d8a517e77ba5cd3e581fa5f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel-more-choices": {
+    "text": "מצאי עוד תמונות ששמן מתחיל באות גימל.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "81fa42b2b0e16c4c09c7eb7bde91b0ca642cf47a497897b1e337e158115c24dd",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-gimel-free-paint": {
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-gimel-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות בית.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "020b18c8bca9c99536e07dedd6fa7c1b6637c8e198afd67fa4be5dcf1c3fcece",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "78c5d630e84621420242be3484f6a7e2860d98550c5ee95994159d0f37075e5c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-hello": {
     "text": "זאת האות דלת. בואי נכיר אותה יחד.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8602b42eb0b4ddae5d096bf1aaa3f4cb4f3844477229f46165646ae1b4f255a0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f39e22a662d819eccf1e1bcfbe98dd26dbf90f803f3ac9e0b7d44b5775a2974e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet.he-dalet-hello.example.0": {
     "text": "דג",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a0dc95de23f4bfb3accae387cbd2287ce448b9b0eb771082ada797a0bd8f442b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "efc0821cd1d45d5b3f603f7af395e740bffdd30d56f40f5daf3d310823c71dbf",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-trace": {
     "text": "עקבי באצבע אחרי הקווים של האות דלת.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "32c1d62d55c3811afb6f902fa75614d748047320594a06b23a4bea29be1ed77b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "c13288f6ad05cc338a44478f321429dd06cc62b9056d80ae4b4f78f1a3f81845",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-words": {
     "text": "בואי נסתכל על מילים שמתחילות באות דלת. לחצי על תמונה כדי לשמוע את המילה.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "28dee0bb04d2464104769b70617a5675971481b082f0e96728e1ad88239d41e5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "613d65c5a08e573a202d35c75fa8bcaabd45ec1902bf2301b16aa83aa1c7805c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet.he-dalet-words.example.0": {
     "text": "דג",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a0dc95de23f4bfb3accae387cbd2287ce448b9b0eb771082ada797a0bd8f442b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "efc0821cd1d45d5b3f603f7af395e740bffdd30d56f40f5daf3d310823c71dbf",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet.he-dalet-words.example.1": {
     "text": "דוב",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "67a2e1cd89f792a1ae325b65641232f25fbf50560d22fbf9bf0010211f63d875",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "205d2d422d935412711aca8f677f1d828df4e8d3210de6a26487a5955e21ba34",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet.he-dalet-words.example.2": {
     "text": "דלת",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "418fbed8a871f6847ace2cdd0a5dbe4753d01934e82ced8f933bca976819634b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "133ba2ca9e4fb7e5ca9da375ca071b79ae5b214ab1540b4e788170164cc4af4c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet.he-dalet-words.example.3": {
     "text": "דבש",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "adb3ab4988905b910b2e39064659620d3e6f5862cece64e01727888719ad7fda",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "87dcfb0feb4edf4cf4f2ed6ebd908b4c08ce0a2e6590badc7051cd4b9ca4e519",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-choose": {
     "text": "איזו מילה מתחילה באות דלת?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "f3385813603c8598e78965ca75d8f3c4ed1941e627e5df200b7829f7740eaedd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "55d6b22b1633079998a28ecdccdf5cb948a4d6c291c2c89ecbe6365cc67d7e0a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-find-name": {
     "text": "מצאי את כל הפעמים שהאות דלת מופיעה במילים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8870029ead0a263b3110a7c8aa3b6c0b8687bec9c2b3f26a6bc4f5c9ba775c39",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "13f6407d671f9579b3c96b8631b2af82e8b9a834d3aaf42c03625f04999109b7",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-paint": {
-    "text": "צבעי את הדברים ששמם מתחיל באות דלת.",
+    "text": "בחרי את הדברים ששמם מתחיל באות דלת.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "664a3fb55e60f10b50ca2efe1d6c491ae906e3b92e0e3bf904ba03d1376befca",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "46ed0c6bef5caadb448f8d3e682107be5a9f0ca9496cb94f3c3094844c178fb0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-letter-hunt": {
     "text": "עוד חיפוש קטן. איפה האות דלת?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a6fd668f6b1423ebf8bb278179027ef2b8f23191b16400a40b7855c3bd86ffcf",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "11b99b4e1638612a6d88e29f4f68772499bfa5b8aa97e252476ae4b3fb6a8c8f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet-more-words": {
+    "text": "הנה עוד מילים שמתחילות באות דלת. לחצי על התמונות והקשיבי.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "3f207bd0d71aa6dcd3988714d439be4abc8b8a532d749ef5cb86d0cd5d260f82",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet.he-dalet-more-words.example.0": {
+    "text": "דולפין",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6784dc4eb929e554744f5ed5b20f579e3646ea5c4e41b119a6cc9b299786f1e1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet.he-dalet-more-words.example.1": {
+    "text": "דובדבן",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "2e2205a1a484fd144e6e895e40dc671029c77942b9c84cf6c9df9cd3a61cc63a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet.he-dalet-more-words.example.2": {
+    "text": "דגל",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "8688ec71f6523baff74292703721a20238a7700bdaea24f72b15aa9d1eea67c8",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet.he-dalet-more-words.example.3": {
+    "text": "דינוזאור",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "2e41fe9a1aa890bf7e68c5856c728a9d65e85fd18fcdacc70fa5177e956f0740",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet-more-choices": {
+    "text": "מצאי עוד תמונות ששמן מתחיל באות דלת.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "422386369489937a9cc9a5df355cdced632c5af2027e654a9faa32ef860b57b2",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "he-dalet-free-paint": {
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-dalet-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות גימל.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ff763e57bd4a3c3e79602dbeead86d81bed83253d6a9c280a3d02895a2cebff3",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "28f74f54075fe5117829755590f66786851e8b84523f6ecac14f90e84dbbe3b6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-explain": {
     "text": "עכשיו נבנה מילים מהאותיות שפגשנו. אני אגיד את המילה, ואת תסדרי את האותיות שלה.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "f0ac48e97c528677b10c32beaa8b227f7078a0899fcf8fff184926cf0728a4fd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "70ba456ed0140662d78ebda428f8641a630fda36ab85676b400f06d49bb8d75a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words.he-known-words-explain.example.0": {
     "text": "אבא",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b2de739c0f0b806de5f81e423252c0bff4ea15b23b50008dbcbe6dbb99271a88",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "563b67c0f1c1f4022bfbb5e01d5cea4dec7c1ecb1c9a8479e0ee33825d2dd962",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words.he-known-words-explain.example.1": {
     "text": "דג",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a0dc95de23f4bfb3accae387cbd2287ce448b9b0eb771082ada797a0bd8f442b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "efc0821cd1d45d5b3f603f7af395e740bffdd30d56f40f5daf3d310823c71dbf",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-dad": {
     "text": "המילה היא אבא. בני את המילה אבא. התחילי מצד ימין.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "1267537298a8e826bff95c322d487dd2c2dc3bd23bb18719d5e03188613c81c5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "c2436142adb0a68c1ef4a64b47ad20ab297d54b6677d19c4f30e4e3cf60e286b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-fish": {
     "text": "המילה היא דג. בני את המילה דג.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "2a0b518051770f8e8d249735c02a9fa6ac562be3e4dd42933a0be8633eb3c743",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2e579f96150448e5ac15801f3bd70899fa60e5d776128a5273a351eb05824488",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-roof": {
     "text": "המילה היא גג. בני את המילה גג.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "437cdd0235b594ccc7184fcbd3f20433fe208f3cba4ac0f8d0a3fa55271dc267",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "184e5dfbcd7045908587e53dbce292ecfeaa4e47b564e2fd88dcdf5213aa825f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-letter-count-dad": {
     "text": "הסתכלי על המילה אבא. ספרי את האותיות. כמה אותיות יש בה?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "3c2c5fe039b84938fa9b4225799db8f1f1f8155648a663e3e7baa97fa135d359",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2fd738b269a42cf199a6d9e91c2ca96f77ef2d302ffba2b81807e9edaf0a3664",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-letter-count-fish": {
     "text": "הסתכלי על המילה דג. כמה אותיות יש בה?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8ef50ad2cc6ebca02bd7e69bfc489c74169aa4b89404975a1432d483c340aa37",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "14eeee22a63a0a9b5f0d37bf8c04b1f70ffe14bb3471ec146216129b0f6ef70b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-asia-count": {
     "text": "זה השם שלך, אסיה. ספרי את האותיות בשם שלך. כמה אותיות יש בו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "0b28a6f7cddaea2dc9f0f75b9c29e1966b4ab72ed835d9d7ae38a85ac290c811",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "225fa41da6f9f79d1e34a312d3b9774b6e8d21d2eef96d61173d4e45d029a4de",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "he-known-words-find-review": {
     "text": "בואי ניזכר באות אלף. מצאי את כל האותיות אלף.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "935ecf0a754c7384283f568e775ad18938ecd2efbfc42f875b15a35008966327",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "1864d3b1a34fb91829ecff882650c13c8fa064c082aa02430ba4bcffc2555d48",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-hello": {
     "text": "This is the letter S. Here is its lowercase shape.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "4df805bfce90b3921a314450eaf286c71774ab60e3447ed41fd3deb0b64273f0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "85e5122325674706745679ccbc6744b1cb1be816af5f408c889b5d20d61852d9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s.en-s-hello.example.0": {
     "text": "sun",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "2bbb8a5a0cb7c7ae2781a0cb5bc48b7442d92d26d66577681b3bccb11be22e03",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "66c6d77e76ea8cf5fa7e3735230ac803ca1fd23fdf480330c9abd0bea862916d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s.en-s-hello.example.1": {
     "text": "sock",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "37376e4098535476a97212f566e786f8f07aa7946c1b7331313d9e57280278b0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "7ab8ca71e7a43502fffc7f472f10b02797f8a0b92f2c0a69298cfde57b66cdaa",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s.en-s-hello.example.2": {
     "text": "sand",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "65886105deeee9c4440ae2ffbd9b5c8b1af62c696abc9dcea4a67055368d03c8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6177d885dbe835d13213aaff3837b53e1d3bb7c0fd278fd069d37e5e15a3e126",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-hello.example.3": {
+    "text": "star",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f9a0e6e71ffa45ee385d75d29ceaca22f675b839217e86e13cce9e1865cf2f14",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-hello.example.4": {
+    "text": "snake",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5a92e9151c59644d541ae7756d65cbf3e674bf1e58f1839534e98c46b2d43c38",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-hello.example.5": {
+    "text": "strawberry",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6457fe40ab05d0c3a5203e42d938f5b69eaeda9ad45b2c3a794e44acf9abca19",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-listen": {
     "text": "Listen to the first sound in sun. Sun. Sock. Sand.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "64f20459e646fb02478d27e84f9ad1aade6bcb5a3efe818eb8204c81e9c43500",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "132ae0019b125b95c1f92e16bf9465129ad47f900a09178367eae1fa9c60a23f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s.en-s-listen.example.0": {
-    "text": "sun",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "2bbb8a5a0cb7c7ae2781a0cb5bc48b7442d92d26d66577681b3bccb11be22e03",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-s.en-s-listen.example.1": {
-    "text": "sock",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "37376e4098535476a97212f566e786f8f07aa7946c1b7331313d9e57280278b0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-s.en-s-listen.example.2": {
     "text": "sand",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "65886105deeee9c4440ae2ffbd9b5c8b1af62c696abc9dcea4a67055368d03c8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6177d885dbe835d13213aaff3837b53e1d3bb7c0fd278fd069d37e5e15a3e126",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-listen.example.1": {
+    "text": "star",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f9a0e6e71ffa45ee385d75d29ceaca22f675b839217e86e13cce9e1865cf2f14",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-listen.example.2": {
+    "text": "snake",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5a92e9151c59644d541ae7756d65cbf3e674bf1e58f1839534e98c46b2d43c38",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-listen.example.3": {
+    "text": "strawberry",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6457fe40ab05d0c3a5203e42d938f5b69eaeda9ad45b2c3a794e44acf9abca19",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s-more-words": {
+    "text": "Listen to some more familiar words.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-more-words.example.0": {
+    "text": "star",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "f9a0e6e71ffa45ee385d75d29ceaca22f675b839217e86e13cce9e1865cf2f14",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-more-words.example.1": {
+    "text": "snake",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "5a92e9151c59644d541ae7756d65cbf3e674bf1e58f1839534e98c46b2d43c38",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s.en-s-more-words.example.2": {
+    "text": "strawberry",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "6457fe40ab05d0c3a5203e42d938f5b69eaeda9ad45b2c3a794e44acf9abca19",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-s-free-paint": {
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-trace": {
     "text": "Trace the lowercase letter S.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "7ef136490bbd21f020cb8d95d9259b4e3ef6c6089766cd07015603730e81cac7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "468e540cbfa9a188e12be455b63ed9cbf5f51af3ea302970f16cd7b9c6f34b46",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-find": {
     "text": "Find every lowercase S in these words.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "d308008ad3bcc357948a9e9397997877231b54a41c95ed185b28fdcd3d93dbcd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "8a5a1dac5783ea305fc84f71d01b1427dc13eb2b08e093ad1bbed9a142b90332",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-match": {
     "text": "Which word starts with lowercase S?",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "04220d960d2b5c1d9970269d13fc6ef143ce27fcf48bca91adc2003545e88914",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e83efe559df5c978ad7ff1a246b5f0d805c3b545a413d6c92c8e5ce5c3b2c08a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-s-color": {
-    "text": "Color the pictures whose words start with lowercase S.",
+    "text": "Choose the pictures whose words start with lowercase S.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "e7548874942baa2adb7c0bd5e4b3b4498fb3b9c1935f4498fa06cfc7f59ccfab",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "fafbc06890cba72b90602ade03cb8dc7fa3a9e61277a02283eb6f5af5dbf6853",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-hello": {
     "text": "This is the letter A. Here is its lowercase shape.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "b563c3c96232b2dffa1c3a835c8fce955a5fa5e6355d8c01f29b3796807db381",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "9cf24c5fcb830adced8e13f9692fd2db5abe6e3b83d2104eaf4ee3f70bcf187d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a.en-a-hello.example.0": {
     "text": "apple",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "caed8980d3d347c14db9514e3ac94f4ca1b0ebc13e56734773ca48794d04a465",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "11e4b8868ae04f11a0b1a067c76c0363f0bd2f0450d7600a9e81ea775d06124e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a.en-a-hello.example.1": {
     "text": "ant",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "f9d73186bc8c1fbff0f2a9157f105b413fcf2816d65b0c755eb9c64a2aa73528",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "aa86fd734d4bfc7cf0e683e183aba0e521e4511429a8a46bd5c598b282e21aef",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-hello.example.2": {
+    "text": "alligator",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "2d74ce39651fb8a61cbc478cb1250d7375e98b2f0f21b9825ea33264a8340080",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-hello.example.3": {
+    "text": "ambulance",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "78ea7d102788b5709ca3a3b009a3a6f395a69db891f9055a2a042a3ccb73f4c6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-hello.example.4": {
+    "text": "astronaut",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "9564d8f04d1389f985d78022588c3b80e1f11eb3938db3006d8222e32d6fdc2a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-hello.example.5": {
+    "text": "axe",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50ced5716b23d79a86358d3c5197f645f09b8b474effd902a5db4e324ef213e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-listen": {
-    "text": "Listen to the short vowel at the start of apple. Apple. Ant.",
+    "text": "Listen to the short vowel at the start of apple. Apple. Ant. Alligator. Ambulance.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "ed818460ce64e30992650c977d263aaabf29780382d11f4d939f82d42b69d48a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "33a40a1281eeefeeb38de3b92ca9c26bf0272afa156a5ab3bf282cd4b89c253b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a.en-a-listen.example.0": {
-    "text": "apple",
+    "text": "alligator",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "caed8980d3d347c14db9514e3ac94f4ca1b0ebc13e56734773ca48794d04a465",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2d74ce39651fb8a61cbc478cb1250d7375e98b2f0f21b9825ea33264a8340080",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a.en-a-listen.example.1": {
-    "text": "ant",
+    "text": "ambulance",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "f9d73186bc8c1fbff0f2a9157f105b413fcf2816d65b0c755eb9c64a2aa73528",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "78ea7d102788b5709ca3a3b009a3a6f395a69db891f9055a2a042a3ccb73f4c6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-listen.example.2": {
+    "text": "astronaut",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "9564d8f04d1389f985d78022588c3b80e1f11eb3938db3006d8222e32d6fdc2a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-listen.example.3": {
+    "text": "axe",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50ced5716b23d79a86358d3c5197f645f09b8b474effd902a5db4e324ef213e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a-more-words": {
+    "text": "Listen to some more familiar words.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-more-words.example.0": {
+    "text": "ambulance",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "78ea7d102788b5709ca3a3b009a3a6f395a69db891f9055a2a042a3ccb73f4c6",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-more-words.example.1": {
+    "text": "astronaut",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "9564d8f04d1389f985d78022588c3b80e1f11eb3938db3006d8222e32d6fdc2a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a.en-a-more-words.example.2": {
+    "text": "axe",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50ced5716b23d79a86358d3c5197f645f09b8b474effd902a5db4e324ef213e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-a-free-paint": {
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-trace": {
     "text": "Trace the lowercase letter A.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "319f2718934355f50dc171f33a6d16c41c5653fece430ac8ad9a38f1d17eec6e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "5f085032137a0dcf281ff598c2a970f6d72af69c361612dc8b564b7440ce7a7b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-find": {
     "text": "Find every lowercase A in these words.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "d9c613c9843f016c6212a174e536c53405e18b4963064be9620d8b1066ebd7ff",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "61057c9ee7bf27152d283bae0b3f7a0ac9602b98b9843f5924fd9f2f3787d840",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-match": {
     "text": "Which word starts with lowercase A?",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "3d83971f6e3359129feda2ef921d38c4f9a0ac5b8dc334c5fe4d016571ecf01b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d0e313a308ce18b89655e66cfe1d701e3652056eb3a4cfb0ce0deb471d10c4",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-a-color": {
-    "text": "Color the pictures whose words start with lowercase A.",
+    "text": "Choose the pictures whose words start with lowercase A.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "5bf7a1b4740f50123ab2975533a4f95ac8fafecd3ce1d1e2f952a2f5a9af3c4b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "58131bcc55888678d5fe493996d6f990baa41cc456714ee49489d7814d2b2e7c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-hello": {
     "text": "This is the letter T. Here is its lowercase shape.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "a6cde58b64ac76fc3a91a5fdedaae5d6c22207dc45a93907c08d27e6087161f5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0aee6820715febf8cfbb251dba7a6c26697fe5afa2451b8423fb57971110d30c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t.en-t-hello.example.0": {
     "text": "tomato",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "98b14ca0e4a747412982c10f18dc756dc04af14c083c3bd5c0ac480a3903c60a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6c6fc926a593c3fc775002980c3c8e87051702ea6b69ab0ff72b7ba935da6cdc",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t.en-t-hello.example.1": {
     "text": "turtle",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "13bf780bcbd9c440fb46f792d357280773d2d09c086c445bac9285f4850815d4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "4d9729ef34a732e9f69e6ea9a3b1797c2bf51b4e84ad02121ddf4a889bef4396",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t.en-t-hello.example.2": {
     "text": "tiger",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "7dbe2a4dfcd742079dbe8fbe628255aa91c12e4cdf770781b1391d127346a3ee",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e0abd556df290efb5d6d2a9cab86059f8d7b69090ff0f545b7f4cfde8e542281",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-hello.example.3": {
+    "text": "tree",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1643ed82b53d6cb7b1bacf7a3526a9323ac86b7500fa70f7975a68dc2dfc7007",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-hello.example.4": {
+    "text": "train",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0f66b98f03063525a5a90f979ebb15f904b0d70df2581d24c09115bf1a996b30",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-hello.example.5": {
+    "text": "tent",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "385855614f4570c486964c6b656438df67e52f8b3d21ce72733d0a23b2ccdbd1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-listen": {
     "text": "Listen to the first sound in tomato. Tomato. Turtle. Tiger.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "ec8597db0ee093c4f099219f17d8fd7d049c046eb940041cb65f2d7fbdf527fb",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "599be560533400924340b552e942b458fc10fc9eb2c0072e518ff52ab45a1c8d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t.en-t-listen.example.0": {
-    "text": "tomato",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "98b14ca0e4a747412982c10f18dc756dc04af14c083c3bd5c0ac480a3903c60a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-t.en-t-listen.example.1": {
-    "text": "turtle",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "13bf780bcbd9c440fb46f792d357280773d2d09c086c445bac9285f4850815d4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-t.en-t-listen.example.2": {
     "text": "tiger",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "7dbe2a4dfcd742079dbe8fbe628255aa91c12e4cdf770781b1391d127346a3ee",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e0abd556df290efb5d6d2a9cab86059f8d7b69090ff0f545b7f4cfde8e542281",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-listen.example.1": {
+    "text": "tree",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1643ed82b53d6cb7b1bacf7a3526a9323ac86b7500fa70f7975a68dc2dfc7007",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-listen.example.2": {
+    "text": "train",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0f66b98f03063525a5a90f979ebb15f904b0d70df2581d24c09115bf1a996b30",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-listen.example.3": {
+    "text": "tent",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "385855614f4570c486964c6b656438df67e52f8b3d21ce72733d0a23b2ccdbd1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t-more-words": {
+    "text": "Listen to some more familiar words.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-more-words.example.0": {
+    "text": "tree",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1643ed82b53d6cb7b1bacf7a3526a9323ac86b7500fa70f7975a68dc2dfc7007",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-more-words.example.1": {
+    "text": "train",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0f66b98f03063525a5a90f979ebb15f904b0d70df2581d24c09115bf1a996b30",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t.en-t-more-words.example.2": {
+    "text": "tent",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "385855614f4570c486964c6b656438df67e52f8b3d21ce72733d0a23b2ccdbd1",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-t-free-paint": {
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-trace": {
     "text": "Trace the lowercase letter T.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "ef7076863e6f5f8edd19560c268f00dc7d16df1a726aa0df2bceaa368711f998",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "7c8e2f9ae08bc2c92d31ce2426f64fe9d2e037a759cc4cdbaad09cb063d5c4d0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-find": {
     "text": "Find every lowercase T in these words.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "b830ce1bb7c84bbf2c465ce819d6b3280e0850f3a4822e6ed31f924e814dd00f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "388d8357c1845b80498d11c6466aa31bd7dfd724b34022d7165925ea8374dab0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-match": {
     "text": "Which word starts with lowercase T?",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "1fd9f52a0d25332ccb1d941a3f60b02fd9407f8d2e02266476646c0e0001080e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "c28fdcfacc3211d68c15d4fd06c2d09357889622298546551caff924912e5d75",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-t-color": {
-    "text": "Color the pictures whose words start with lowercase T.",
+    "text": "Choose the pictures whose words start with lowercase T.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "178ddbdad352ae80711e9122fe195cca951ce1c33c02ca5ddddd95eb7f34d855",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "55b999a1b5224ee5c594a4e8f9f92eb165ef73e9b054a442e67f40afee856c7a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-hello": {
     "text": "This is the letter M. Here is its lowercase shape.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "c1bc5d672098972b490216e6c08549297a85c73af9fab69fa89b7e1a6782af28",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "90a3a8075277ac8e94b906457cebd826b91bf77f9471d467f346b439fecebb68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m.en-m-hello.example.0": {
     "text": "moon",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "972a89a67a14a13b5e827afb34feefd65bef83a9cf359017750c88e151db3ea5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "38b11fbe93b26bc651acd45154afb87a1129a25696a6b8f483a72dce98bfd8ef",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m.en-m-hello.example.1": {
     "text": "milk",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "136cad1290a712d49f1ca06b5e5ce77d85d087098898fa188d2b47114c923043",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f89871a19950064da2b18d83527843b5e78ae7eae76b562b7fbb7a2b84c40444",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m.en-m-hello.example.2": {
     "text": "monkey",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "51fcca2618f2769f78b18e028852c315a68513aa02894127d9e32dc5312c104c",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f6c7d462cb965e01e35938ce19f45fa23d175bab67d720fa34790130ed0bc1e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-hello.example.3": {
+    "text": "mouse",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1e47300d42fd3bd127489c166e6f1f284b04a79493872fc80a3ea4f57e5fa9ff",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-hello.example.4": {
+    "text": "mushroom",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "cd7009abadf288ad2835c36752c57e8d1cf4a101a2b1a9dc47fd47bc7c4f043a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-hello.example.5": {
+    "text": "mango",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "3bffbb10db731427b6cefc0901f1e4309328c266385a09777c79d3e329d0cca5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-listen": {
     "text": "Listen to the first sound in moon. Moon. Milk. Monkey.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "b3341cad3025c2d4e4c05b53c5feedec26dd9f9f1ee5c3d88fd5f484f6884371",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6567c8f32f457e526207327af6dfe008899216dd514378c9d60afee189fb08b9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m.en-m-listen.example.0": {
-    "text": "moon",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "972a89a67a14a13b5e827afb34feefd65bef83a9cf359017750c88e151db3ea5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-m.en-m-listen.example.1": {
-    "text": "milk",
-    "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "136cad1290a712d49f1ca06b5e5ce77d85d087098898fa188d2b47114c923043",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
-  },
-  "en-m.en-m-listen.example.2": {
     "text": "monkey",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "51fcca2618f2769f78b18e028852c315a68513aa02894127d9e32dc5312c104c",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f6c7d462cb965e01e35938ce19f45fa23d175bab67d720fa34790130ed0bc1e0",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-listen.example.1": {
+    "text": "mouse",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1e47300d42fd3bd127489c166e6f1f284b04a79493872fc80a3ea4f57e5fa9ff",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-listen.example.2": {
+    "text": "mushroom",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "cd7009abadf288ad2835c36752c57e8d1cf4a101a2b1a9dc47fd47bc7c4f043a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-listen.example.3": {
+    "text": "mango",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "3bffbb10db731427b6cefc0901f1e4309328c266385a09777c79d3e329d0cca5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m-more-words": {
+    "text": "Listen to some more familiar words.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-more-words.example.0": {
+    "text": "mouse",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1e47300d42fd3bd127489c166e6f1f284b04a79493872fc80a3ea4f57e5fa9ff",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-more-words.example.1": {
+    "text": "mushroom",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "cd7009abadf288ad2835c36752c57e8d1cf4a101a2b1a9dc47fd47bc7c4f043a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m.en-m-more-words.example.2": {
+    "text": "mango",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "3bffbb10db731427b6cefc0901f1e4309328c266385a09777c79d3e329d0cca5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "en-m-free-paint": {
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-trace": {
     "text": "Trace the lowercase letter M.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "1a87be4c01dcceb6ad312e4be83e5e58e65824a0419ebd3fe85b95c6e1caee80",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "5ca91dbf7d4283f39799cfd7434cce09a7ef380e65038448ab8acdb8ce9feed2",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-find": {
     "text": "Find every lowercase M in these words.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "f444bd320ddc4d05d0c06f451c77b84af37fabed93da969c8f38835a669cf97f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "a2b96278f966acf827fa68b175c20194d85a9eeacf28b945ec21bb3fe07da809",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-match": {
     "text": "Which word starts with lowercase M?",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "69d53e0fdf2f473c1c6432187b5ad721ada0760f8268570005fccfb9c510da7d",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "edaa8bc93140cea9697727d8bb9660c1d48b63fda4a9fbb83dae591ed293dcfc",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-m-color": {
-    "text": "Color the pictures whose words start with lowercase M.",
+    "text": "Choose the pictures whose words start with lowercase M.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc5336acf1491fda07921a080a1c23e341529471cba1b51379d636fcc3bbd4b8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "12f6b6fddf40df13c6f15602f5440008a146b2299e9a61aa70ac260ceebc3283",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words-intro": {
     "text": "Let us put familiar letters together. Listen: mat. A mat is a small rug.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "105e01f8ed944a24f614ed8f39bf3ab680eca89da702672da9d2f06f17555a4a",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "8b4ec14588c1bcdbb3bef085a5b84f632f5625ab2aafb13fd606a009bec9f345",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words.en-first-words-intro.example.0": {
     "text": "mat",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "9803357ab7a72e5dd014f76f612229f34f7fd4c2d3344d74cd96340f42eccf1c",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "4d69ab0fdd9794d047186c799846ae8017580912b5d29282c83eab38cbee1440",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words.en-first-words-intro.example.1": {
     "text": "sat",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "9cf92349655f17bf2d52cdb70d1d9a72abc89631f94dee8a6c2dd0973a81a457",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b434ce805acd5e8b9ae4c4628ddd921aba7acb32ae44e96707a678201e13491f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words-mat": {
     "text": "Build the word mat. Start on the left.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "45e7ded55adc54c4c303fd7a3c9646abe8974173ed47a22f612ea829f5847c85",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "9e1530739195d9c7156af3a69f52eb7fa4bcc4e91f8b85fa029ff775e90c7596",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words-sat": {
     "text": "Build the word sat. Sat means someone was sitting.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "9733ef67ffdbcfaca381c72f9d25d97b923495dc58923e09c79280b65e786676",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b48ec9fc83cb10194447fdfee17d4aa520019483298982f9b7a816319440bd1f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "en-first-words-count": {
     "text": "Count the written letters in mat. How many letters are there?",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "cd22ad99bc6b6b0a06f646d2baff320739d4862551d0796bc5dccea8c0558b19",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "82f70998ac48e715f2bdc44e9b7bb159443257218f6ef3eeb4c555fd8ad5a406",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-0": {
     "text": "אין כאן אף פריט. איזה מספר מתאים?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8e2f5957de96d4f5d24e74c3acaa365154b2e7fdfe83f9ce86bae7b89641ead0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b4ce41075161388da5a6bce81f500ef7674c7328f220cb588bce357da95ad343",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-0": {
     "text": "עקבי אחרי הספרה 0.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "1d5c840edae638f62dc229b202ebf298253e9039b4570cb71706221c01c61bca",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "74eb8275139d4cc59c2209e0bf3d730b9d089dd8b95a90c5f0ef24cf720394b4",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-1": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-1": {
     "text": "עקבי אחרי הספרה 1.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "88a8df7a67fb97eff00710d466636d443d664f45529e5847ce9ad17b2f2a09fb",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "3887191cf5e35d16bbcf66fcaee58bc496d35b768dc36d6646c68d6fff448182",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-2": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-2": {
     "text": "עקבי אחרי הספרה 2.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "bc985ad7cd72d3590a5eb6945f19c3f02d18f15fbc8c6cd3b085fa521a236d5f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "a2c8bfdce90293dc4f52b2f240b1204321af9734c6a6724dbb856bd4a5c4375e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-3": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-3": {
     "text": "עקבי אחרי הספרה 3.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "55163e94376c3781771966248eb4fe3a17fcc1023f16274c0643b574048c89b4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "91dad24e860f4a4b63f0f751dd7aeb91aec5f39e1c72ad6e8c38d67fd0ce0d32",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-4": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-4": {
     "text": "עקבי אחרי הספרה 4.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "82b1cbb6ca40145c1039d4d400e764c521a29a8bf40b68cc0f044301f6a211ba",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "92971b655d36814dbb63eab092ae25a3781f69080cb79e015038ce33b5721b7d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-count-5": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-trace-5": {
     "text": "עקבי אחרי הספרה 5.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "3b5d901f407d1e2c39befd7c8d71aaca7c14be14069de5e216f4f2bf70609708",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "83c37ad4ea4273f687b078ba2000fdfbe22282c335b48b50643212ca91873444",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-paint-quantity": {
-    "text": "צבעי קבוצות שיש בהן 3 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 3 פריטים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "025dadafebe6ae8a41c5840ee9d185311abda4fa0a9549c4d47af858bc33f0c2",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "16191bfdedb98a32f393a053c74d93d44206fc8765125a9f4b607d33e5f6c1b5",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-color-numeral": {
-    "text": "צבעי את המספר 3.",
+    "text": "בחרי את המספר 3.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "378484a8329b222754f76d07a0bb36f1072083bcafe3051881bba35c83029622",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "1772d8950d36cb4f886a8b34888469904bac422f1c9b2a652365dd0e547a8845",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-0-5-keypad": {
     "text": "ספרי את הפריטים והקישי את המספר.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "51797e78248410d7312fcf7c4d59023da869a0d0260b1c6c1c039a838a209c41",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f7903789b667293dcedda0dfdd682d9f9a21b36a98d0a9ff51b6c4e8ecee0375",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-count-6": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-trace-6": {
     "text": "עקבי אחרי הספרה 6.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "624e820bc19f35c0501b10a6be2ffda1bc275d7ca855999d7b6518d0d9a5adb1",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "836006dde503f46f2c7d32afd3d0135a0356aa4cc2d26e6dbc84c9f10933c6b8",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-count-7": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-trace-7": {
     "text": "עקבי אחרי הספרה 7.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "73a09e549e7f41c9f39feea0c935281ef21d743087e8c8960275e917ebcd9197",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "412d764d504c6113b184053e9ba267d7fbf5e5d5e5e8be6470ceabacf77c5cbe",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-count-8": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-trace-8": {
     "text": "עקבי אחרי הספרה 8.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b974373cd21befa6843707a5bd87c10ea31d5fb208eda5d36bacdb19de4cb3d7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "bcf5a44e59b81e97f051be0d4a8eda66308ff1ec8d42ba251d1ef9a54d7e03aa",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-count-9": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-trace-9": {
     "text": "עקבי אחרי הספרה 9.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "5d0b584675deab6dec981e75a45b45d145aa924a4b2eefd20cbbe2bd661286db",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "caacd0a3292c4f679771bcb7af3d561d074608736733840454f023e418c0f7ac",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-count-10": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-trace-10": {
     "text": "עקבי אחרי המספר 10.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "74960c019b2881cb71fef860fbbe731a7b7dc8ed63b2f5d512073714975bddb0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "50a4c8d0ea1c80a8a0af21132578baee21f3fa825d6d9e0701493dcb94e49fad",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-paint-quantity": {
-    "text": "צבעי קבוצות שיש בהן 6 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 6 פריטים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "5200cc10043151fa418ba6c9514b3eef8180d773064d60d4b8ca713991431e3c",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ee96485608f858dc89a20881b053bdc53b06791dbdf384ffff4ed2a0ca75ce27",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-color-numeral": {
-    "text": "צבעי את המספר 10.",
+    "text": "בחרי את המספר 10.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9a4263e74637b6db46e4544475aefc223b573c388126721e17472f010d5c2f54",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "d0533cece209c0dd9b6ee935615203a9900efae086eb2bbbbdfab00c9605a923",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-6-10-keypad": {
     "text": "ספרי את הפריטים והקישי את המספר.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "51797e78248410d7312fcf7c4d59023da869a0d0260b1c6c1c039a838a209c41",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f7903789b667293dcedda0dfdd682d9f9a21b36a98d0a9ff51b6c4e8ecee0375",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-11": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-11": {
     "text": "עקבי אחרי המספר 11.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "36b820a3106c2376333192f6286adddb81a9eac0c398e1c982a57d9d8dfa8098",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e9b070a899b85ad8053b18165185e8013704af8349979adf4a9c06e3412bd8e9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-12": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-12": {
     "text": "עקבי אחרי המספר 12.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "bda4c4eae4c92f0a7c04e4a65951b0a49713dd1dfb315b3933a633b7b1f48c06",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2614a8813b9c85ef2dd57cdeed8b375ffa592fecf1ca2e3a6d58ae95bfe68c3d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-13": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-13": {
     "text": "עקבי אחרי המספר 13.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "e32c8906033da82cb55980a85458f7a0299e8e1b6de38c28441f2ab860059a28",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2923442ed74962e3c62f20e5f67934b98c355208420a338de1dee1a771ae1c70",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-14": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-14": {
     "text": "עקבי אחרי המספר 14.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "47e7124d56bb21dd2c6cd33037344d6d240072597e2f20a3caf3fcbb2ff8a5f9",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "3b1a3fc3badd87f5f423d220f9ee30791fd46459ac50dc1e4fdf5993f606114c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-15": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-15": {
     "text": "עקבי אחרי המספר 15.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "2ed55bdb51a24330b7a7376b506fefd000c6dde4fa68b24e03e0151d5f6e9193",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "29b339658f76b7fd45223b1fe669b50e9d5a8e7772394515c498b83543bba56f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-16": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-16": {
     "text": "עקבי אחרי המספר 16.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "080bd6df2c6b07c242b7eece5d427ac7e11b14c417a049233e9f05b4eab83ca1",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "df09cc9ef991f1a644118e4dbb230f48bd558c68912e938821ea008754e21973",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-17": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-17": {
     "text": "עקבי אחרי המספר 17.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "1d9a48a736e3e33a5f5f4fe4054aba81b49938fb00339da6fb94cd9250785d9b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b91e6a0e0122be661230481e3a490fd51005c70fcea410f1845325957d0e5259",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-18": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-18": {
     "text": "עקבי אחרי המספר 18.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b9e7df048fb256d58800a6f0fd27f9371224a9e9333c48fa29e534f7f5356869",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "5a7425578b81096e51e2b8604aba65a4603b03eb4f033efc06a05a81f31d6790",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-19": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-19": {
     "text": "עקבי אחרי המספר 19.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "bd3c9946cb9f5982fb89e392f4ab15ed4e8c3cb7edd0f6ce33729ea0f8f8d214",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "233843b5c42c879cb50a569774ba181afd9c9a0004d54d746b989031c52d4dfb",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-count-20": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9aef441c16a1ff0c641aeff14e7c25cc1d72dfebc5896a715919b3492c139487",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-trace-20": {
     "text": "עקבי אחרי המספר 20.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "4226f63f85215470216796498d9eee4139ccc9817bf8fc1845568d4b3971d352",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b20b86a202ee57efaf53e2b1b96310a5280cff6108bb677e5ea8cdaef7f22363",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-paint-quantity": {
-    "text": "צבעי קבוצות שיש בהן 11 פריטים.",
+    "text": "בחרי קבוצות שיש בהן 11 פריטים.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "f526a135a0666377cc4d3a08fc52c3fea464e95bae19fc05f9b977146ca94d6d",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "280a77d98dc12c387c25a32246d1f798ab72c6876bc7e1fd808535f50578391c",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-color-numeral": {
-    "text": "צבעי את המספר 20.",
+    "text": "בחרי את המספר 20.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "6de20e1564643719191fac4783934f4dec3e00f29afebaf13aa595dbafe32ef0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "851f138f47980a23a05cf65358eccbc9b07fcd9890b14c81c552cd415ffd956a",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-11-20-keypad": {
     "text": "ספרי את הפריטים והקישי את המספר.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "51797e78248410d7312fcf7c4d59023da869a0d0260b1c6c1c039a838a209c41",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f7903789b667293dcedda0dfdd682d9f9a21b36a98d0a9ff51b6c4e8ecee0375",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-1": {
     "text": "יש לנו תפוח אחד. נוסיף עוד תפוח אחד. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "821d1f7e59c4007521eff37e8be48eddb45a00e4609802c08d60a0480a5df0a8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "33adbeb6c134ce99332b9f2a0a17a8091a8a8e1547c23d683cead74bd0a56552",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-2": {
     "text": "יש לנו שני תפוחים. נוסיף עוד תפוח אחד. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "9fa85f25ee8ceef83f8360b663dcfc89494af6c8feaf6313b47bba81b5aaff65",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "5cfb74b67b705635de439a96f0a86b8c715e3fe8c41f0da7cf89d27ee8c0b496",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-3": {
     "text": "יש לנו שני תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "35d78ffef12388beedb0b25fb3d248a2470c9378df3ab9b18bba4d1aeed436d7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "58d190e3e379ced821b1409ccaca1da7412fbc9cf9bf90083b407645e8b79422",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-4": {
     "text": "יש לנו שלושה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "aee463a5cd2e1d53e1122cf8d74468241a0f3a4a0739cb3a4333ea10824b94fa",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "b6320d615a42fb48312694dc9822efe95c4bb8b8418bb861ed8e6b5d207162a2",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-5": {
     "text": "יש לנו ארבעה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "205a31d3044b8ed4ff1971289d384a72aaa94998957ffe330e5a30d111bf8b6b",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "94bb592dd4e4caa3c1da556c165aa59a0a9dc2aece8caab856823bca68ae7d4f",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-6": {
     "text": "יש לנו ארבעה תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "e103a701314a1923c9bdc67b933afa5a26f18b8b2fe89a5eb7ba75af03491da8",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "8bdf0324903ac664cb2579d6183470fc9f8b2601eb99acd8520426a91d25f918",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-7": {
     "text": "יש לנו חמישה תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "5af2a8bddff2ad70389cab0190edd16b741d8d9b98e8e5b847c36b425c63c927",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "d16216ac011c0d57a19094a302fa422f96f78f78de141d768700f693b82a1f3e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-8": {
     "text": "יש לנו חמישה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "fcb41e8df6bcd4a196b958b0c4e241ef8bee529881ab82a5460899a60357e2d3",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "12e31aa80c4b356d652895aa5bdf0deec473e324bb4ca177fecf035a01570eed",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-9": {
     "text": "יש לנו שישה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ba39e9f58a75f8f6d3bbc76823a8e636adcab1530d434e363c7314e477960ff0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "987e3ff0ae7a1a5b2163e8e3e060a58ba2bfefe05059a97afd2b059800329830",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-story-10": {
     "text": "יש לנו אפס תפוחים. נוסיף עוד שלושה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "0b9bb64b1e6c822ddaff0b165dd88b1fedd30772203d91b65e6822facfb480cf",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "02163c5e22becbf5816717de88a783a4654321613fac42ba6e36b4a9ada2e696",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-independent-1": {
     "text": "יש לנו שלושה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a05604819f7132a91980682ea65cc542954607784ee8ad65b65295d8a209fa73",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "2aaa918e37e18a9a1b5d6b2d70380f4f682d79bcaf354fc186a2f3bfd979b147",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-independent-2": {
     "text": "יש לנו חמישה תפוחים. נוסיף עוד חמישה תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "c187302e9af99e6bae1cacb0ebe0e3abe7742f3130d9293d024ff21c8350b8e4",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0190e3b378d0eb7ba71f317957ff5e4fcb1165b0f6632bcb9a60fe22e49e37a9",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-add-independent-3": {
     "text": "יש לנו שישה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "419684c598d914cc04d38ff1aa316a13e9ef341dcdaa6a9880b45460bca1191f",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "8b3577878378dd608a2ae8ce38cfe2e740eb6f3d0c1a8fcbb3e894a893dd6465",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-1": {
     "text": "יש לנו שני תפוחים. ניקח תפוח אחד. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "e31951873615417ccb4817fc8fb924f6121d6c5cd3625fb343ed69eae31bbaf7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "63e038b8cb60cdf534268ef93f963087d14b454b8b93b046fc31b2fe57ff279e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-2": {
     "text": "יש לנו שלושה תפוחים. ניקח תפוח אחד. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "fcc095376211536544098392169fb778b0d16db85f38344b63522b800df8a7cb",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "4c579c826c38bb21a0627fd156e16f4d93c509e2862a87a446fe80806d4a0d3d",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-3": {
     "text": "יש לנו ארבעה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "21b3bf2e86c6f4931dbf0e67724cc0e2182dc60ec697c9167a8e6c9ab7ae4737",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "316e7ced65f81c9707db5e4db02ca14c52218dfdd2f492adc360685645f0ed65",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-4": {
     "text": "יש לנו חמישה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ccbf8c9f567bd6b149d2b02128f9e04a9ce51643cfc7e35a23b94986465e1849",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ccf6a94e46a0937a2ea1a65329445946ac41e7f461b80abcbedcf8dc32826447",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-5": {
     "text": "יש לנו שישה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "83bc187cde097f9025a3416a2e2d20b28cce559daf1e207ae4569591111dac25",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "338ab60db8f7dc489756c5412a4567ae1f2dde919bc6b0fa8dd948a06ecc4bd7",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-6": {
     "text": "יש לנו שבעה תפוחים. ניקח שני תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "e9c9c4c6a77f40cbfed51f3667f9a4848dc1b169bd68eb91cdf84e15b4129879",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "3b007f72d75902c7b7ee773de630325676a2eb55f2867fc3a806920e7cb2fb81",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-7": {
     "text": "יש לנו שמונה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a79a30e099a8befeaf62bcdcbfe34fe0c87996580cf4606cef3f67aa2526e01d",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "e32fb928e0d1ad27b946eb4b1e8d99c9a3bc76f04688e96d71841d6167b78849",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-8": {
     "text": "יש לנו תשעה תפוחים. ניקח ארבעה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "bc6bd825f1b96fc52e721bd444405b57f7ba545d7e5c10c328d83becb43ec1a5",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f7daec0b8bce921e6567dc5ae8c9c80a1651c470dadb44f7b489f4df2e601e03",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-9": {
     "text": "יש לנו עשרה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8259441ddb7f17a4edc7503418d907157631485f99236ae92e8fbe5016058ee0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "4aa693eb4ff612185a730b41707409c99cced66025aa470a290eb3f182c0a952",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-story-10": {
     "text": "יש לנו שלושה תפוחים. ניקח שלושה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "25229a1de2e0364df35115033dce4a02346c6d52a06e79e38192e33aa9fad6b7",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "d667930d888e9f5038a615cdf72a0b99eb4c372e29f6a4b48ee56a26f2af64bd",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-independent-1": {
     "text": "יש לנו עשרה תפוחים. ניקח ארבעה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "d2da0f87034e23202ffa451b0e28f3ab6b3f5d737d26f9990901a404d530d902",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "77f26d09ea6ea7aa96c11a29fa7886a7d8ba64e4270014276922a8543817f649",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-independent-2": {
     "text": "יש לנו שמונה תפוחים. ניקח חמישה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "728dd98ce4c28adb144d2c9b4e9dea85f78e8ed2431e3ae8c0464dcf48de7972",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "f52b2b1f2e1cc4172220cc25d45e4a3e96e3e01738ff555f939445b9f7c8a57b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-subtract-independent-3": {
     "text": "יש לנו שבעה תפוחים. ניקח שבעה תפוחים. כמה תפוחים נשארו?",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "34acfb94456ff7eb2ef54bf223919941715d3e8bb27c7a4aa4f51b791c6e2f14",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6f3207d05deeff7433a1b56308c3d7a1932c7a4fad6017e76416f6f9ddb76f1b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-2": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-4": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-5": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-7": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-9": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "numbers-try-keypad-answer-10": {
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "cc18b635dc9f306af257295016a044ae61060ca888a1ea2a843e1089d4762717",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "0746926becb246c306580eb4eaaff672946fba9fd7721da10eb75220919274ec",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "play.freeze.instructions": {
     "text": "בואי נעשה קסם כמו אלזה! לחצי על הדברים שזזים והקפיאי אותם. אין צורך למהר.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "a09707c31f6687e43e767eae36d5d2fc8790d2db3b5b2936b9cd99986fcb5928",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "1e8d2d7b0ea27ca5509737922f91aa4073b24d85162579a6e46af8d9ab2b5729",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "play.puzzle.instructions": {
     "text": "בחרי תמונה וכמה חלקים תרצי. גררי כל חלק צבעוני למקום שלו בתמונה. אם הוא לא מתאים, הוא יחזור למגש.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "ff79a35e4d172ccbccd0755d6dd16f3021f8f2ebfe34f417603a7ba44fac8f9c",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "31bcf5ea2951a812b39c30db289f76bca2a390c3e6855d960f82b63c91346b1b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "play.keybash.instructions": {
     "text": "לחצי על משטח המשחק. עכשיו אפשר להקיש על המקלדת, או לגעת במסך, ולגלות הפתעות!",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "b5fbf70489d9c15ab00de7577d3fc78f3a7e02723d17e67f90d90049910881c0",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "c278782788be107994f7026f1bd2f81adc9b7280c0d95349638cde884a646940",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.he.find": {
     "text": "מצאי את האות הגדולה במקלדת ולחצי עליה. אפשר גם לגעת במקלדת שעל המסך.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "74bad09ed57a92f16c9ad8cb2d5ba50a13d9ccec15d6a44336c13f976face12d",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "32f96736d17182b5a3059292a4355988c9fd2c309d3e4497d6d3f5d4eac550c2",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.he.repeat": {
     "text": "נסתכל על רצף של אותיות. אחר כך הקלידי אותו לפי הסדר. אפשר לשמוע שוב בכל רגע.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "f330c0b271cf84d55fe644b8683007f8d77267de396395f07aa804e089f87691",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ab6dc8753ef01cd11ed99e5b9071f8b7a8ab828eb8bdb25d5fbd4723b3e18ece",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.en.find": {
     "text": "Find the big letter on the keyboard. You can also tap the keyboard on the screen.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "6f9c81b532ad1bea9be7d67b2e31e20ff1b8388dad4f1de35c166127cddcbb22",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "ecb9caeeee0132652c09af23980aca22dd44cb1f0bb8e5546c87f8296f38dd76",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.en.repeat": {
     "text": "Watch the letters. Then type the same letters in order. You can play the example again.",
     "lang": "en",
     "status": "pending",
     "src": null,
-    "fingerprint": "545f5ee49f5586a492805c62f0ededfbd00d418ef8b7bf7a43c0ab1c0d50e0cd",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "6898fabcb47e4d9a55603497038de46020513fed2769965cd2d02de30a4e3786",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.numbers.find": {
     "text": "הסתכלי על הספרה הגדולה ולחצי עליה במקלדת. אפשר גם לגעת במספר שעל המסך.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "41056b6a1d3f6e10414e77dad3e1050f1c660ffb9bf7c613b341973366897c8e",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "3722308062d6be5aeb4b21f5900ab4aa264c951fa1823f1b8e978e4bbc43f3ca",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "typing.numbers.repeat": {
     "text": "נראה רצף של ספרות. הקלידי אותן לפי הסדר. זה רצף ספרות, ולא תרגיל חשבון.",
     "lang": "he",
     "status": "pending",
     "src": null,
-    "fingerprint": "8ca087424e303484b6ffe400828c92add9427d2a7fe99ac1b84333ab008ea191",
-    "engine": "speech",
-    "model": "gpt-4o-mini-tts",
-    "voice": "marin"
+    "fingerprint": "52af7724f146ef1335d7fe1a5b29782f2d1ce1ed5210a6a28b33f9aae8ebe92b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   }
 }

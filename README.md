@@ -30,7 +30,9 @@ Assets live under `public/` and use paths relative to that root. Keep IDs stable
 
 ## Audio status
 
-The app supports pregenerated OpenAI recordings. No OpenAI API credential was available in the initial development environment, so the first version uses browser speech for missing recordings. Device Hebrew voice availability and pronunciation vary; review phonics and names before treating them as teaching recordings. See `docs/AUDIO.md` for catalog generation and resumable asset generation. Never put an API key in frontend code or in the repository.
+The game includes local success/retry WAVs and real Gemini-generated narration. Remaining clips are generated incrementally; missing narration falls back to a matching device voice. Use the visible sound activation/test button on iPhone. Parent controls show playback status and the current number of ready clips. Actual device voice availability varies.
+
+The build-time generator supports Gemini and OpenAI, resumable caching and bounded quota/transient retries. See `docs/AUDIO.md`. The manual `Generate speech recordings` Actions workflow can generate and commit clips after an appropriately authorized provider secret is configured. No key is placed in the frontend or repository files.
 
 ## Public deployment and new play books
 

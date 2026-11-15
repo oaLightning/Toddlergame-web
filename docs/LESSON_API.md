@@ -22,3 +22,5 @@ Content rules: Hebrew starts at א in alphabetical order, first batch א–ד, e
 Additional kinds: `freeze`, `puzzle`, `keybash` provide untimed standalone play pages. `typing` takes `typingMode: find|repeat`, `keyboardLocale: he|en|numbers`, and optional `targets: string[]` / `sequences: string[]`. Place fun books in the `play` theme or insert pages into another book. All games accept mouse/touch; typing also accepts physical keyboards.
 
 Recognition targets use deterministic `recognitionClass(seed, variant)` from `src/recognition.ts`. Instructions never use recognition-font classes. Public builds disable portrait references.
+
+`select` is the multi-picture recognition activity (tap all correct choices); it has no color picker. The legacy `color` kind is rendered as selection for backward compatibility. `paint` is an independent freehand drawing page using a target-matching outline, palette, brushes, eraser and undo. Completing painting is a child's explicit choice, never a correctness grade. Keep selection and painting on different pages.

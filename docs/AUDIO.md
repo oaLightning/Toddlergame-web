@@ -1,10 +1,10 @@
 # Speech assets
 
-The game is static: it plays downloaded audio and never calls OpenAI at runtime. No API key belongs in client code, Git, a browser setting, or a public file. Set `OPENAI_API_KEY` only in the asset-generation process environment. Do not use a `VITE_` prefix for it.
+The game is static: it plays downloaded audio and never calls an AI provider at runtime. No API key belongs in client code, Git, a browser setting, or a public file. Set `OPENAI_API_KEY` or `GEMINI_API_KEY` only in the asset-generation process environment. Do not use a `VITE_` prefix for either key.
 
 ## Current status
 
-No OpenAI API key was available during implementation. The initial catalog contains 180 clips; all manifest entries are pending, not fabricated recordings. Device speech is a fallback; its voices and quality vary. Phoneme pronunciation needs adult listening review before teaching.
+No OpenAI API key was available during implementation or the subsequent OpenAI generation retry. That attempt stopped with a missing-key error; it did not leave a background generation process running. A Gemini engine was subsequently added for an AI Studio key supplied only to the generation process. The manifest's `status` and `src` fields are the authoritative recording status; no pending entry is advertised as a recording. Device speech remains a fallback. Phoneme pronunciation needs adult listening review before teaching.
 
 ## Generate
 
@@ -24,6 +24,24 @@ The default is `/v1/audio/speech`, `gpt-4o-mini-tts`, voice `marin`, WAV output 
 
 Generation writes each completed asset and manifest entry immediately, so an interrupted run resumes. Matching fingerprints skip valid existing files. Changes to pronunciation text, voice, model, or generation settings invalidate a clip. `--force` regenerates selected clips. `--only PREFIX` and `--limit N` bound paid work. Unneeded old audio files are not automatically deleted.
 
+## Gemini / Google AI Studio
+
+With `GEMINI_API_KEY` available only in the process environment:
+
+```sh
+node scripts/generate-audio.mjs --engine gemini --only feedback.success.he --limit 1
+node scripts/generate-audio.mjs --engine gemini --delay-ms 6500
+node scripts/generate-audio.mjs --engine gemini --check
+```
+
+The Gemini default is `gemini-2.5-flash-preview-tts` with voice `Kore`. Override via `--model` / `--voice` or `GEMINI_TTS_MODEL` / `GEMINI_TTS_VOICE`. Requests go to `https://generativelanguage.googleapis.com/v1beta/models/MODEL:generateContent`, with the API key in a request header, never a URL. The single-speaker response is decoded from `candidates[].content.parts[].inlineData`; 24 kHz mono 16-bit PCM is wrapped in WAV, and complete WAV responses are preserved without adding a second header. Unsupported sample rates/formats fail rather than produce broken files.
+
+Google's official TTS docs list Hebrew support and the selected model/voice. The generator also supports the current Gemini 3.8 schema when a `gemini-3.8...` model is explicitly selected: transcript and speech-style metadata remain separate, and its default WAV output is preserved.
+
+`--delay-ms` sets a pause between clips so a run can respect its project's quota. Gemini HTTP 429/500/503 responses retry up to six total attempts, using structured Google `RetryInfo` and `Retry-After` hints where provided, otherwise exponential backoff. Each pause is bounded to 60 seconds. Obvious daily-quota or zero-quota exhaustion stops immediately instead of retrying repeatedly. Logs include only HTTP status, safe retry timing and a generic stop reason, never credentials or full provider payloads; completed clips remain saved for resumption. Always repeat the same `--engine`, model, and voice when checking or resuming a catalog: choosing another engine intentionally invalidates the cached fingerprints.
+
+An otherwise successful Gemini response that lacks inline audio gets up to three attempts. Logs expose only allowlisted `finishReason` / `blockReason` enums, never provider response text. Explicit content blocks stop generation. A transient missing-audio clip that still fails after retries remains pending while the generator continues with later clips; the batch exits with failure at the end so partial completion is visible and resumable. Quota failures, blocked clips, unsupported formats and other errors are not silently skipped.
+
 ## Adding content
 
 `src/content/index.ts` is the source of lesson narration. The script loads it with Vite's TypeScript loader without starting an HTTP server. Narration language is inferred from the spoken text (Hebrew script first, then English letters, otherwise the lesson locale), so Hebrew directions in an English book remain Hebrew. Page narration uses `speech ?? instruction`; its ID is `audioId ?? lesson.id + '.' + page.id`. Example words use `lesson.id + '.' + page.id + '.example.' + index`.
@@ -32,11 +50,15 @@ Write optional `speech` as a pronunciation-specific variant (including Hebrew vo
 
 The manifest is a JSON object keyed by stable ID. Only ready entries have `src`, relative to the static public root. Pending entries have `src: null` so missing files are never advertised as working speech. Shared feedback IDs are `feedback.success.he`, `feedback.retry.he`, `feedback.success.en`, and `feedback.retry.en`. Narration is a neutral friendly voice, not a character impersonation. The parent screen should disclose that generated narration is AI-generated.
 
+Shared runtime prompts also include `game.freeze.win`, `number.he.0` through `number.he.20`, `number.en.0` through `number.en.20`, `key.he.alef/bet/gimel/dalet`, and `key.en.a/s/t/m`. These are letter names and number names, not isolated phonemes. Playback must use these IDs (or map the corresponding texts) to use the generated clips instead of browser speech. The current catalog size is printed on each generator run and grows as lessons or shared prompts are added.
+
 ## References
 
 - https://developers.openai.com/api/docs/guides/text-to-speech
 - https://developers.openai.com/api/reference/resources/audio/subresources/speech/methods/create
 - https://developers.openai.com/api/docs/guides/realtime-conversations
+- https://ai.google.dev/gemini-api/docs/speech-generation
+- https://ai.google.dev/gemini-api/docs/generate-content/speech-generation
 
 ## Checks
 

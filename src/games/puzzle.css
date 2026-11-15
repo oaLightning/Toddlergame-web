@@ -2,3 +2,5 @@
 @media(max-width:850px){.puzzle-layout{grid-template-columns:minmax(65px,1fr) minmax(190px,320px) minmax(65px,1fr);gap:10px}.puzzle-tray{gap:6px}.puzzle-piece{min-height:27px}.puzzle-pickers label{font-size:12px}}
 @media(max-width:760px){.puzzle-layout{grid-template-columns:1fr;max-width:390px;gap:12px}.puzzle-board{grid-row:2;width:min(100%,300px);justify-self:center}.puzzle-tray{grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}.puzzle-tray-first{grid-row:1}.puzzle-tray-last{grid-row:3}.puzzle-piece{min-height:34px;max-height:none}.puzzle-pickers{gap:8px}.puzzle-pickers label{font-size:11px;gap:4px}.puzzle-pickers select{padding:8px;max-width:135px}.puzzle-hint,.puzzle-note{font-size:12px}.puzzle-piece-number{font-size:8px}}
 @media(prefers-reduced-motion:reduce){.puzzle-piece{transition:none}}
+/* Keep the tray copy hidden until the moving overlay reaches its home. */
+.puzzle-piece.puzzle-dragging{opacity:0!important}.puzzle-piece:disabled:not(.puzzle-used){opacity:1}.puzzle-piece.puzzle-dragging:disabled{opacity:0!important}.puzzle-returning{will-change:left,top,width,height}.puzzle-slot:disabled{opacity:1}

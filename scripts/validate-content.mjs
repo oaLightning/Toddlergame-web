@@ -9,7 +9,7 @@ const server = await createServer({ root, server: { middlewareMode: true }, appT
 try {
   const { lessons } = await server.ssrLoadModule('/src/content/index.ts');
   const ids = new Set();
-  const kinds = new Set(['introduce', 'trace', 'find', 'match', 'color', 'count', 'arithmetic', 'keypad', 'build', 'freeze', 'puzzle', 'keybash', 'typing']);
+  const kinds = new Set(['introduce', 'trace', 'find', 'match', 'color', 'select', 'paint', 'count', 'arithmetic', 'keypad', 'build', 'freeze', 'puzzle', 'keybash', 'typing']);
   const plain = s => s.normalize('NFD').replace(/[\u0591-\u05C7]/g, '');
   const asset = path => assert(existsSync(resolve(root, 'public', path.replace(/^\.\//, ''))), `Missing asset: ${path}`);
   let pages = 0;
@@ -24,7 +24,7 @@ try {
       assert(p.instruction?.trim(), `Missing instruction: ${label}`);
       if (p.kind === 'trace') assert(p.target && p.strokes?.length, `Missing explicit trace strokes: ${label}`);
       if (p.kind === 'find') assert(plain(p.text ?? '').includes(plain(p.target ?? '\0')), `No find target: ${label}`);
-      if (['match', 'color'].includes(p.kind)) {
+      if (['match', 'color', 'select'].includes(p.kind)) {
         assert(p.choices?.length >= 2, `Not enough choices: ${label}`);
         assert(p.choices.some(c => c.correct), `No correct choice: ${label}`);
         assert(p.choices.some(c => !c.correct), `No distractor: ${label}`);
