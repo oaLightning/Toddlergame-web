@@ -32,4 +32,12 @@ Mouse tracing verified that main+upper strokes alone (78% total) no longer earn 
 +- Added target-appropriate printable outlines, expanded Hebrew and English vocabulary, and alternating reward corners.
 +- Puzzles have rich themed backgrounds with landmarks in every dense-grid cell and animated wrong-drop returns.
 +- Audio feedback uses bundled WAV media files; explicit enable/test control and visible playback diagnostics were added for iOS. Physical iPhone validation still requires the user's device.
-+- Gemini generated real narration WAVs. Quota/transient missing-output handling is resumable; completed clips are preserved. GitHub secret storage remains pending user authorization; no Gemini credential is in source or frontend output.
++- Gemini generated real narration WAVs. Quota/transient missing-output handling is resumable; completed clips are preserved. The user authorized encrypted GitHub secret storage and GEMINI_API_KEY is configured; no Gemini credential is in source or frontend output.
+
+## Current outstanding work
+- Finish the 316 pending narration clips (11 of 327 ready at the initial quota stop), then review Hebrew pronunciation, letter names, phonics and volume.
+- Verify audio unlocking/replay and touch tracing/painting/puzzle dragging on physical iPhone/iPad browsers.
+- Extend Hebrew beyond א–ד and English beyond s/a/t/m; add more reviewed word-building activities.
+- Add numeral painting lesson pages (renderer supports numeral outlines), optional drawn-answer recognition, and number shapes built from familiar letters.
+- Add future approved Asia illustrations; keep classroom photos/contact data out of public deployment.
+- A parent content review precedes any trial with Asia.
