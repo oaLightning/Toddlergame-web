@@ -123,12 +123,13 @@
   "number.he.5": {
     "text": "חמש",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/number.he.5.wav",
     "fingerprint": "aed24a9b871b3fa74bf71856f73d3dde8f90b80ac1afda33a75b414cff76021c",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T15:07:10.234Z"
   },
   "number.he.6": {
     "text": "שש",
