@@ -115,3 +115,10 @@ test('Gemini explicit blocks stop immediately; an empty transient response can r
   const result=await gemini(clip,options,'test-only',{fetch:async()=>({ok:true,json:async()=>++attempts===1?{candidates:[{finishReason:'STOP'}]}:{candidates:[{content:{parts:[{inlineData:{mimeType:'audio/L16;rate=24000',data:pcm.toString('base64')}}]}}]}}),sleep:async()=>{},log:()=>{}});
   assert.equal(attempts,2);assert.equal(result.toString('ascii',0,4),'RIFF');
 });
+test('feedback catalog contains bilingual variations without changing the original recording text',()=>{
+ const catalog=collectCatalog([]);
+ assert.equal(catalog.filter(c=>c.id.startsWith('feedback.success.')).length,6);
+ assert.equal(catalog.filter(c=>c.id.startsWith('feedback.retry.')).length,6);
+ assert.equal(catalog.find(c=>c.id==='feedback.success.he').text,'כל הכבוד! הצלחת!');
+ assert.equal(catalog.find(c=>c.id==='feedback.retry.en').text,'Let’s try again, slowly.');
+});

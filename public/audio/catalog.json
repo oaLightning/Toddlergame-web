@@ -10,8 +10,13 @@
     "lang": "he"
   },
   {
-    "id": "feedback.retry.he",
-    "text": "בואי ננסה שוב, לאט לאט.",
+    "id": "feedback.success.he.magic",
+    "text": "איזה קסם! הצלחת!",
+    "lang": "he"
+  },
+  {
+    "id": "feedback.success.he.hooray",
+    "text": "יש! עשית את זה!",
     "lang": "he"
   },
   {
@@ -20,8 +25,43 @@
     "lang": "en"
   },
   {
+    "id": "feedback.success.en.hooray",
+    "text": "Hooray! You did it!",
+    "lang": "en"
+  },
+  {
+    "id": "feedback.success.en.wow",
+    "text": "Wow! Great job!",
+    "lang": "en"
+  },
+  {
+    "id": "feedback.retry.he",
+    "text": "בואי ננסה שוב, לאט לאט.",
+    "lang": "he"
+  },
+  {
+    "id": "feedback.retry.he.together",
+    "text": "ננסה שוב, ביחד.",
+    "lang": "he"
+  },
+  {
+    "id": "feedback.retry.he.look",
+    "text": "בואי נסתכל עוד פעם.",
+    "lang": "he"
+  },
+  {
     "id": "feedback.retry.en",
     "text": "Let’s try again, slowly.",
+    "lang": "en"
+  },
+  {
+    "id": "feedback.retry.en.together",
+    "text": "Let’s try again, together.",
+    "lang": "en"
+  },
+  {
+    "id": "feedback.retry.en.look",
+    "text": "Let’s take another look.",
     "lang": "en"
   },
   {

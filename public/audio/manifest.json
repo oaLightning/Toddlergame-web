@@ -21,16 +21,25 @@
     "voice": "Kore",
     "generatedAt": "2026-11-15T14:15:40.009Z"
   },
-  "feedback.retry.he": {
-    "text": "בואי ננסה שוב, לאט לאט.",
+  "feedback.success.he.magic": {
+    "text": "איזה קסם! הצלחת!",
     "lang": "he",
-    "status": "ready",
-    "src": "audio/feedback.retry.he.wav",
-    "fingerprint": "33b89e087e3253d44aebd239066fbe8170bb9d83b7ef0fa9bfeb0b2480cc612b",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "8b3f6542cce89d23bc09f29b4928a9a3b9638f6300ca08426c3370ecc324e735",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore",
-    "generatedAt": "2026-11-15T14:18:48.069Z"
+    "voice": "Kore"
+  },
+  "feedback.success.he.hooray": {
+    "text": "יש! עשית את זה!",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "9e64f5c953ad3c34ab4a16890ececce4d6f6640232074e84b6014795e23e8073",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "feedback.success.en": {
     "text": "Well done! You did it!",
@@ -43,6 +52,57 @@
     "voice": "Kore",
     "generatedAt": "2026-11-15T14:18:51.953Z"
   },
+  "feedback.success.en.hooray": {
+    "text": "Hooray! You did it!",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "47230cf6e48848678f26130edaab4e8f0f83d39eb36860dd7ee2f26b602afc4e",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "feedback.success.en.wow": {
+    "text": "Wow! Great job!",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "643f545e5ecce1dabc2fcb5ae4ebca5a7929212a5f06d64d4d664f1c7977ef78",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "feedback.retry.he": {
+    "text": "בואי ננסה שוב, לאט לאט.",
+    "lang": "he",
+    "status": "ready",
+    "src": "audio/feedback.retry.he.wav",
+    "fingerprint": "33b89e087e3253d44aebd239066fbe8170bb9d83b7ef0fa9bfeb0b2480cc612b",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T14:18:48.069Z"
+  },
+  "feedback.retry.he.together": {
+    "text": "ננסה שוב, ביחד.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "a2c90b2b058fbde1ed44839ef96e8bf9643843131e3cc98d9bb2c40519306452",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "feedback.retry.he.look": {
+    "text": "בואי נסתכל עוד פעם.",
+    "lang": "he",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "91fd0e6b52430d7eacc0d707b852879e1446ae8fd2c976c16addc9958400cb61",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
   "feedback.retry.en": {
     "text": "Let’s try again, slowly.",
     "lang": "en",
@@ -53,6 +113,26 @@
     "model": "gemini-2.5-flash-preview-tts",
     "voice": "Kore",
     "generatedAt": "2026-11-15T14:18:55.296Z"
+  },
+  "feedback.retry.en.together": {
+    "text": "Let’s try again, together.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "96181f46560c675082ce2e1ba9b0837a2acc7fbb54cc171463defd75449bce58",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
+  },
+  "feedback.retry.en.look": {
+    "text": "Let’s take another look.",
+    "lang": "en",
+    "status": "pending",
+    "src": null,
+    "fingerprint": "1d6d69f605c77cb25d6f01ebdecaa02e0c1886c4adc4200e79298293d2496b00",
+    "engine": "gemini",
+    "model": "gemini-2.5-flash-preview-tts",
+    "voice": "Kore"
   },
   "game.freeze.win": {
     "text": "איזה קסם! הכול קפוא. הצלחת!",

@@ -1,4 +1,15 @@
 import { speechClipId } from './audio-policy';
+import {chooseFeedback,successClips,retryClips} from './feedback';
+let previousPraise:string|undefined,previousRetry:string|undefined;
+let previousEffect='';
+export const RECORDED_SPEECH_RATE=1.15;
+export function feedbackSpeech(success:boolean,locale:string,enabled=true){
+ const pool=success?successClips:retryClips.filter(clip=>clip.lang===locale);
+ const clip=chooseFeedback(pool,success?previousPraise:previousRetry);
+ if(success)previousPraise=clip.id;else previousRetry=clip.id;
+ speak(clip.text,clip.lang,clip.id,enabled);
+ return clip.text;
+}
 type Clip = { src?: string | null; file?: string; path?: string; status?: string };
 export type AudioStatus = { activated: boolean; effects: string; speech: string; error: string };
 let status: AudioStatus = { activated: false, effects: 'לא נבדק', speech: 'קול המכשיר', error: '' };
@@ -58,7 +69,7 @@ export function speak(text: string, locale: string, id?: string, enabled = true)
     const matching = voices.find(voice => voice.lang.toLowerCase().startsWith(locale === 'he' ? 'he' : 'en'));
     if (voices.length && !matching) { update({ speech: locale === 'he' ? 'אין קול עברי במכשיר' : 'אין קול אנגלי במכשיר', error: 'לא נמצא קול מתאים במכשיר. הקלטות הקריינות עדיין ממתינות ליצירה.' }); return; }
     utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = locale === 'he' ? 'he-IL' : 'en-US'; utterance.rate = .8;
+    utterance.lang = locale === 'he' ? 'he-IL' : 'en-US'; utterance.rate = .95;
     if (matching) utterance.voice = matching;
     utterance.onstart = () => { if (request === speechRequest) update({ speech: 'קול המכשיר פועל', activated: true }); };
     utterance.onerror = event => {
@@ -68,13 +79,13 @@ export function speak(text: string, locale: string, id?: string, enabled = true)
     window.speechSynthesis.speak(utterance);
   };
   if (file) {
-    speechPlayer ??= player(); speechPlayer.src = assetUrl(file); speechPlayer.onerror = fallback;
+    speechPlayer ??= player(); speechPlayer.playbackRate=RECORDED_SPEECH_RATE; speechPlayer.preservesPitch=true; speechPlayer.src = assetUrl(file); speechPlayer.onerror = fallback;
     void speechPlayer.play().then(() => { if (request === speechRequest) update({ activated: true, speech: 'הקלטה מוכנה פועלת', error: '' }); }).catch(fallback);
   } else fallback();
 }
 /** Bundled media clips are independent of Web Audio and device speech support. */
 export function sound(success: boolean): void {
-  playbackSession(); const key = success ? 'success' : 'bump';
+  playbackSession(); const choices=success?['success','sparkle','bubble','boing']:['bump'];const available=choices.filter(key=>key!==previousEffect);const key=available[Math.floor(Math.random()*available.length)]??choices[0];previousEffect=key;
   try {
     const pool = effectPools[key] ??= Array.from({ length: 3 }, () => player(`audio/effects/${key}.wav`));
     const audio = pool[effectIndex++ % pool.length];

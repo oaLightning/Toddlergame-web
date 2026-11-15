@@ -50,3 +50,9 @@ The first authorized Actions run generated number.he.5, committed it, dispatched
 - 43 automated tests pass, including all ten handwriting templates under translation/scaling, uncertainty for scribbles, mosaic geometry, full-arena travel and acceleration/bounds.
 - Browser completed numeral1 mosaic via tap controls and a handwritten1 via drawing, candidate confirmation and answer checking. Freeze progressed through all8 targets and victory at3.8x speed via keyboard input. Mouse/touch drawing uses pointer events; no physical iPad trial or trial with Asia.
 - 1209 speech entries now cataloged,12ready and1197pending. No new recorded speech claimed; provider quota remains the audio bottleneck.
+
+## Faster speech and varied feedback
+- Existing narration now plays at1.15×, preserving pitch; device speech uses0.95.
+- Random praise uses three Hebrew and three English phrases, without consecutive repetition. Retry variations retain the exercise language. Three additional bundled playful effects rotate with the original success chime.
+- Parent audio review lists actual ready clips and clearly labelled device-voice instruction examples.
+-46automated tests, production/privacy check and content validation pass. Browser review confirmed ready/pending labels and playback activation.

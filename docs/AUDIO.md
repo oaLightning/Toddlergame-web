@@ -69,3 +69,9 @@ node --test scripts/generate-audio.test.mjs
 These validate catalog ID agreement, pronunciation overrides, collision/path rejection, cache fingerprints, and PCM WAV encoding. Live OpenAI generation and listening review require a key.
 
 Gemini is now the CLI default for this project, so catalog checks/resumes retain the existing Gemini recording fingerprints. Use `--engine speech` explicitly for OpenAI. Eleven clips were produced in the initial live run before Gemini reported exhausted quota. The user authorized encrypted GitHub Actions secret storage on 2026-11-15; `GEMINI_API_KEY` is configured in Toddlergame-web. Run the Generate speech recordings workflow to resume pending clips; quota exhaustion stops cleanly and preserves completed clips.
+
+
+## Playback pace and feedback variation
+Recorded narration plays at 1.15× with pitch preserved; device speech rate is 0.95 (previously0.8). Playback changes do not invalidate existing recording fingerprints. Shared feedback text lives in `src/content/feedback.json`: six praise options across Hebrew/English and six gentle retry options. Praise freely mixes languages and avoids immediate repeats; retries stay in the exercise language. Missing recordings use the labeled device-speech fallback. Local sparkle/bubble/boing WAV effects vary independently of narration and require no provider.
+
+Parents can open להורים → האזנה להקלטות ולהוראות to hear ready recordings and representative lesson instructions. Each sample explicitly distinguishes a ready recording from device speech. The initial12ready clips include numbers0–5, activation, retry/praise and freeze victory; no lesson instructions were recorded at that checkpoint. Generate feedback variants with the Actions workflow prefix `feedback.` before resuming the full catalog.

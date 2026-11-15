@@ -4,6 +4,7 @@ import { readFile, writeFile, mkdir, stat, rename } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
+import feedback from '../src/content/feedback.json' with {type:'json'};
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const audioDir = resolve(root, 'public/audio');
@@ -41,10 +42,7 @@ export function collectCatalog(lessons) {
     clips.set(id, {id, text, lang});
   };
   add('audio.activation.he', 'הקול מופעל. בואי נשחק!', 'he');
-  add('feedback.success.he', 'כל הכבוד! הצלחת!', 'he');
-  add('feedback.retry.he', 'בואי ננסה שוב, לאט לאט.', 'he');
-  add('feedback.success.en', 'Well done! You did it!', 'en');
-  add('feedback.retry.en', 'Let’s try again, slowly.', 'en');
+  for (const clip of [...feedback.success, ...feedback.retry]) add(clip.id,clip.text,clip.lang);
   add('game.freeze.win', 'איזה קסם! הכול קפוא. הצלחת!', 'he');
   const hebrewNumbers = ['אפס', 'אחת', 'שתיים', 'שלוש', 'ארבע', 'חמש', 'שש', 'שבע', 'שמונה', 'תשע', 'עשר', 'אחת עשרה', 'שתים עשרה', 'שלוש עשרה', 'ארבע עשרה', 'חמש עשרה', 'שש עשרה', 'שבע עשרה', 'שמונה עשרה', 'תשע עשרה', 'עשרים'];
   const englishNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
