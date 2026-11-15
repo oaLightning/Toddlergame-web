@@ -18,7 +18,7 @@ export default function App(){
  const lesson=lessons.find(l=>l.id===lessonId);const page=lesson?.pages[pageIndex];const completed=lesson?.pages.filter(p=>progress[progressKey(lesson.id,p.id)]).length??0;
  useEffect(()=>{try{localStorage.setItem(STORAGE,JSON.stringify(progress));}catch{setMessage('הדפדפן לא הצליח לשמור. אפשר לייצא את ההתקדמות במסך ההורים.');}},[progress]);
  useEffect(()=>{try{localStorage.setItem('asia-narration',narration?'on':'off');}catch{/* Narration still works without persistence. */}},[narration]);
- useEffect(()=>{fetch(assetUrl('audio/manifest.json')).then(r=>r.ok?r.json():{}).then(data=>setReadyAudio(Object.values(data).filter((entry:unknown)=>!!entry&&typeof entry==='object'&&(entry as {status?:string}).status==='ready').length)).catch(()=>{});},[]);
+ useEffect(()=>{fetch(assetUrl('audio/manifest.json'),{cache:'no-store'}).then(r=>r.ok?r.json():{}).then(data=>setReadyAudio(Object.values(data).filter((entry:unknown)=>!!entry&&typeof entry==='object'&&(entry as {status?:string}).status==='ready').length)).catch(()=>{});},[]);
  useEffect(()=>{fetch(assetUrl('characters/manifest.json')).then(r=>r.ok?r.json():[]).then(data=>{const list=Array.isArray(data)?data:data.characters??data.assets??[];setCharacters(list);}).catch(()=>{});},[]);
  useEffect(()=>{successGuard.current=false;if(timer.current)clearTimeout(timer.current);setFeedback(null);setAttempts(0);setCameo(null);if(page&&lesson)speak(page.speech??page.instruction,speechLocale(page.speech??page.instruction,lesson.locale),page.audioId??`${lesson.id}.${page.id}`,narration);return stopSpeech;},[lessonId,pageIndex,narration]);
  useEffect(()=>()=>{if(timer.current)clearTimeout(timer.current);},[]);

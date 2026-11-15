@@ -8,8 +8,9 @@ export const subscribeAudio = (callback: () => void) => { subscribers.add(callba
 function update(next: Partial<AudioStatus>) { status = { ...status, ...next }; subscribers.forEach(callback => callback()); }
 export const assetUrl = (path: string) => /^(https?:|data:|blob:)/.test(path) ? path : import.meta.env.BASE_URL + path.replace(/^\//, '');
 let audioManifest: Record<string, string | Clip> = {};
-fetch(assetUrl('audio/manifest.json')).then(r => r.ok ? r.json() : {}).then((data: Record<string, unknown>) => {
-  audioManifest = (data.clips ?? data.entries ?? data) as Record<string, string | Clip>;
+let manifestLoaded = false;
+const manifestReady = fetch(assetUrl('audio/manifest.json'), {cache:'no-store'}).then(r => r.ok ? r.json() : {}).then((data: Record<string, unknown>) => {
+  audioManifest = (data.clips ?? data.entries ?? data) as Record<string, string | Clip>; manifestLoaded = true;
 }).catch(() => update({ error: 'לא הצלחנו לטעון את רשימת ההקלטות. נסי לרענן.' }));
 
 function playbackSession() {
@@ -46,7 +47,9 @@ export function enableAudio(): void {
 export function speak(text: string, locale: string, id?: string, enabled = true): void {
   stopSpeech(); if (!enabled) return;
   playbackSession(); const request = speechRequest;
-  const entry = audioManifest[id ?? speechClipId(text, locale) ?? ''];
+  const clipId = id ?? speechClipId(text, locale) ?? '';
+  const entry = audioManifest[clipId];
+  if(!manifestLoaded)void manifestReady.then(()=>{const ready=audioManifest[clipId];if(request===speechRequest&&(typeof ready==='string'||ready?.status==='ready'))speak(text,locale,clipId,enabled);});
   const file = typeof entry === 'string' ? entry : entry?.status === 'pending' ? undefined : entry?.src ?? entry?.file ?? entry?.path;
   const fallback = () => {
     if (request !== speechRequest) return;
@@ -66,7 +69,7 @@ export function speak(text: string, locale: string, id?: string, enabled = true)
   };
   if (file) {
     speechPlayer ??= player(); speechPlayer.src = assetUrl(file); speechPlayer.onerror = fallback;
-    void speechPlayer.play().then(() => { if (request === speechRequest) update({ activated: true, speech: 'הקלטה מוכנה פועלת' }); }).catch(fallback);
+    void speechPlayer.play().then(() => { if (request === speechRequest) update({ activated: true, speech: 'הקלטה מוכנה פועלת', error: '' }); }).catch(fallback);
   } else fallback();
 }
 /** Bundled media clips are independent of Web Audio and device speech support. */
