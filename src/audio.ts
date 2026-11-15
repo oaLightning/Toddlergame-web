@@ -79,7 +79,7 @@ export function speak(text: string, locale: string, id?: string, enabled = true)
     window.speechSynthesis.speak(utterance);
   };
   if (file) {
-    speechPlayer ??= player(); speechPlayer.playbackRate=RECORDED_SPEECH_RATE; speechPlayer.preservesPitch=true; speechPlayer.src = assetUrl(file); speechPlayer.onerror = fallback;
+    speechPlayer ??= player(); speechPlayer.src = assetUrl(file); speechPlayer.defaultPlaybackRate=RECORDED_SPEECH_RATE; speechPlayer.playbackRate=RECORDED_SPEECH_RATE; speechPlayer.preservesPitch=true; speechPlayer.onerror = fallback;
     void speechPlayer.play().then(() => { if (request === speechRequest) update({ activated: true, speech: 'הקלטה מוכנה פועלת', error: '' }); }).catch(fallback);
   } else fallback();
 }
