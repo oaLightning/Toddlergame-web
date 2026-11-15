@@ -11,3 +11,11 @@ test('letter painting uses objects with matching starting letters and explicit o
  assert.equal(outlineFor('a','fish').name,'דג');
  assert.equal(outlineFor('t','tree').name,'tree');assert.equal(outlineFor('12').glyph,'12');
 });
+test('new Hebrew and English letters paint their own outlined glyph rather than unrelated objects',()=>{
+ for(const target of [...'הוזחטיכלמנסעפצקרשתךםןףץbcdefghijklnopqruvwxyz']){
+  const outline=outlineFor(target);
+  assert.equal(outline.glyph,target);
+  assert.equal(outline.paths.length,0);
+  assert.ok(outline.name.includes(target));
+ }
+});

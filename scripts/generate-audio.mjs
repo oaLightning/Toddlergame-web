@@ -50,8 +50,8 @@ export function collectCatalog(lessons) {
   const englishNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
   hebrewNumbers.forEach((word,n) => add(`number.he.${n}`, word, 'he'));
   englishNumbers.forEach((word,n) => add(`number.en.${n}`, word, 'en'));
-  for (const [id,name] of Object.entries({alef:'אָלֶף',bet:'בֵּית',gimel:'גִּימֶל',dalet:'דָּלֶת'})) add(`key.he.${id}`,name,'he');
-  for (const letter of ['a','s','t','m']) add(`key.en.${letter}`,letter.toUpperCase(),'en');
+  for (const [id,name] of Object.entries({alef:'אָלֶף',bet:'בֵּית',gimel:'גִּימֶל',dalet:'דָּלֶת',he:'הֵא',vav:'וָו',zayin:'זַיִן',het:'חֵית',tet:'טֵית',yod:'יוֹד',kaf:'כַּף',lamed:'לָמֶד',mem:'מֵם',nun:'נוּן',samekh:'סָמֶךְ',ayin:'עַיִן',pe:'פֵּא',tsadi:'צָדִי',qof:'קוּף',resh:'רֵישׁ',shin:'שִׁין',tav:'תָּו','kaf-final':'כַּף סוֹפִית','mem-final':'מֵם סוֹפִית','nun-final':'נוּן סוֹפִית','pe-final':'פֵּא סוֹפִית','tsadi-final':'צָדִי סוֹפִית'})) add(`key.he.${id}`,name,'he');
+  for (const letter of 'abcdefghijklmnopqrstuvwxyz') add(`key.en.${letter}`,letter.toUpperCase(),'en');
   for (const lesson of lessons) for (const page of lesson.pages) {
     const id = page.audioId ?? `${lesson.id}.${page.id}`;
     const spoken = page.speech ?? page.instruction;

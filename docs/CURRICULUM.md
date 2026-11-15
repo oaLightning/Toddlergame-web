@@ -1,4 +1,4 @@
-# Starter curriculum
+# Curriculum
 
 All books and pages are selectable. Order is a suggestion, never a lock. Pages record completion, not a claim that a child has mastered a skill.
 
@@ -22,9 +22,13 @@ Three books cover 0–5, 6–10, 11–20. Each number receives a count-and-match
 
 Addition and subtraction use thirteen visual stories each, all operands/results within 0–10; subtraction never yields a negative quantity. Both include zero (adding to an empty group and taking everything away). Initial stories use answer choices; each operation ends with three harder visual stories answered on a keypad. Each number range also has a numeral-coloring page, separate from coloring matching quantities. A separate keypad book practices entering counted quantities without multiple-choice cues.
 
-## Deferred exercise modes
+## Full alphabet and word-building extensions
 
-The shared renderer has no API for assembling numeral outlines from letter-shaped pieces or freehand numeral recognition. These are extension points, not silently simulated as completed features. Current harder number answers use a visible keypad, including the final three visual stories in each arithmetic book.
+Hebrew continues in order through ת. Five final-form books appear directly after כ, מ, נ, פ and צ; final forms are alternate shapes of the same letter rather than additional alphabet positions. Every new letter has explicit upright print tracing guides, familiar word examples, recognition, finding and review. Later coloring pages paint the letter glyph; the original starter objects remain available.
+
+English continues from s/a/t/m through i/n/p/c/k/e/h/r/d/g/o/u/l/f/b/j/v/w/x/y/z/q. Short vowels are distinguished from letter names; c/g examples use their hard sound, x is found inside/at the end of words such as fox (not falsely presented as an initial /ks/ word), and q/u are discussed together. Milestone word books use previously introduced letters; written-letter counting is separate from phoneme counting. Keyboard chapters cover the expanded alphabets in small selectable groups.
+
+Every number 0–20 now has a freehand painting page. The number creation book builds ten numeral shapes from familiar letter tiles and practices handwritten answers through 20. This is a letter-tile mosaic, not gematria. Handwriting recognition runs on the device, proposes candidates for explicit confirmation, and provides a keypad alternative. It does not silently interpret an uncertain toddler drawing as a wrong answer. Additional visual arithmetic stories allow the same assisted drawn-digit response.
 
 ## Extending
 

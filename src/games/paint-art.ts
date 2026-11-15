@@ -14,7 +14,10 @@ export const paintOutlines: Record<string,PaintOutline> = {
 export function outlineFor(target?:string,outline?:string): PaintOutline {
   if(!outline&&/^(?:0|[1-9]|1[0-9]|20)$/.test(target??''))return {name:target!,glyph:target,paths:[]};
   const map:Record<string,string>={'א':'watermelon','ב':'banana','ג':'carrot','ד':'fish',a:'apple',s:'sun',t:'turtle',m:'moon'};
-  return paintOutlines[outline??map[target??'']??'flower']??paintOutlines.flower;
+  const mapped=outline??map[target??''];
+  if(mapped&&paintOutlines[mapped])return paintOutlines[mapped];
+  if(!outline&&/^[א-תa-z]$/i.test(target??''))return {name:/^[א-ת]$/.test(target!)?`האות ${target}`:`Letter ${target}`,glyph:target,paths:[]};
+  return paintOutlines.flower;
 }
 export function paintPoint(clientX:number,clientY:number,rect:{left:number;top:number;width:number;height:number}):{x:number;y:number} {
   return {x:Math.max(0,Math.min(600,(clientX-rect.left)/rect.width*600)),y:Math.max(0,Math.min(420,(clientY-rect.top)/rect.height*420))};

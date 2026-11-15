@@ -7,22 +7,33 @@ import { createServer } from 'vite';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const server = await createServer({ root, server: { middlewareMode: true }, appType: 'custom', optimizeDeps: { noDiscovery: true, include: [], entries: [] } });
 try {
-  const { lessons } = await server.ssrLoadModule('/src/content/index.ts');
+  const { lessons, wordBuildingPrerequisites = {} } = await server.ssrLoadModule('/src/content/index.ts');
   const ids = new Set();
-  const kinds = new Set(['introduce', 'trace', 'find', 'match', 'color', 'select', 'paint', 'count', 'arithmetic', 'keypad', 'build', 'freeze', 'puzzle', 'keybash', 'typing']);
+  const kinds = new Set(['introduce', 'trace', 'find', 'match', 'color', 'select', 'paint', 'count', 'arithmetic', 'keypad', 'handwrite', 'number-shape', 'build', 'freeze', 'puzzle', 'keybash', 'typing']);
   const plain = s => s.normalize('NFD').replace(/[\u0591-\u05C7]/g, '');
   const asset = path => assert(existsSync(resolve(root, 'public', path.replace(/^\.\//, ''))), `Missing asset: ${path}`);
   let pages = 0;
+  const introduced = {he: new Set(), en: new Set()};
+  const paintedNumbers = new Set();
   for (const lesson of lessons) {
     assert(!ids.has(lesson.id), `Duplicate lesson ID: ${lesson.id}`); ids.add(lesson.id);
     assert(lesson.pages.length > 0, `Empty lesson: ${lesson.id}`);
     const pageIds = new Set();
+    const first = lesson.pages[0];
+    if (first.kind === 'introduce' && /^(?:[א-ת]|[a-z])$/.test(first.target ?? '') && lesson.theme !== 'numbers') introduced[lesson.locale].add(first.target);
+    for (const glyph of wordBuildingPrerequisites[lesson.id] ?? []) assert(introduced[lesson.locale].has(glyph), `Prerequisite itself appears before its letter lesson: ${lesson.id}/${glyph}`);
     for (const p of lesson.pages) {
       const label = `${lesson.id}/${p.id}`;
       assert(!pageIds.has(p.id), `Duplicate page ID: ${label}`); pageIds.add(p.id);
       assert(kinds.has(p.kind), `Unsupported kind: ${label}`);
       assert(p.instruction?.trim(), `Missing instruction: ${label}`);
-      if (p.kind === 'trace') assert(p.target && p.strokes?.length, `Missing explicit trace strokes: ${label}`);
+      if (p.kind === 'trace') {
+        assert(p.target && p.strokes?.length, `Missing explicit trace strokes: ${label}`);
+        for (const stroke of p.strokes) assert(/^M[\d .,-]+/i.test(stroke) && !/NaN|undefined/.test(stroke), `Invalid trace path: ${label}`);
+      }
+      if (['match','select','color'].includes(p.kind) && [...(p.target ?? '')].length === 1 && /מתחיל/.test(p.instruction)) {
+        for (const choice of p.choices ?? []) assert.equal(plain(choice.label).toLowerCase().startsWith(plain(p.target).toLowerCase()), !!choice.correct, `Wrong initial-letter choice: ${label}/${choice.id}`);
+      }
       if (p.kind === 'find') assert(plain(p.text ?? '').includes(plain(p.target ?? '\0')), `No find target: ${label}`);
       if (['match', 'color', 'select'].includes(p.kind)) {
         assert(p.choices?.length >= 2, `Not enough choices: ${label}`);
@@ -30,6 +41,9 @@ try {
         assert(p.choices.some(c => !c.correct), `No distractor: ${label}`);
       }
       if (p.choices) assert(new Set(p.choices.map(c => c.id)).size === p.choices.length, `Duplicate choice IDs: ${label}`);
+      if (p.kind === 'paint' && /^\d+$/.test(p.target ?? '')) paintedNumbers.add(Number(p.target));
+      if (p.kind === 'handwrite' || p.responseMode === 'handwrite') assert(Number.isInteger(p.answer) && p.answer >= 0 && p.answer <= 20, `Invalid handwritten answer: ${label}`);
+      if (p.kind === 'number-shape') assert(/^[0-9]$/.test(p.target) && p.letters?.length && p.letters.every(l => /^[א-תa-z]$/.test(l)), `Invalid numeral shape: ${label}`);
       if (p.kind === 'count') assert(Number.isInteger(p.count) && p.count >= 0 && p.count <= 20 && p.answer === p.count, `Invalid count: ${label}`);
       if (p.kind === 'arithmetic') {
         const [a,b] = p.operands ?? [];
@@ -44,12 +58,16 @@ try {
       }
       if (p.kind === 'build') {
         const letters = [...(p.letters ?? [])];
+        for (const letter of [...plain(p.target ?? '')]) assert((wordBuildingPrerequisites[lesson.id] ?? []).includes(letter), `Word uses a letter not introduced at this milestone: ${label}/${letter}`);
         for (const letter of [...plain(p.target ?? '')]) { const i = letters.indexOf(letter); assert(i >= 0, `Cannot build ${label}: ${letter}`); letters.splice(i,1); }
       }
       for (const item of [...(p.examples ?? []), ...(p.choices ?? [])]) if (item.image) asset(item.image);
       pages++;
     }
   }
+  for (const glyph of [...'אבגדהוזחטיכלמנסעפצקרשתךםןףץ']) assert(introduced.he.has(glyph), `Missing Hebrew letter or final form ${glyph}`);
+  for (const glyph of [...'abcdefghijklmnopqrstuvwxyz']) assert(introduced.en.has(glyph), `Missing English letter ${glyph}`);
+  for (let n=0;n<=20;n++) assert(paintedNumbers.has(n), `Missing numeral painting ${n}`);
   for (const catalog of ['characters', 'portraits']) {
     const manifest = resolve(root, `public/${catalog}/manifest.json`);
     if (!existsSync(manifest)) { assert(catalog === 'portraits', `Missing catalog: ${catalog}`); continue; }

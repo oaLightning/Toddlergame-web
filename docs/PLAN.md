@@ -21,4 +21,4 @@ Use common objects, foods, Asia's name and checked familiar character names. Heb
 - Documentation for authoring lessons, adding characters/portraits/audio, static serving, GitHub Pages and known limitations.
 
 ## Later work
-Extend Hebrew beyond ד, broaden English phonics and word construction, add reviewed audio and future Asia drawings, optionally introduce numeral handwriting recognition. No backend is required for these extensions.
+The alphabet, word-building, numeral painting/mosaic and assisted handwritten-answer extensions are implemented. Remaining work: generate/review narration, broaden illustration assets and reviewed vowel/blending lessons, verify physical iPad touch, and add future Asia drawings. No backend is required.

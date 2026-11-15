@@ -260,8 +260,208 @@
     "lang": "he"
   },
   {
+    "id": "key.he.he",
+    "text": "הֵא",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.vav",
+    "text": "וָו",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.zayin",
+    "text": "זַיִן",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.het",
+    "text": "חֵית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.tet",
+    "text": "טֵית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.yod",
+    "text": "יוֹד",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.kaf",
+    "text": "כַּף",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.lamed",
+    "text": "לָמֶד",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.mem",
+    "text": "מֵם",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.nun",
+    "text": "נוּן",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.samekh",
+    "text": "סָמֶךְ",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.ayin",
+    "text": "עַיִן",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.pe",
+    "text": "פֵּא",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.tsadi",
+    "text": "צָדִי",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.qof",
+    "text": "קוּף",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.resh",
+    "text": "רֵישׁ",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.shin",
+    "text": "שִׁין",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.tav",
+    "text": "תָּו",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.kaf-final",
+    "text": "כַּף סוֹפִית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.mem-final",
+    "text": "מֵם סוֹפִית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.nun-final",
+    "text": "נוּן סוֹפִית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.pe-final",
+    "text": "פֵּא סוֹפִית",
+    "lang": "he"
+  },
+  {
+    "id": "key.he.tsadi-final",
+    "text": "צָדִי סוֹפִית",
+    "lang": "he"
+  },
+  {
     "id": "key.en.a",
     "text": "A",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.b",
+    "text": "B",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.c",
+    "text": "C",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.d",
+    "text": "D",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.e",
+    "text": "E",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.f",
+    "text": "F",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.g",
+    "text": "G",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.h",
+    "text": "H",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.i",
+    "text": "I",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.j",
+    "text": "J",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.k",
+    "text": "K",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.l",
+    "text": "L",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.m",
+    "text": "M",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.n",
+    "text": "N",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.o",
+    "text": "O",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.p",
+    "text": "P",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.q",
+    "text": "Q",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.r",
+    "text": "R",
     "lang": "en"
   },
   {
@@ -275,8 +475,33 @@
     "lang": "en"
   },
   {
-    "id": "key.en.m",
-    "text": "M",
+    "id": "key.en.u",
+    "text": "U",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.v",
+    "text": "V",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.w",
+    "text": "W",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.x",
+    "text": "X",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.y",
+    "text": "Y",
+    "lang": "en"
+  },
+  {
+    "id": "key.en.z",
+    "text": "Z",
     "lang": "en"
   },
   {
@@ -725,6 +950,1781 @@
     "lang": "he"
   },
   {
+    "id": "he-he-hello",
+    "text": "זאת האות הא. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he.he-he-hello.example.0",
+    "text": "הר",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות הא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות הא. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he.he-he-words.example.0",
+    "text": "הר",
+    "lang": "he"
+  },
+  {
+    "id": "he-he.he-he-words.example.1",
+    "text": "הדס",
+    "lang": "he"
+  },
+  {
+    "id": "he-he.he-he-words.example.2",
+    "text": "היפופוטם",
+    "lang": "he"
+  },
+  {
+    "id": "he-he.he-he-words.example.3",
+    "text": "הליקופטר",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-choose",
+    "text": "איזו מילה מתחילה באות הא?",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-find-name",
+    "text": "מצאי את כל הפעמים שהאות הא מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות הא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות הא?",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-he-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות דלת.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-hello",
+    "text": "זאת האות וו. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav.he-vav-hello.example.0",
+    "text": "ורד",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות וו.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות וו. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav.he-vav-words.example.0",
+    "text": "ורד",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav.he-vav-words.example.1",
+    "text": "וילון",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav.he-vav-words.example.2",
+    "text": "וו",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav.he-vav-words.example.3",
+    "text": "ופל",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-choose",
+    "text": "איזו מילה מתחילה באות וו?",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-find-name",
+    "text": "מצאי את כל הפעמים שהאות וו מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות וו.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות וו?",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-vav-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות הא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-hello",
+    "text": "זאת האות זין. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin.he-zayin-hello.example.0",
+    "text": "זברה",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות זין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות זין. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin.he-zayin-words.example.0",
+    "text": "זברה",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin.he-zayin-words.example.1",
+    "text": "זית",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin.he-zayin-words.example.2",
+    "text": "זר",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin.he-zayin-words.example.3",
+    "text": "זאב",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-choose",
+    "text": "איזו מילה מתחילה באות זין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-find-name",
+    "text": "מצאי את כל הפעמים שהאות זין מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות זין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות זין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-zayin-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות וו.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-hello",
+    "text": "זאת האות חית. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het.he-het-hello.example.0",
+    "text": "חתול",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות חית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות חית. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het.he-het-words.example.0",
+    "text": "חתול",
+    "lang": "he"
+  },
+  {
+    "id": "he-het.he-het-words.example.1",
+    "text": "חלב",
+    "lang": "he"
+  },
+  {
+    "id": "he-het.he-het-words.example.2",
+    "text": "חלון",
+    "lang": "he"
+  },
+  {
+    "id": "he-het.he-het-words.example.3",
+    "text": "חיפושית",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-choose",
+    "text": "איזו מילה מתחילה באות חית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-find-name",
+    "text": "מצאי את כל הפעמים שהאות חית מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות חית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות חית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-het-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות זין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-hello",
+    "text": "זאת האות טית. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet.he-tet-hello.example.0",
+    "text": "טלה",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות טית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות טית. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet.he-tet-words.example.0",
+    "text": "טלה",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet.he-tet-words.example.1",
+    "text": "טבעת",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet.he-tet-words.example.2",
+    "text": "טלפון",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet.he-tet-words.example.3",
+    "text": "טיל",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-choose",
+    "text": "איזו מילה מתחילה באות טית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-find-name",
+    "text": "מצאי את כל הפעמים שהאות טית מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות טית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות טית?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tet-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות חית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-hello",
+    "text": "זאת האות יוד. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod.he-yod-hello.example.0",
+    "text": "יד",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות יוד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות יוד. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod.he-yod-words.example.0",
+    "text": "יד",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod.he-yod-words.example.1",
+    "text": "ים",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod.he-yod-words.example.2",
+    "text": "ירח",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod.he-yod-words.example.3",
+    "text": "ינשוף",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-choose",
+    "text": "איזו מילה מתחילה באות יוד?",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-find-name",
+    "text": "מצאי את כל הפעמים שהאות יוד מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות יוד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות יוד?",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-yod-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות טית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-intro",
+    "text": "בואי נרכיב מילים מאותיות שכבר פגשנו. הקשיבי לכל המילה, ואז סדרי את האותיות שלה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod.he-words-to-yod-intro.example.0",
+    "text": "דובי",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod.he-words-to-yod-intro.example.1",
+    "text": "דוד",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod.he-words-to-yod-intro.example.2",
+    "text": "חיה",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod.he-words-to-yod-intro.example.3",
+    "text": "בגד",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod.he-words-to-yod-intro.example.4",
+    "text": "זהב",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-build-0",
+    "text": "המילה היא דובי. הרכיבי את המילה דובי, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-count-0",
+    "text": "ספרי את האותיות הכתובות במילה דובי. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-build-1",
+    "text": "המילה היא דוד. הרכיבי את המילה דוד, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-count-1",
+    "text": "ספרי את האותיות הכתובות במילה דוד. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-build-2",
+    "text": "המילה היא חיה. הרכיבי את המילה חיה, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-count-2",
+    "text": "ספרי את האותיות הכתובות במילה חיה. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-build-3",
+    "text": "המילה היא בגד. הרכיבי את המילה בגד, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-count-3",
+    "text": "ספרי את האותיות הכתובות במילה בגד. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-build-4",
+    "text": "המילה היא זהב. הרכיבי את המילה זהב, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-yod-count-4",
+    "text": "ספרי את האותיות הכתובות במילה זהב. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-hello",
+    "text": "זאת האות כף. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf.he-kaf-hello.example.0",
+    "text": "כדור",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות כף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות כף. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf.he-kaf-words.example.0",
+    "text": "כדור",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf.he-kaf-words.example.1",
+    "text": "כלב",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf.he-kaf-words.example.2",
+    "text": "כובע",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf.he-kaf-words.example.3",
+    "text": "כוכב",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-choose",
+    "text": "איזו מילה מתחילה באות כף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-find-name",
+    "text": "מצאי את כל הפעמים שהאות כף מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות כף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות כף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-kaf-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות יוד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf-hello",
+    "text": "זאת כף סופית. זו צורה אחרת של האות כ, שמופיעה בסוף מילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf.he-final-kaf-hello.example.0",
+    "text": "מלך",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf-trace",
+    "text": "עקבי אחרי הקווים של כף סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf-find",
+    "text": "מצאי את כל ההופעות של כף סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf-match",
+    "text": "במילה מלך, איזו צורה של האות מופיעה בסוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-kaf-paint",
+    "text": "בחרי צבע וצבעי את כף סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-hello",
+    "text": "זאת האות למד. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed.he-lamed-hello.example.0",
+    "text": "לב",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות למד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות למד. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed.he-lamed-words.example.0",
+    "text": "לב",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed.he-lamed-words.example.1",
+    "text": "לחם",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed.he-lamed-words.example.2",
+    "text": "לימון",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed.he-lamed-words.example.3",
+    "text": "לווייתן",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-choose",
+    "text": "איזו מילה מתחילה באות למד?",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-find-name",
+    "text": "מצאי את כל הפעמים שהאות למד מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות למד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות למד?",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-lamed-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות כף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-hello",
+    "text": "זאת האות מם. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem.he-mem-hello.example.0",
+    "text": "מים",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות מם.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות מם. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem.he-mem-words.example.0",
+    "text": "מים",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem.he-mem-words.example.1",
+    "text": "מטרייה",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem.he-mem-words.example.2",
+    "text": "מפתח",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem.he-mem-words.example.3",
+    "text": "מכונית",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-choose",
+    "text": "איזו מילה מתחילה באות מם?",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-find-name",
+    "text": "מצאי את כל הפעמים שהאות מם מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות מם.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות מם?",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-mem-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות למד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem-hello",
+    "text": "זאת מם סופית. זו צורה אחרת של האות מ, שמופיעה בסוף מילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem.he-final-mem-hello.example.0",
+    "text": "ים",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem-trace",
+    "text": "עקבי אחרי הקווים של מם סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem-find",
+    "text": "מצאי את כל ההופעות של מם סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem-match",
+    "text": "במילה ים, איזו צורה של האות מופיעה בסוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-mem-paint",
+    "text": "בחרי צבע וצבעי את מם סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-intro",
+    "text": "בואי נרכיב מילים מאותיות שכבר פגשנו. הקשיבי לכל המילה, ואז סדרי את האותיות שלה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.0",
+    "text": "מים",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.1",
+    "text": "ים",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.2",
+    "text": "לחם",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.3",
+    "text": "כלב",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.4",
+    "text": "חלב",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem.he-words-to-mem-intro.example.5",
+    "text": "מלך",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-0",
+    "text": "המילה היא מים. הרכיבי את המילה מים, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-0",
+    "text": "ספרי את האותיות הכתובות במילה מים. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-1",
+    "text": "המילה היא ים. הרכיבי את המילה ים, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-1",
+    "text": "ספרי את האותיות הכתובות במילה ים. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-2",
+    "text": "המילה היא לחם. הרכיבי את המילה לחם, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-2",
+    "text": "ספרי את האותיות הכתובות במילה לחם. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-3",
+    "text": "המילה היא כלב. הרכיבי את המילה כלב, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-3",
+    "text": "ספרי את האותיות הכתובות במילה כלב. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-4",
+    "text": "המילה היא חלב. הרכיבי את המילה חלב, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-4",
+    "text": "ספרי את האותיות הכתובות במילה חלב. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-build-5",
+    "text": "המילה היא מלך. הרכיבי את המילה מלך, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-mem-count-5",
+    "text": "ספרי את האותיות הכתובות במילה מלך. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-hello",
+    "text": "זאת האות נון. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun.he-nun-hello.example.0",
+    "text": "נעל",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות נון.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות נון. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun.he-nun-words.example.0",
+    "text": "נעל",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun.he-nun-words.example.1",
+    "text": "נר",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun.he-nun-words.example.2",
+    "text": "נחש",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun.he-nun-words.example.3",
+    "text": "נמר",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-choose",
+    "text": "איזו מילה מתחילה באות נון?",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-find-name",
+    "text": "מצאי את כל הפעמים שהאות נון מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות נון.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות נון?",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-nun-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות מם.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun-hello",
+    "text": "זאת נון סופית. זו צורה אחרת של האות נ, שמופיעה בסוף מילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun.he-final-nun-hello.example.0",
+    "text": "בלון",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun-trace",
+    "text": "עקבי אחרי הקווים של נון סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun-find",
+    "text": "מצאי את כל ההופעות של נון סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun-match",
+    "text": "במילה בלון, איזו צורה של האות מופיעה בסוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-nun-paint",
+    "text": "בחרי צבע וצבעי את נון סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-hello",
+    "text": "זאת האות סמך. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh.he-samekh-hello.example.0",
+    "text": "סוס",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות סמך.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות סמך. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh.he-samekh-words.example.0",
+    "text": "סוס",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh.he-samekh-words.example.1",
+    "text": "ספר",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh.he-samekh-words.example.2",
+    "text": "סירה",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh.he-samekh-words.example.3",
+    "text": "סוכרייה",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-choose",
+    "text": "איזו מילה מתחילה באות סמך?",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-find-name",
+    "text": "מצאי את כל הפעמים שהאות סמך מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות סמך.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות סמך?",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-samekh-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות נון.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-hello",
+    "text": "זאת האות עין. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin.he-ayin-hello.example.0",
+    "text": "עין",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות עין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות עין. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin.he-ayin-words.example.0",
+    "text": "עין",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin.he-ayin-words.example.1",
+    "text": "עץ",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin.he-ayin-words.example.2",
+    "text": "עוגה",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin.he-ayin-words.example.3",
+    "text": "עכבר",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-choose",
+    "text": "איזו מילה מתחילה באות עין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-find-name",
+    "text": "מצאי את כל הפעמים שהאות עין מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות עין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות עין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-ayin-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות סמך.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-hello",
+    "text": "זאת האות פא. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe.he-pe-hello.example.0",
+    "text": "פרח",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות פא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות פא. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe.he-pe-words.example.0",
+    "text": "פרח",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe.he-pe-words.example.1",
+    "text": "פיל",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe.he-pe-words.example.2",
+    "text": "פרפר",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe.he-pe-words.example.3",
+    "text": "פטרייה",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-choose",
+    "text": "איזו מילה מתחילה באות פא?",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-find-name",
+    "text": "מצאי את כל הפעמים שהאות פא מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות פא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות פא?",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-pe-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות עין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe-hello",
+    "text": "זאת פא סופית. זו צורה אחרת של האות פ, שמופיעה בסוף מילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe.he-final-pe-hello.example.0",
+    "text": "אף",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe-trace",
+    "text": "עקבי אחרי הקווים של פא סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe-find",
+    "text": "מצאי את כל ההופעות של פא סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe-match",
+    "text": "במילה אף, איזו צורה של האות מופיעה בסוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-pe-paint",
+    "text": "בחרי צבע וצבעי את פא סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-hello",
+    "text": "זאת האות צדי. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi.he-tsadi-hello.example.0",
+    "text": "צב",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות צדי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות צדי. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi.he-tsadi-words.example.0",
+    "text": "צב",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi.he-tsadi-words.example.1",
+    "text": "ציפור",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi.he-tsadi-words.example.2",
+    "text": "צפרדע",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi.he-tsadi-words.example.3",
+    "text": "צדף",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-choose",
+    "text": "איזו מילה מתחילה באות צדי?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-find-name",
+    "text": "מצאי את כל הפעמים שהאות צדי מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות צדי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות צדי?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tsadi-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות פא.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi-hello",
+    "text": "זאת צדי סופית. זו צורה אחרת של האות צ, שמופיעה בסוף מילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi.he-final-tsadi-hello.example.0",
+    "text": "עץ",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi-trace",
+    "text": "עקבי אחרי הקווים של צדי סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi-find",
+    "text": "מצאי את כל ההופעות של צדי סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi-match",
+    "text": "במילה עץ, איזו צורה של האות מופיעה בסוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-final-tsadi-paint",
+    "text": "בחרי צבע וצבעי את צדי סופית.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-intro",
+    "text": "בואי נרכיב מילים מאותיות שכבר פגשנו. הקשיבי לכל המילה, ואז סדרי את האותיות שלה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.0",
+    "text": "עץ",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.1",
+    "text": "סוס",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.2",
+    "text": "צב",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.3",
+    "text": "נעל",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.4",
+    "text": "אף",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi.he-words-to-tsadi-intro.example.5",
+    "text": "גן",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-0",
+    "text": "המילה היא עץ. הרכיבי את המילה עץ, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-0",
+    "text": "ספרי את האותיות הכתובות במילה עץ. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-1",
+    "text": "המילה היא סוס. הרכיבי את המילה סוס, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-1",
+    "text": "ספרי את האותיות הכתובות במילה סוס. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-2",
+    "text": "המילה היא צב. הרכיבי את המילה צב, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-2",
+    "text": "ספרי את האותיות הכתובות במילה צב. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-3",
+    "text": "המילה היא נעל. הרכיבי את המילה נעל, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-3",
+    "text": "ספרי את האותיות הכתובות במילה נעל. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-4",
+    "text": "המילה היא אף. הרכיבי את המילה אף, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-4",
+    "text": "ספרי את האותיות הכתובות במילה אף. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-build-5",
+    "text": "המילה היא גן. הרכיבי את המילה גן, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-to-tsadi-count-5",
+    "text": "ספרי את האותיות הכתובות במילה גן. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-hello",
+    "text": "זאת האות קוף. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof.he-qof-hello.example.0",
+    "text": "קוף",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות קוף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות קוף. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof.he-qof-words.example.0",
+    "text": "קוף",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof.he-qof-words.example.1",
+    "text": "קשת",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof.he-qof-words.example.2",
+    "text": "קובייה",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof.he-qof-words.example.3",
+    "text": "קומקום",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-choose",
+    "text": "איזו מילה מתחילה באות קוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-find-name",
+    "text": "מצאי את כל הפעמים שהאות קוף מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות קוף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות קוף?",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-qof-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות צדי.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-hello",
+    "text": "זאת האות ריש. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh.he-resh-hello.example.0",
+    "text": "רכבת",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות ריש.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות ריש. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh.he-resh-words.example.0",
+    "text": "רכבת",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh.he-resh-words.example.1",
+    "text": "רימון",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh.he-resh-words.example.2",
+    "text": "רובוט",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh.he-resh-words.example.3",
+    "text": "רגל",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-choose",
+    "text": "איזו מילה מתחילה באות ריש?",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-find-name",
+    "text": "מצאי את כל הפעמים שהאות ריש מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות ריש.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות ריש?",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-resh-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות קוף.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-hello",
+    "text": "זאת האות שין. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin.he-shin-hello.example.0",
+    "text": "שמש",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות שין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות שין. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin.he-shin-words.example.0",
+    "text": "שמש",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin.he-shin-words.example.1",
+    "text": "שעון",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin.he-shin-words.example.2",
+    "text": "שוקולד",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin.he-shin-words.example.3",
+    "text": "שבלול",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-choose",
+    "text": "איזו מילה מתחילה באות שין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-find-name",
+    "text": "מצאי את כל הפעמים שהאות שין מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות שין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות שין?",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-shin-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות ריש.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-hello",
+    "text": "זאת האות תו. בואי נכיר אותה יחד.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav.he-tav-hello.example.0",
+    "text": "תפוח",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-trace",
+    "text": "עקבי באצבע אחרי הקווים של האות תו.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-words",
+    "text": "בואי נסתכל על מילים שמתחילות באות תו. לחצי על תמונה כדי לשמוע את המילה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav.he-tav-words.example.0",
+    "text": "תפוח",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav.he-tav-words.example.1",
+    "text": "תות",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav.he-tav-words.example.2",
+    "text": "תוף",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav.he-tav-words.example.3",
+    "text": "תירס",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-choose",
+    "text": "איזו מילה מתחילה באות תו?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-find-name",
+    "text": "מצאי את כל הפעמים שהאות תו מופיעה במילים.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-paint",
+    "text": "בחרי את הדברים ששמם מתחיל באות תו.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-letter-hunt",
+    "text": "עוד חיפוש קטן. איפה האות תו?",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-free-paint",
+    "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
+    "lang": "he"
+  },
+  {
+    "id": "he-tav-review",
+    "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות שין.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-intro",
+    "text": "בואי נרכיב מילים מאותיות שכבר פגשנו. הקשיבי לכל המילה, ואז סדרי את האותיות שלה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.0",
+    "text": "תות",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.1",
+    "text": "שמש",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.2",
+    "text": "קשת",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.3",
+    "text": "פרח",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.4",
+    "text": "חתול",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet.he-words-alphabet-intro.example.5",
+    "text": "אסיה",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-0",
+    "text": "המילה היא תות. הרכיבי את המילה תות, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-0",
+    "text": "ספרי את האותיות הכתובות במילה תות. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-1",
+    "text": "המילה היא שמש. הרכיבי את המילה שמש, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-1",
+    "text": "ספרי את האותיות הכתובות במילה שמש. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-2",
+    "text": "המילה היא קשת. הרכיבי את המילה קשת, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-2",
+    "text": "ספרי את האותיות הכתובות במילה קשת. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-3",
+    "text": "המילה היא פרח. הרכיבי את המילה פרח, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-3",
+    "text": "ספרי את האותיות הכתובות במילה פרח. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-4",
+    "text": "המילה היא חתול. הרכיבי את המילה חתול, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-4",
+    "text": "ספרי את האותיות הכתובות במילה חתול. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-build-5",
+    "text": "המילה היא אסיה. הרכיבי את המילה אסיה, מימין לשמאל.",
+    "lang": "he"
+  },
+  {
+    "id": "he-words-alphabet-count-5",
+    "text": "ספרי את האותיות הכתובות במילה אסיה. כמה אותיות יש בה?",
+    "lang": "he"
+  },
+  {
     "id": "en-s-hello",
     "text": "This is the letter S. Here is its lowercase shape.",
     "lang": "en"
@@ -761,7 +2761,7 @@
   },
   {
     "id": "en-s-listen",
-    "text": "Listen to the first sound in sun. Sun. Sock. Sand.",
+    "text": "Listen to the first sound in sun. sun. sock. sand. star. snake. strawberry.",
     "lang": "en"
   },
   {
@@ -866,7 +2866,7 @@
   },
   {
     "id": "en-a-listen",
-    "text": "Listen to the short vowel at the start of apple. Apple. Ant. Alligator. Ambulance.",
+    "text": "Listen to the first sound in apple. apple. ant. alligator. ambulance. astronaut. axe.",
     "lang": "en"
   },
   {
@@ -971,7 +2971,7 @@
   },
   {
     "id": "en-t-listen",
-    "text": "Listen to the first sound in tomato. Tomato. Turtle. Tiger.",
+    "text": "Listen to the first sound in tomato. tomato. turtle. tiger. tree. train. tent.",
     "lang": "en"
   },
   {
@@ -1076,7 +3076,7 @@
   },
   {
     "id": "en-m-listen",
-    "text": "Listen to the first sound in moon. Moon. Milk. Monkey.",
+    "text": "Listen to the first sound in moon. moon. milk. monkey. mouse. mushroom. mango.",
     "lang": "en"
   },
   {
@@ -1175,8 +3175,2043 @@
     "lang": "en"
   },
   {
+    "id": "en-i-hello",
+    "text": "This is the letter I. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-hello.example.0",
+    "text": "insect",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-hello.example.1",
+    "text": "igloo",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-hello.example.2",
+    "text": "ink",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-hello.example.3",
+    "text": "iguana",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-listen",
+    "text": "Listen to the first sound in insect. insect. igloo. ink. iguana.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-listen.example.0",
+    "text": "ink",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-listen.example.1",
+    "text": "iguana",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i.en-i-more-words.example.0",
+    "text": "iguana",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-trace",
+    "text": "Trace the lowercase letter I.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-find",
+    "text": "Find every lowercase I in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-match",
+    "text": "Which word starts with lowercase I?",
+    "lang": "en"
+  },
+  {
+    "id": "en-i-color",
+    "text": "Choose the pictures whose words start with lowercase I.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-hello",
+    "text": "This is the letter N. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-hello.example.0",
+    "text": "nest",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-hello.example.1",
+    "text": "net",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-hello.example.2",
+    "text": "nose",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-hello.example.3",
+    "text": "nut",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-listen",
+    "text": "Listen to the first sound in nest. nest. net. nose. nut.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-listen.example.0",
+    "text": "nose",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-listen.example.1",
+    "text": "nut",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n.en-n-more-words.example.0",
+    "text": "nut",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-trace",
+    "text": "Trace the lowercase letter N.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-find",
+    "text": "Find every lowercase N in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-match",
+    "text": "Which word starts with lowercase N?",
+    "lang": "en"
+  },
+  {
+    "id": "en-n-color",
+    "text": "Choose the pictures whose words start with lowercase N.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-hello",
+    "text": "This is the letter P. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-hello.example.0",
+    "text": "pig",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-hello.example.1",
+    "text": "pen",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-hello.example.2",
+    "text": "pear",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-hello.example.3",
+    "text": "pumpkin",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-listen",
+    "text": "Listen to the first sound in pig. pig. pen. pear. pumpkin.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-listen.example.0",
+    "text": "pear",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-listen.example.1",
+    "text": "pumpkin",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p.en-p-more-words.example.0",
+    "text": "pumpkin",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-trace",
+    "text": "Trace the lowercase letter P.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-find",
+    "text": "Find every lowercase P in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-match",
+    "text": "Which word starts with lowercase P?",
+    "lang": "en"
+  },
+  {
+    "id": "en-p-color",
+    "text": "Choose the pictures whose words start with lowercase P.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-hello",
+    "text": "This is the letter C. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-hello.example.0",
+    "text": "cat",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-hello.example.1",
+    "text": "cup",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-hello.example.2",
+    "text": "car",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-hello.example.3",
+    "text": "carrot",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-listen",
+    "text": "Listen to the first sound in cat. cat. cup. car. carrot.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-listen.example.0",
+    "text": "car",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-listen.example.1",
+    "text": "carrot",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c.en-c-more-words.example.0",
+    "text": "carrot",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-trace",
+    "text": "Trace the lowercase letter C.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-find",
+    "text": "Find every lowercase C in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-match",
+    "text": "Which word starts with lowercase C?",
+    "lang": "en"
+  },
+  {
+    "id": "en-c-color",
+    "text": "Choose the pictures whose words start with lowercase C.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-hello",
+    "text": "This is the letter K. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-hello.example.0",
+    "text": "kite",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-hello.example.1",
+    "text": "key",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-hello.example.2",
+    "text": "kangaroo",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-hello.example.3",
+    "text": "kitten",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-listen",
+    "text": "Listen to the first sound in kite. kite. key. kangaroo. kitten.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-listen.example.0",
+    "text": "kangaroo",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-listen.example.1",
+    "text": "kitten",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k.en-k-more-words.example.0",
+    "text": "kitten",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-trace",
+    "text": "Trace the lowercase letter K.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-find",
+    "text": "Find every lowercase K in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-match",
+    "text": "Which word starts with lowercase K?",
+    "lang": "en"
+  },
+  {
+    "id": "en-k-color",
+    "text": "Choose the pictures whose words start with lowercase K.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-intro",
+    "text": "Let us build some words from letters we have met. Listen to each whole word before you begin.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.0",
+    "text": "cat",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.1",
+    "text": "pin",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.2",
+    "text": "pan",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.3",
+    "text": "tap",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.4",
+    "text": "map",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc.en-words-first-cvc-intro.example.5",
+    "text": "tin",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-0",
+    "text": "Build the word cat. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-0",
+    "text": "Count the written letters in cat. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-1",
+    "text": "Build the word pin. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-1",
+    "text": "Count the written letters in pin. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-2",
+    "text": "Build the word pan. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-2",
+    "text": "Count the written letters in pan. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-3",
+    "text": "Build the word tap. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-3",
+    "text": "Count the written letters in tap. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-4",
+    "text": "Build the word map. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-4",
+    "text": "Count the written letters in map. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-build-5",
+    "text": "Build the word tin. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-first-cvc-count-5",
+    "text": "Count the written letters in tin. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-hello",
+    "text": "This is the letter E. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-hello.example.0",
+    "text": "egg",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-hello.example.1",
+    "text": "elephant",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-hello.example.2",
+    "text": "elbow",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-hello.example.3",
+    "text": "elf",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-listen",
+    "text": "Listen to the first sound in egg. egg. elephant. elbow. elf.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-listen.example.0",
+    "text": "elbow",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-listen.example.1",
+    "text": "elf",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e.en-e-more-words.example.0",
+    "text": "elf",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-trace",
+    "text": "Trace the lowercase letter E.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-find",
+    "text": "Find every lowercase E in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-match",
+    "text": "Which word starts with lowercase E?",
+    "lang": "en"
+  },
+  {
+    "id": "en-e-color",
+    "text": "Choose the pictures whose words start with lowercase E.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-hello",
+    "text": "This is the letter H. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-hello.example.0",
+    "text": "hat",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-hello.example.1",
+    "text": "hand",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-hello.example.2",
+    "text": "horse",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-hello.example.3",
+    "text": "house",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-listen",
+    "text": "Listen to the first sound in hat. hat. hand. horse. house.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-listen.example.0",
+    "text": "horse",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-listen.example.1",
+    "text": "house",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h.en-h-more-words.example.0",
+    "text": "house",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-trace",
+    "text": "Trace the lowercase letter H.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-find",
+    "text": "Find every lowercase H in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-match",
+    "text": "Which word starts with lowercase H?",
+    "lang": "en"
+  },
+  {
+    "id": "en-h-color",
+    "text": "Choose the pictures whose words start with lowercase H.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-hello",
+    "text": "This is the letter R. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-hello.example.0",
+    "text": "rabbit",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-hello.example.1",
+    "text": "rainbow",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-hello.example.2",
+    "text": "robot",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-hello.example.3",
+    "text": "rose",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-listen",
+    "text": "Listen to the first sound in rabbit. rabbit. rainbow. robot. rose.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-listen.example.0",
+    "text": "robot",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-listen.example.1",
+    "text": "rose",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r.en-r-more-words.example.0",
+    "text": "rose",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-trace",
+    "text": "Trace the lowercase letter R.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-find",
+    "text": "Find every lowercase R in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-match",
+    "text": "Which word starts with lowercase R?",
+    "lang": "en"
+  },
+  {
+    "id": "en-r-color",
+    "text": "Choose the pictures whose words start with lowercase R.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-hello",
+    "text": "This is the letter D. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-hello.example.0",
+    "text": "dog",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-hello.example.1",
+    "text": "duck",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-hello.example.2",
+    "text": "doll",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-hello.example.3",
+    "text": "drum",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-listen",
+    "text": "Listen to the first sound in dog. dog. duck. doll. drum.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-listen.example.0",
+    "text": "doll",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-listen.example.1",
+    "text": "drum",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d.en-d-more-words.example.0",
+    "text": "drum",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-trace",
+    "text": "Trace the lowercase letter D.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-find",
+    "text": "Find every lowercase D in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-match",
+    "text": "Which word starts with lowercase D?",
+    "lang": "en"
+  },
+  {
+    "id": "en-d-color",
+    "text": "Choose the pictures whose words start with lowercase D.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-hello",
+    "text": "This is the letter G. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-hello.example.0",
+    "text": "goat",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-hello.example.1",
+    "text": "gift",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-hello.example.2",
+    "text": "grape",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-hello.example.3",
+    "text": "gorilla",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-listen",
+    "text": "Listen to the first sound in goat. goat. gift. grape. gorilla.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-listen.example.0",
+    "text": "grape",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-listen.example.1",
+    "text": "gorilla",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g.en-g-more-words.example.0",
+    "text": "gorilla",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-trace",
+    "text": "Trace the lowercase letter G.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-find",
+    "text": "Find every lowercase G in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-match",
+    "text": "Which word starts with lowercase G?",
+    "lang": "en"
+  },
+  {
+    "id": "en-g-color",
+    "text": "Choose the pictures whose words start with lowercase G.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-intro",
+    "text": "Let us build some words from letters we have met. Listen to each whole word before you begin.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.0",
+    "text": "hen",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.1",
+    "text": "red",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.2",
+    "text": "pig",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.3",
+    "text": "hat",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.4",
+    "text": "pen",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc.en-words-next-cvc-intro.example.5",
+    "text": "ten",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-0",
+    "text": "Build the word hen. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-0",
+    "text": "Count the written letters in hen. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-1",
+    "text": "Build the word red. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-1",
+    "text": "Count the written letters in red. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-2",
+    "text": "Build the word pig. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-2",
+    "text": "Count the written letters in pig. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-3",
+    "text": "Build the word hat. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-3",
+    "text": "Count the written letters in hat. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-4",
+    "text": "Build the word pen. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-4",
+    "text": "Count the written letters in pen. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-build-5",
+    "text": "Build the word ten. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-next-cvc-count-5",
+    "text": "Count the written letters in ten. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-hello",
+    "text": "This is the letter O. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-hello.example.0",
+    "text": "octopus",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-hello.example.1",
+    "text": "otter",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-hello.example.2",
+    "text": "ostrich",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-hello.example.3",
+    "text": "ox",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-listen",
+    "text": "Listen to the first sound in octopus. octopus. otter. ostrich. ox.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-listen.example.0",
+    "text": "ostrich",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-listen.example.1",
+    "text": "ox",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o.en-o-more-words.example.0",
+    "text": "ox",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-trace",
+    "text": "Trace the lowercase letter O.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-find",
+    "text": "Find every lowercase O in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-match",
+    "text": "Which word starts with lowercase O?",
+    "lang": "en"
+  },
+  {
+    "id": "en-o-color",
+    "text": "Choose the pictures whose words start with lowercase O.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-hello",
+    "text": "This is the letter U. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-hello.example.0",
+    "text": "umbrella",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-hello.example.1",
+    "text": "up",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-hello.example.2",
+    "text": "under",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-hello.example.3",
+    "text": "uncle",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-listen",
+    "text": "Listen to the first sound in umbrella. umbrella. up. under. uncle.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-listen.example.0",
+    "text": "under",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-listen.example.1",
+    "text": "uncle",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u.en-u-more-words.example.0",
+    "text": "uncle",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-trace",
+    "text": "Trace the lowercase letter U.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-find",
+    "text": "Find every lowercase U in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-match",
+    "text": "Which word starts with lowercase U?",
+    "lang": "en"
+  },
+  {
+    "id": "en-u-color",
+    "text": "Choose the pictures whose words start with lowercase U.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-intro",
+    "text": "Let us build some words from letters we have met. Listen to each whole word before you begin.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.0",
+    "text": "dog",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.1",
+    "text": "cup",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.2",
+    "text": "sun",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.3",
+    "text": "run",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.4",
+    "text": "rug",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels.en-words-short-vowels-intro.example.5",
+    "text": "gum",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-0",
+    "text": "Build the word dog. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-0",
+    "text": "Count the written letters in dog. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-1",
+    "text": "Build the word cup. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-1",
+    "text": "Count the written letters in cup. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-2",
+    "text": "Build the word sun. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-2",
+    "text": "Count the written letters in sun. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-3",
+    "text": "Build the word run. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-3",
+    "text": "Count the written letters in run. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-4",
+    "text": "Build the word rug. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-4",
+    "text": "Count the written letters in rug. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-build-5",
+    "text": "Build the word gum. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-short-vowels-count-5",
+    "text": "Count the written letters in gum. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-hello",
+    "text": "This is the letter L. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-hello.example.0",
+    "text": "lion",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-hello.example.1",
+    "text": "leaf",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-hello.example.2",
+    "text": "lemon",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-hello.example.3",
+    "text": "lamp",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-listen",
+    "text": "Listen to the first sound in lion. lion. leaf. lemon. lamp.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-listen.example.0",
+    "text": "lemon",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-listen.example.1",
+    "text": "lamp",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l.en-l-more-words.example.0",
+    "text": "lamp",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-trace",
+    "text": "Trace the lowercase letter L.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-find",
+    "text": "Find every lowercase L in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-match",
+    "text": "Which word starts with lowercase L?",
+    "lang": "en"
+  },
+  {
+    "id": "en-l-color",
+    "text": "Choose the pictures whose words start with lowercase L.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-hello",
+    "text": "This is the letter F. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-hello.example.0",
+    "text": "fish",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-hello.example.1",
+    "text": "fan",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-hello.example.2",
+    "text": "fox",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-hello.example.3",
+    "text": "frog",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-listen",
+    "text": "Listen to the first sound in fish. fish. fan. fox. frog.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-listen.example.0",
+    "text": "fox",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-listen.example.1",
+    "text": "frog",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f.en-f-more-words.example.0",
+    "text": "frog",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-trace",
+    "text": "Trace the lowercase letter F.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-find",
+    "text": "Find every lowercase F in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-match",
+    "text": "Which word starts with lowercase F?",
+    "lang": "en"
+  },
+  {
+    "id": "en-f-color",
+    "text": "Choose the pictures whose words start with lowercase F.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-hello",
+    "text": "This is the letter B. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-hello.example.0",
+    "text": "ball",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-hello.example.1",
+    "text": "bear",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-hello.example.2",
+    "text": "banana",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-hello.example.3",
+    "text": "boat",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-listen",
+    "text": "Listen to the first sound in ball. ball. bear. banana. boat.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-listen.example.0",
+    "text": "banana",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-listen.example.1",
+    "text": "boat",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b.en-b-more-words.example.0",
+    "text": "boat",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-trace",
+    "text": "Trace the lowercase letter B.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-find",
+    "text": "Find every lowercase B in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-match",
+    "text": "Which word starts with lowercase B?",
+    "lang": "en"
+  },
+  {
+    "id": "en-b-color",
+    "text": "Choose the pictures whose words start with lowercase B.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-hello",
+    "text": "This is the letter J. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-hello.example.0",
+    "text": "jam",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-hello.example.1",
+    "text": "jellyfish",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-hello.example.2",
+    "text": "juice",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-hello.example.3",
+    "text": "jacket",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-listen",
+    "text": "Listen to the first sound in jam. jam. jellyfish. juice. jacket.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-listen.example.0",
+    "text": "juice",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-listen.example.1",
+    "text": "jacket",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j.en-j-more-words.example.0",
+    "text": "jacket",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-trace",
+    "text": "Trace the lowercase letter J.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-find",
+    "text": "Find every lowercase J in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-match",
+    "text": "Which word starts with lowercase J?",
+    "lang": "en"
+  },
+  {
+    "id": "en-j-color",
+    "text": "Choose the pictures whose words start with lowercase J.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-hello",
+    "text": "This is the letter V. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-hello.example.0",
+    "text": "van",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-hello.example.1",
+    "text": "vest",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-hello.example.2",
+    "text": "violin",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-hello.example.3",
+    "text": "volcano",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-listen",
+    "text": "Listen to the first sound in van. van. vest. violin. volcano.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-listen.example.0",
+    "text": "violin",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-listen.example.1",
+    "text": "volcano",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v.en-v-more-words.example.0",
+    "text": "volcano",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-trace",
+    "text": "Trace the lowercase letter V.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-find",
+    "text": "Find every lowercase V in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-match",
+    "text": "Which word starts with lowercase V?",
+    "lang": "en"
+  },
+  {
+    "id": "en-v-color",
+    "text": "Choose the pictures whose words start with lowercase V.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-hello",
+    "text": "This is the letter W. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-hello.example.0",
+    "text": "water",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-hello.example.1",
+    "text": "web",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-hello.example.2",
+    "text": "window",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-hello.example.3",
+    "text": "whale",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-listen",
+    "text": "Listen to the first sound in water. water. web. window. whale.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-listen.example.0",
+    "text": "window",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-listen.example.1",
+    "text": "whale",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w.en-w-more-words.example.0",
+    "text": "whale",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-trace",
+    "text": "Trace the lowercase letter W.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-find",
+    "text": "Find every lowercase W in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-match",
+    "text": "Which word starts with lowercase W?",
+    "lang": "en"
+  },
+  {
+    "id": "en-w-color",
+    "text": "Choose the pictures whose words start with lowercase W.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-hello",
+    "text": "This is the letter X. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-hello.example.0",
+    "text": "fox",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-hello.example.1",
+    "text": "box",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-hello.example.2",
+    "text": "six",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-hello.example.3",
+    "text": "wax",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-listen",
+    "text": "Listen to the last sounds in fox, box, six, and wax. The letter x spells two sounds together, k and s.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-listen.example.0",
+    "text": "six",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-listen.example.1",
+    "text": "wax",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x.en-x-more-words.example.0",
+    "text": "wax",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-trace",
+    "text": "Trace the lowercase letter X.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-find",
+    "text": "Find every lowercase X in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-match",
+    "text": "Which word has the letter x?",
+    "lang": "en"
+  },
+  {
+    "id": "en-x-color",
+    "text": "Choose the words that contain x.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-hello",
+    "text": "This is the letter Y. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-hello.example.0",
+    "text": "yarn",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-hello.example.1",
+    "text": "yo-yo",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-hello.example.2",
+    "text": "yogurt",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-hello.example.3",
+    "text": "yak",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-listen",
+    "text": "Listen to the first sound in yarn. yarn. yo-yo. yogurt. yak.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-listen.example.0",
+    "text": "yogurt",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-listen.example.1",
+    "text": "yak",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y.en-y-more-words.example.0",
+    "text": "yak",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-trace",
+    "text": "Trace the lowercase letter Y.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-find",
+    "text": "Find every lowercase Y in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-match",
+    "text": "Which word starts with lowercase Y?",
+    "lang": "en"
+  },
+  {
+    "id": "en-y-color",
+    "text": "Choose the pictures whose words start with lowercase Y.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-hello",
+    "text": "This is the letter Z. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-hello.example.0",
+    "text": "zebra",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-hello.example.1",
+    "text": "zip",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-hello.example.2",
+    "text": "zoo",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-hello.example.3",
+    "text": "zero",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-listen",
+    "text": "Listen to the first sound in zebra. zebra. zip. zoo. zero.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-listen.example.0",
+    "text": "zoo",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-listen.example.1",
+    "text": "zero",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z.en-z-more-words.example.0",
+    "text": "zero",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-trace",
+    "text": "Trace the lowercase letter Z.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-find",
+    "text": "Find every lowercase Z in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-match",
+    "text": "Which word starts with lowercase Z?",
+    "lang": "en"
+  },
+  {
+    "id": "en-z-color",
+    "text": "Choose the pictures whose words start with lowercase Z.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-hello",
+    "text": "This is the letter Q. Here is its lowercase shape.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-hello.example.0",
+    "text": "queen",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-hello.example.1",
+    "text": "quilt",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-hello.example.2",
+    "text": "quail",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-hello.example.3",
+    "text": "question",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-listen",
+    "text": "Listen to queen and quilt. Here q and u work together at the start of each word.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-listen.example.0",
+    "text": "quail",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-listen.example.1",
+    "text": "question",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-more-words",
+    "text": "Listen to some more familiar words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q.en-q-more-words.example.0",
+    "text": "question",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-free-paint",
+    "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-trace",
+    "text": "Trace the lowercase letter Q.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-find",
+    "text": "Find every lowercase Q in these words.",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-match",
+    "text": "Which word starts with lowercase Q?",
+    "lang": "en"
+  },
+  {
+    "id": "en-q-color",
+    "text": "Choose the pictures whose words start with lowercase Q.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-intro",
+    "text": "Let us build some words from letters we have met. Listen to each whole word before you begin.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.0",
+    "text": "jam",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.1",
+    "text": "van",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.2",
+    "text": "web",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.3",
+    "text": "zip",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.4",
+    "text": "fox",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet.en-words-alphabet-intro.example.5",
+    "text": "bed",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-0",
+    "text": "Build the word jam. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-0",
+    "text": "Count the written letters in jam. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-1",
+    "text": "Build the word van. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-1",
+    "text": "Count the written letters in van. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-2",
+    "text": "Build the word web. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-2",
+    "text": "Count the written letters in web. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-3",
+    "text": "Build the word zip. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-3",
+    "text": "Count the written letters in zip. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-4",
+    "text": "Build the word fox. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-4",
+    "text": "Count the written letters in fox. How many letters are there?",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-build-5",
+    "text": "Build the word bed. Start on the left.",
+    "lang": "en"
+  },
+  {
+    "id": "en-words-alphabet-count-5",
+    "text": "Count the written letters in bed. How many letters are there?",
+    "lang": "en"
+  },
+  {
     "id": "numbers-0-5-count-0",
     "text": "אין כאן אף פריט. איזה מספר מתאים?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-free-paint-0",
+    "text": "בחרי צבע וצבעי את המספר 0. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1190,6 +5225,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-0-5-free-paint-1",
+    "text": "בחרי צבע וצבעי את המספר 1. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-0-5-trace-1",
     "text": "עקבי אחרי הספרה 1.",
     "lang": "he"
@@ -1197,6 +5237,11 @@
   {
     "id": "numbers-0-5-count-2",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-free-paint-2",
+    "text": "בחרי צבע וצבעי את המספר 2. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1210,6 +5255,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-0-5-free-paint-3",
+    "text": "בחרי צבע וצבעי את המספר 3. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-0-5-trace-3",
     "text": "עקבי אחרי הספרה 3.",
     "lang": "he"
@@ -1220,6 +5270,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-0-5-free-paint-4",
+    "text": "בחרי צבע וצבעי את המספר 4. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-0-5-trace-4",
     "text": "עקבי אחרי הספרה 4.",
     "lang": "he"
@@ -1227,6 +5282,11 @@
   {
     "id": "numbers-0-5-count-5",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-0-5-free-paint-5",
+    "text": "בחרי צבע וצבעי את המספר 5. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1255,6 +5315,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-6-10-free-paint-6",
+    "text": "בחרי צבע וצבעי את המספר 6. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-6-10-trace-6",
     "text": "עקבי אחרי הספרה 6.",
     "lang": "he"
@@ -1262,6 +5327,11 @@
   {
     "id": "numbers-6-10-count-7",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-free-paint-7",
+    "text": "בחרי צבע וצבעי את המספר 7. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1275,6 +5345,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-6-10-free-paint-8",
+    "text": "בחרי צבע וצבעי את המספר 8. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-6-10-trace-8",
     "text": "עקבי אחרי הספרה 8.",
     "lang": "he"
@@ -1285,6 +5360,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-6-10-free-paint-9",
+    "text": "בחרי צבע וצבעי את המספר 9. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-6-10-trace-9",
     "text": "עקבי אחרי הספרה 9.",
     "lang": "he"
@@ -1292,6 +5372,11 @@
   {
     "id": "numbers-6-10-count-10",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-6-10-free-paint-10",
+    "text": "בחרי צבע וצבעי את המספר 10. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1320,6 +5405,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-11-20-free-paint-11",
+    "text": "בחרי צבע וצבעי את המספר 11. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-11-20-trace-11",
     "text": "עקבי אחרי המספר 11.",
     "lang": "he"
@@ -1327,6 +5417,11 @@
   {
     "id": "numbers-11-20-count-12",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-free-paint-12",
+    "text": "בחרי צבע וצבעי את המספר 12. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1340,6 +5435,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-11-20-free-paint-13",
+    "text": "בחרי צבע וצבעי את המספר 13. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-11-20-trace-13",
     "text": "עקבי אחרי המספר 13.",
     "lang": "he"
@@ -1347,6 +5447,11 @@
   {
     "id": "numbers-11-20-count-14",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-free-paint-14",
+    "text": "בחרי צבע וצבעי את המספר 14. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1360,6 +5465,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-11-20-free-paint-15",
+    "text": "בחרי צבע וצבעי את המספר 15. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-11-20-trace-15",
     "text": "עקבי אחרי המספר 15.",
     "lang": "he"
@@ -1367,6 +5477,11 @@
   {
     "id": "numbers-11-20-count-16",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-free-paint-16",
+    "text": "בחרי צבע וצבעי את המספר 16. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1380,6 +5495,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-11-20-free-paint-17",
+    "text": "בחרי צבע וצבעי את המספר 17. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-11-20-trace-17",
     "text": "עקבי אחרי המספר 17.",
     "lang": "he"
@@ -1387,6 +5507,11 @@
   {
     "id": "numbers-11-20-count-18",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-free-paint-18",
+    "text": "בחרי צבע וצבעי את המספר 18. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1400,6 +5525,11 @@
     "lang": "he"
   },
   {
+    "id": "numbers-11-20-free-paint-19",
+    "text": "בחרי צבע וצבעי את המספר 19. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-11-20-trace-19",
     "text": "עקבי אחרי המספר 19.",
     "lang": "he"
@@ -1407,6 +5537,11 @@
   {
     "id": "numbers-11-20-count-20",
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-11-20-free-paint-20",
+    "text": "בחרי צבע וצבעי את המספר 20. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
     "lang": "he"
   },
   {
@@ -1495,6 +5630,21 @@
     "lang": "he"
   },
   {
+    "id": "numbers-add-draw-1",
+    "text": "יש לנו שלושה תפוחים. נוסיף עוד ארבעה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-draw-2",
+    "text": "יש לנו חמישה תפוחים. נוסיף עוד חמישה תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-add-draw-3",
+    "text": "יש לנו שישה תפוחים. נוסיף עוד שני תפוחים. כמה תפוחים יש לנו יחד?",
+    "lang": "he"
+  },
+  {
     "id": "numbers-subtract-story-1",
     "text": "יש לנו שני תפוחים. ניקח תפוח אחד. כמה תפוחים נשארו?",
     "lang": "he"
@@ -1560,6 +5710,146 @@
     "lang": "he"
   },
   {
+    "id": "numbers-subtract-draw-1",
+    "text": "יש לנו עשרה תפוחים. ניקח ארבעה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-draw-2",
+    "text": "יש לנו שמונה תפוחים. ניקח חמישה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-subtract-draw-3",
+    "text": "יש לנו שבעה תפוחים. ניקח שבעה תפוחים. כמה תפוחים נשארו?",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-intro",
+    "text": "היום האותיות הן חלקי יצירה. נניח אותן על הקווים ונבנה צורה של מספר. זהו משחק צורות, לא חישוב.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-0",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 0.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-1",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 1.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-2",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 2.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-3",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 3.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-4",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 4.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-5",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 5.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-6",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 6.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-7",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 7.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-8",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 8.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-mosaic-9",
+    "text": "הניחי חלקי אותיות על הקווים ובני את צורת הספרה 9.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-0",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-1",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-2",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-3",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-4",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-5",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-6",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-7",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-8",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-9",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-10",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-12",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-15",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
+    "id": "numbers-shape-lab-draw-20",
+    "text": "ספרי את הפרחים וציירי את המספר. אפשר גם לבחור מספר בלוח הספרות.",
+    "lang": "he"
+  },
+  {
     "id": "numbers-try-keypad-answer-2",
     "text": "ספרי את התותים והקישי כמה יש.",
     "lang": "he"
@@ -1615,6 +5905,66 @@
     "lang": "he"
   },
   {
+    "id": "he-typing.alphabet-1-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-1-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-2-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-2-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-3-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-3-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-4-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-4-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-5-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-5-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-6-find",
+    "text": "נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.",
+    "lang": "he"
+  },
+  {
+    "id": "he-typing.alphabet-6-repeat",
+    "text": "נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.",
+    "lang": "he"
+  },
+  {
     "id": "typing.en.find",
     "text": "Find the big letter on the keyboard. You can also tap the keyboard on the screen.",
     "lang": "en"
@@ -1622,6 +5972,66 @@
   {
     "id": "typing.en.repeat",
     "text": "Watch the letters. Then type the same letters in order. You can play the example again.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-1-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-1-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-2-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-2-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-3-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-3-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-4-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-4-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-5-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-5-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-6-find",
+    "text": "Find each letter on the keyboard. We will try just a few letters at a time.",
+    "lang": "en"
+  },
+  {
+    "id": "en-typing.alphabet-6-repeat",
+    "text": "Watch a short sequence of letters, then type the same letters in order.",
     "lang": "en"
   },
   {

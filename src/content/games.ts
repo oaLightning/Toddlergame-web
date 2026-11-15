@@ -1,4 +1,5 @@
-import type { Lesson } from '../types';
+import type { Exercise, Lesson } from '../types';
+import { englishOrder, hebrewAlphabet } from './alphabet';
 
 export const playLessons: Lesson[] = [
   { id: 'play-freeze', theme: 'play', locale: 'he', title: 'קסם הקרח של אלזה', subtitle: 'מקפיאות דברים שזזים, בלי שעון', cover: '❄️', color: '#d4e7ef', pages: [
@@ -26,3 +27,28 @@ export const typingLessons: Lesson[] = [
     { id: 'repeat-keys', kind: 'typing', typingMode: 'repeat', keyboardLocale: 'numbers', sequences: ['12','23','10','321','2020'], instruction: 'הקלידי את רצף הספרות', speech: 'נראה רצף של ספרות. הקלידי אותן לפי הסדר. זה רצף ספרות, ולא תרגיל חשבון.', audioId: 'typing.numbers.repeat' },
   ] },
 ];
+
+
+/** Short freely selectable keyboard chapters follow the letter books, without requiring
+ * a toddler to finish an entire alphabet in one sitting. Existing page IDs are retained. */
+function keyboardChapters(locale:'he'|'en', groups:string[][]):Exercise[] {
+  return groups.flatMap((targets,index)=>{
+    const id=`alphabet-${index+1}`;
+    const sequences=[targets.slice(0,2).join(''), [...targets].reverse().slice(0,3).join('')];
+    return [
+      {id:`${id}-find`,kind:'typing',typingMode:'find',keyboardLocale:locale,targets,
+       instruction:`מצאי את האותיות: ${targets.join(', ')}`,
+       speech:locale==='he'?'נמצא עוד אותיות במקלדת. מסתכלים על אות אחת בכל פעם, ואז לוחצים עליה.':'Find each letter on the keyboard. We will try just a few letters at a time.'},
+      {id:`${id}-repeat`,kind:'typing',typingMode:'repeat',keyboardLocale:locale,targets,sequences,
+       instruction:`נקליד רצפים קצרים: ${targets.join(', ')}`,
+       speech:locale==='he'?'נסתכל על רצף קצר של אותיות, ואחר כך נקליד אותו יחד לפי הסדר.':'Watch a short sequence of letters, then type the same letters in order.'},
+    ] as Exercise[];
+  });
+}
+const groupsOfFour=(letters:string[])=>Array.from({length:Math.ceil(letters.length/4)},(_,i)=>letters.slice(i*4,i*4+4));
+const hebrewTyping=typingLessons.find(book=>book.id==='he-typing')!;
+hebrewTyping.subtitle='אותיות האלבית ואותיות סופיות, בקבוצות קטנות';
+hebrewTyping.pages.push(...keyboardChapters('he',[...groupsOfFour(hebrewAlphabet.slice(4).map(([letter])=>letter)),['ך','ם','ן','ף','ץ']]));
+const englishTyping=typingLessons.find(book=>book.id==='en-typing')!;
+englishTyping.subtitle='כל האותיות באנגלית, בקבוצות קטנות';
+englishTyping.pages.push(...keyboardChapters('en',groupsOfFour(englishOrder.slice(4))));

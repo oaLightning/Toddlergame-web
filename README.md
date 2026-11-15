@@ -1,6 +1,6 @@
 # Asia's little library · הספרייה של אסיה
 
-A calm, touch-friendly learning game for a three-year-old: Hebrew letters, English starter phonics, counting, and visual arithmetic. Books contain short exercise pages. Every book and page is freely available; progress stays on the current device.
+A calm, touch-friendly learning game for a three-year-old: the Hebrew and English alphabets, staged word building, counting, and visual arithmetic. Books contain short exercise pages. Every book and page is freely available; progress stays on the current device.
 
 ## Run and build
 
@@ -22,7 +22,7 @@ Open any book and choose any page. A completed page is a record of participation
 - [Product instructions](AGENTS.md) and [implementation plan](docs/PLAN.md)
 - [Lesson API](docs/LESSON_API.md): add typed lesson objects in `src/content/index.ts`
 - [Curriculum](docs/CURRICULUM.md): current sequence and teaching boundaries
-- [Audio](docs/AUDIO.md): prepare OpenAI speech files outside the game
+- [Audio](docs/AUDIO.md): prepare Gemini/OpenAI speech files outside the game
 - [Character assets](docs/CHARACTER_ASSETS.md): downloaded sources and catalog
 - [Classroom portraits](docs/PORTRAITS.md): photo-only crops and verified name fields
 
@@ -42,3 +42,7 @@ Use [Toddlergame-web](https://github.com/oaLightning/Toddlergame-web) for public
 
 The play shelf contains Elsa’s untimed freeze game, six character picture puzzles with 20/30/40/60 pieces, and a pastel key-bash/touch playground. Hebrew, English and number shelves each include find-the-key and repeat-a-sequence practice. Four self-hosted printed fonts vary recognition targets; instructions and keyboard labels stay consistent.
 
+
+## Expanded activities
+
+Hebrew א–ת and five final forms, English a–z in a separate phonics progression, milestone word-building/letter-counting books, numeral painting 0–20, letter-tile numeral mosaics, and assisted handwritten answers all remain freely selectable. Handwriting offers suggestions for confirmation and a keypad alternative. The Elsa minigame has full-arena bouncing movement that accelerates after each freeze; it remains untimed.

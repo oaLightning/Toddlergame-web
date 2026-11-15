@@ -6,7 +6,7 @@ const hebrewPhysical: Record<string,string> = {
   KeyZ:'ז',KeyX:'ס',KeyC:'ב',KeyV:'ה',KeyB:'נ',KeyN:'מ',KeyM:'צ',Comma:'ת',Period:'ץ',
 };
 export const defaultTargets: Record<KeyboardLocale,string[]> = {he:['א','ב','ג','ד'],en:['s','a','t','m'],numbers:['1','2','3','4','5','6','7','8','9','0']};
-export const keyNames: Record<string,string> = {'א':'אלף','ב':'בית','ג':'גימל','ד':'דלת',s:'S',a:'A',t:'T',m:'M','0':'אפס','1':'אחת','2':'שתיים','3':'שלוש','4':'ארבע','5':'חמש','6':'שש','7':'שבע','8':'שמונה','9':'תשע'};
+export const keyNames: Record<string,string> = {'א':'אלף','ב':'בית','ג':'גימל','ד':'דלת','ה':'הא','ו':'וו','ז':'זין','ח':'חית','ט':'טית','י':'יוד','כ':'כף','ל':'למד','מ':'מם','נ':'נון','ס':'סמך','ע':'עין','פ':'פא','צ':'צדי','ק':'קוף','ר':'ריש','ש':'שין','ת':'תו','ך':'כף סופית','ם':'מם סופית','ן':'נון סופית','ף':'פא סופית','ץ':'צדי סופית',...Object.fromEntries([...'abcdefghijklmnopqrstuvwxyz'].map(letter=>[letter,letter.toUpperCase()])), '0':'אפס','1':'אחת','2':'שתיים','3':'שלוש','4':'ארבע','5':'חמש','6':'שש','7':'שבע','8':'שמונה','9':'תשע'};
 export function spokenKey(key:string):string { return keyNames[key] ?? key; }
 export function keyboardValue(key:string,code:string,locale:KeyboardLocale):string|null {
   if(locale==='numbers')return /^\d$/.test(key)?key:/^(Digit|Numpad)[0-9]$/.test(code)?code.slice(-1):null;

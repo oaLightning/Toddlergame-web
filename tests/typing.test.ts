@@ -25,3 +25,12 @@ test('repeat sequences are short and use supplied known letters only',()=>{
   assert.deepEqual(sequences.map(s=>[...s].length),[2,3,4]);
   assert.ok(sequences.every(s=>[...s].every(ch=>targets.includes(ch))));
 });
+test('expanded alphabets and final forms have explicit spoken names and matching recording IDs',async()=>{
+ const {spokenKey}=await import('../src/games/typing-logic.ts');
+ const {speechClipId}=await import('../src/audio-policy.ts');
+ for(const key of [...'אבגדהוזחטיכלמנסעפצקרשתךםןףץ']){
+  assert.notEqual(spokenKey(key),key);
+  assert.ok(speechClipId(spokenKey(key),'he')?.startsWith('key.he.'));
+ }
+ for(const key of [...'abcdefghijklmnopqrstuvwxyz'])assert.equal(speechClipId(spokenKey(key),'en'),`key.en.${key}`);
+});
