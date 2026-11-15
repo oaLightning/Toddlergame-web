@@ -20,7 +20,7 @@ node scripts/generate-audio.mjs --check
 
 Set the key in the shell/session beforehand; the script intentionally does not load `.env` files or accept keys as command arguments. The first command after `npm install` is a free dry run. Generation uses paid OpenAI API calls. Start with a few clips and listen before generating the full catalog.
 
-The default is `/v1/audio/speech`, `gpt-4o-mini-tts`, voice `marin`, WAV output and 0.9 speed. Change `--voice` or `--model` (or `OPENAI_TTS_VOICE` / `OPENAI_TTS_MODEL`). The current Speech API models are documented as supported until January 6, 2027; re-check official docs before generating after that date. `--engine realtime` selects the documented successor workflow, `gpt-realtime-2.1-mini`, over WebSocket and wraps 24kHz PCM in WAV. That optional mode requires the development dependency `ws`. It has not been live-tested without a key.
+With `--engine speech`, generation uses `/v1/audio/speech`, `gpt-4o-mini-tts`, voice `marin`, WAV output and 0.9 speed. Change `--voice` or `--model` (or `OPENAI_TTS_VOICE` / `OPENAI_TTS_MODEL`). The current Speech API models are documented as supported until January 6, 2027; re-check official docs before generating after that date. `--engine realtime` selects the documented successor workflow, `gpt-realtime-2.1-mini`, over WebSocket and wraps 24kHz PCM in WAV. That optional mode requires the development dependency `ws`. It has not been live-tested without a key.
 
 Generation writes each completed asset and manifest entry immediately, so an interrupted run resumes. Matching fingerprints skip valid existing files. Changes to pronunciation text, voice, model, or generation settings invalidate a clip. `--force` regenerates selected clips. `--only PREFIX` and `--limit N` bound paid work. Unneeded old audio files are not automatically deleted.
 
@@ -67,3 +67,5 @@ node --test scripts/generate-audio.test.mjs
 ```
 
 These validate catalog ID agreement, pronunciation overrides, collision/path rejection, cache fingerprints, and PCM WAV encoding. Live OpenAI generation and listening review require a key.
+
+Gemini is now the CLI default for this project, so catalog checks/resumes retain the existing Gemini recording fingerprints. Use `--engine speech` explicitly for OpenAI. Eleven clips were produced in the initial live run before Gemini reported exhausted quota. The prepared Actions workflow has no provider secret configured yet; storing a key there requires the user’s explicit authorization.

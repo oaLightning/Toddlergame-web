@@ -200,7 +200,7 @@ export async function main(args = process.argv.slice(2)) {
   if (args.includes('--help')) {
     console.log('node scripts/generate-audio.mjs [--catalog-only] [--check] [--only ID_PREFIX] [--limit N] [--force] [--engine realtime|speech|gemini] [--model MODEL] [--voice VOICE] [--delay-ms N]'); return;
   }
-  const engine=value('--engine','speech');
+  const engine=value('--engine','gemini');
   if (!['realtime','speech','gemini'].includes(engine)) throw new Error('Engine must be realtime, speech or gemini');
   const model=engine==='gemini'?(process.env.GEMINI_TTS_MODEL ?? 'gemini-2.5-flash-preview-tts'):(process.env.OPENAI_TTS_MODEL ?? (engine==='realtime'?'gpt-realtime-2.1-mini':'gpt-4o-mini-tts'));
   const voice=engine==='gemini'?(process.env.GEMINI_TTS_VOICE ?? 'Kore'):(process.env.OPENAI_TTS_VOICE ?? 'marin');
