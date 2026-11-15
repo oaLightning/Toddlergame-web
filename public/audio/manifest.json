@@ -24,12 +24,13 @@
   "feedback.success.he.magic": {
     "text": "איזה קסם! הצלחת!",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/feedback.success.he.magic.wav",
     "fingerprint": "8b3f6542cce89d23bc09f29b4928a9a3b9638f6300ca08426c3370ecc324e735",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-15T16:23:36.419Z"
   },
   "feedback.success.he.hooray": {
     "text": "יש! עשית את זה!",
