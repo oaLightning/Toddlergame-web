@@ -14,7 +14,8 @@
     "build:public": "npm run build && node scripts/verify-public-build.mjs",
     "verify:public": "node scripts/verify-public-build.mjs",
     "export:public": "node scripts/export-public.mjs",
-    "audio:elevenlabs": "node scripts/generate-elevenlabs.mjs"
+    "audio:elevenlabs": "node scripts/generate-elevenlabs.mjs",
+    "audio:reuse": "node scripts/reuse-audio.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",

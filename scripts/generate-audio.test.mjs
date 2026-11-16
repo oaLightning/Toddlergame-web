@@ -132,3 +132,11 @@ test('Gemini resume preserves approved ElevenLabs files but invalidates changed 
  assert.equal(reusableRecording({...existing,text:'different'},clip,{engine:'gemini'}),false);
  assert.equal(reusableRecording({...existing,src:'../private.mp3'},clip,{engine:'gemini'}),false);
 });
+
+
+test('quota diagnostics expose numerical limits and scope without provider identifiers/messages',async()=>{
+ const {geminiQuotaLimits}=await import('./generate-audio.mjs');
+ const result=geminiQuotaLimits({error:{message:'sensitive provider content',details:[{violations:[{quotaId:'GenerateRequestsPerDayPerProject',quotaValue:'15',quotaDimensions:{project:'private'}},{quotaId:'GenerateRequestsPerMinute',quotaValue:'3'}]}]}});
+ assert.deepEqual(result,[{scope:'per-day',limit:15},{scope:'per-minute',limit:3}]);
+ assert.equal(JSON.stringify(result).includes('private'),false);
+});

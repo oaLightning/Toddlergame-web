@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /** Build-time only. Credentials never enter the browser bundle or manifest. */
-import { readFile, writeFile, mkdir, stat, rename } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, stat, rename, copyFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
 import feedback from '../src/content/feedback.json' with {type:'json'};
+
+import {narrationKey,reusableSource,requestEstimate} from './audio-reuse.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const audioDir = resolve(root, 'public/audio');
@@ -132,6 +134,15 @@ export function geminiAudioMetadata(body) {
   };
 }
 export function canContinueAudioBatch(error) { return error?.code==='GEMINI_NO_AUDIO'; }
+/** Log quota numbers/scopes only, never provider messages or project identifiers. */
+export function geminiQuotaLimits(body){
+ return (body?.error?.details??[]).flatMap(d=>Array.isArray(d.violations)?d.violations:[]).flatMap(v=>{
+  const raw=v.quotaValue??v.quota_value??v.limit;
+  if(!/^\d+$/.test(String(raw??'')))return [];
+  const id=String(v.quotaId??v.quota_id??v.quotaMetric??'');
+  return [{scope:/perday|per_day|daily/i.test(id)?'per-day':/perminute|per_minute/i.test(id)?'per-minute':'unspecified',limit:Number(raw)}];
+ });
+}
 export function geminiQuotaExhausted(body) {
   const details=body?.error?.details ?? [];
   const violations=details.flatMap(detail=>Array.isArray(detail.violations)?detail.violations:[]);
@@ -190,6 +201,7 @@ export async function gemini(clip, options, key, io={}) {
     try { errorBody=await response.json(); } catch { /* A non-JSON provider error has no safe retry metadata. */ }
     const delayMs=geminiRetryDelayMs(response.status,response.headers,errorBody,attempt);
     if(delayMs===null || attempt===5) {
+      const limits=geminiQuotaLimits(errorBody);if(limits.length)log(`Gemini quota limits: ${JSON.stringify(limits)}`);
       const reason=geminiQuotaExhausted(errorBody)?'daily or zero quota exhausted':attempt===5?'retry limit reached':'request rejected';
       throw new Error(`Gemini TTS returned HTTP ${response.status}; ${reason}. Completed recordings remain saved.`);
     }
@@ -237,14 +249,24 @@ export async function main(args = process.argv.slice(2)) {
   if (!Number.isInteger(limit)||limit<0) throw new Error('--limit must be a nonnegative integer');
   const pending=catalog.filter(c=>c.id.startsWith(prefix)&&(args.includes('--force')||current[c.id].status!=='ready')).slice(0,limit);
   console.log(`${catalog.length} catalog clips; ${Object.values(current).filter(c=>c.status==='ready').length} ready; ${pending.length} selected for generation.`);
+  console.log(`After exact-content reuse: ${requestEstimate(catalog,current).newRequests} distinct pending utterances.`);
   if(args.includes('--check')) { if(Object.values(current).some(c=>c.status!=='ready')) process.exitCode=1; return; }
   if(args.includes('--catalog-only')||!pending.length) return;
   const keyName=engine==='gemini'?'GEMINI_API_KEY':'OPENAI_API_KEY';
   const key=process.env[keyName];
   if(!key) throw new Error(`${keyName} is not set. Catalog saved; recordings remain pending. Set the key only in your local environment, then rerun.`);
   let generated=0;
+  const reuseCache=new Map();
+  if(!args.includes('--force')) for(const clip of catalog){const entry=current[clip.id];if(reusableSource(entry,clip)){try{if((await stat(resolve(root,'public',entry.src))).size>100)reuseCache.set(narrationKey(clip),{id:clip.id,entry});}catch{/* Never reuse a missing asset. */}}}
   const noAudioFailures=[];
   for(const clip of pending) {
+    const shared=reuseCache.get(narrationKey(clip));
+    if(shared){
+      const src=shared.entry.engine==='elevenlabs'?`audio/${clip.id}.elevenlabs.mp3`:clipPath(clip.id);
+      await copyFile(resolve(root,'public',shared.entry.src),resolve(root,'public',src));
+      current[clip.id]={...shared.entry,text:clip.text,lang:clip.lang,src,reusedFrom:shared.id,reusedAt:new Date().toISOString(),...(shared.entry.engine==='elevenlabs'?{creditCost:0,creditCostEstimated:false}:{})};
+      await atomicJson(manifestPath,current);console.log(`Reused ${clip.id}; no API request.`);continue;
+    }
     if(generated && delayMs)await new Promise(resolve=>setTimeout(resolve,delayMs));
     let bytes;
     try { bytes=await (engine==='gemini'?gemini:engine==='realtime'?realtime:speech)(clip,options,key); }
@@ -258,6 +280,7 @@ export async function main(args = process.argv.slice(2)) {
     await writeFile(`${path}.tmp`,bytes); await rename(`${path}.tmp`,path);
     current[clip.id]={...current[clip.id],status:'ready',src:clipPath(clip.id),generatedAt:new Date().toISOString()};
     await atomicJson(manifestPath,current);
+    reuseCache.set(narrationKey(clip),{id:clip.id,entry:current[clip.id]});
     console.log(`Generated ${clip.id}`);
     generated++;
   }

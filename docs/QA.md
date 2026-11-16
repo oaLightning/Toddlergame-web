@@ -65,3 +65,5 @@ The first authorized Actions run generated number.he.5, committed it, dispatched
 -52automated tests pass. First144ElevenLabs files decode successfully with ffprobe; browser playback accepted a recorded Hebrew instruction after explicit audio activation.
 
 Release results: 208 ElevenLabs entries ({'Sarah': 70, 'Jessica': 138}), 3695 reported credits plus130trialcredits; 47 entries reused existing audio. 221 total ready recordings. All new files decode successfully.
+
+Exact-content reuse release: 55tests pass; 127 reused entries match their source text/language and audio bytes. 80 additional entries became ready with zero API calls; number6/7generated during bounded quota checks.

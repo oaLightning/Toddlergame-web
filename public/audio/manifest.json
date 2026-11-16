@@ -241,24 +241,28 @@
     "generatedAt": "2026-11-15T15:07:10.234Z"
   },
   "number.he.6": {
+    "id": "number.he.6",
     "text": "שש",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0da388b134552059ef14737d40f23cc2df8907059cbd7da3d8009526d8e34735",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "src": "audio/number.he.6.wav",
+    "status": "ready",
+    "fingerprint": "0da388b134552059ef14737d40f23cc2df8907059cbd7da3d8009526d8e34735",
+    "generatedAt": "2026-11-16T05:49:11.347Z"
   },
   "number.he.7": {
+    "id": "number.he.7",
     "text": "שבע",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "6c45de47ad63245094f24eaa1114ab53e0974e073e6e31a27aad1c1640c901c3",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "src": "audio/number.he.7.wav",
+    "status": "ready",
+    "fingerprint": "6c45de47ad63245094f24eaa1114ab53e0974e073e6e31a27aad1c1640c901c3",
+    "generatedAt": "2026-11-16T05:50:56.105Z"
   },
   "number.he.8": {
     "text": "שמונה",
@@ -2255,22 +2259,34 @@
   "he-known-words.he-known-words-explain.example.0": {
     "text": "אבא",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "563b67c0f1c1f4022bfbb5e01d5cea4dec7c1ecb1c9a8479e0ee33825d2dd962",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-known-words.he-known-words-explain.example.0.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "908c4c36e7604603618a53011f1151cfe052bec79c4b1759a2521e7928dcea27",
+    "generatedAt": "2026-11-16T03:26:08.329Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef.he-alef-words.example.1",
+    "reusedAt": "2026-11-16T05:49:44.611Z"
   },
   "he-known-words.he-known-words-explain.example.1": {
     "text": "דג",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "efc0821cd1d45d5b3f603f7af395e740bffdd30d56f40f5daf3d310823c71dbf",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-known-words.he-known-words-explain.example.1.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "8aeaecc3a8ce1fc6e6060cdfca89e9b4d5dbae482bb3ce6470aece8da4b7bab6",
+    "generatedAt": "2026-11-16T03:26:30.423Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-dalet.he-dalet-hello.example.0",
+    "reusedAt": "2026-11-16T05:49:44.611Z"
   },
   "he-known-words-dad": {
     "text": "המילה היא אבא. בני את המילה אבא. התחילי מצד ימין.",
@@ -2465,12 +2481,18 @@
   "he-he-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-he-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.612Z"
   },
   "he-he-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות דלת.",
@@ -2605,12 +2627,18 @@
   "he-vav-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-vav-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.612Z"
   },
   "he-vav-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות הא.",
@@ -2745,12 +2773,18 @@
   "he-zayin-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-zayin-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.613Z"
   },
   "he-zayin-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות וו.",
@@ -2885,12 +2919,18 @@
   "he-het-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-het-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.613Z"
   },
   "he-het-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות זין.",
@@ -3025,12 +3065,18 @@
   "he-tet-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-tet-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.614Z"
   },
   "he-tet-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות חית.",
@@ -3165,12 +3211,18 @@
   "he-yod-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-yod-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.614Z"
   },
   "he-yod-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות טית.",
@@ -3465,12 +3517,18 @@
   "he-kaf-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-kaf-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.615Z"
   },
   "he-kaf-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות יוד.",
@@ -3665,12 +3723,18 @@
   "he-lamed-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-lamed-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.615Z"
   },
   "he-lamed-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות כף.",
@@ -3805,12 +3869,18 @@
   "he-mem-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-mem-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.616Z"
   },
   "he-mem-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות למד.",
@@ -4195,12 +4265,18 @@
   "he-nun-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-nun-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.616Z"
   },
   "he-nun-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות מם.",
@@ -4225,12 +4301,18 @@
   "he-final-nun.he-final-nun-hello.example.0": {
     "text": "בלון",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e2a19c2a48fc980e075ad8291c2fbd09f03da6957e3d5dec25182d496d520c9a",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-final-nun.he-final-nun-hello.example.0.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "6be265d5c16968528d480e7e3c9a5061932859f9938b39534d4d862bc600e9d6",
+    "generatedAt": "2026-11-16T03:26:16.357Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-bet.he-bet-words.example.2",
+    "reusedAt": "2026-11-16T05:49:44.616Z"
   },
   "he-final-nun-trace": {
     "text": "עקבי אחרי הקווים של נון סופית.",
@@ -4395,12 +4477,18 @@
   "he-samekh-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-samekh-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.617Z"
   },
   "he-samekh-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות נון.",
@@ -4535,12 +4623,18 @@
   "he-ayin-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-ayin-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.617Z"
   },
   "he-ayin-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות סמך.",
@@ -4675,12 +4769,18 @@
   "he-pe-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-pe-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.618Z"
   },
   "he-pe-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות עין.",
@@ -4875,12 +4975,18 @@
   "he-tsadi-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-tsadi-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.618Z"
   },
   "he-tsadi-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות פא.",
@@ -5265,12 +5371,18 @@
   "he-qof-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-qof-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.619Z"
   },
   "he-qof-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות צדי.",
@@ -5405,12 +5517,18 @@
   "he-resh-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-resh-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.619Z"
   },
   "he-resh-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות קוף.",
@@ -5545,12 +5663,18 @@
   "he-shin-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-shin-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.620Z"
   },
   "he-shin-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות ריש.",
@@ -5685,12 +5809,18 @@
   "he-tav-free-paint": {
     "text": "עכשיו נצייר ונצבע בחופשיות. בחרי צבע והעבירי אצבע או עכבר על הציור.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e54804f750ea617db9932b4c700dd1a9c165f54dafff0591c1d4cccf9a5e9874",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-tav-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "43f91181fe4e55ce8f4f647276c07a737987c7d8c5f105848fcea9bbf62ebf04",
+    "generatedAt": "2026-11-16T03:24:08.057Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.620Z"
   },
   "he-tav-review": {
     "text": "בואי ניזכר באות שכבר פגשנו. מצאי את האות שין.",
@@ -5765,12 +5895,18 @@
   "he-words-alphabet.he-words-alphabet-intro.example.5": {
     "text": "אסיה",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "e70d64a550f4cbe8c4995c18c2bba2b8ebb10cf0768cc2548f5b9c736d0ce6cb",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/he-words-alphabet.he-words-alphabet-intro.example.5.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "8da00f53edb6dfb5b11ba26ae4383c02b05b274b4446e4bd824c0e47d22fec3a",
+    "generatedAt": "2026-11-16T03:26:07.651Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "he-alef.he-alef-hello.example.0",
+    "reusedAt": "2026-11-16T05:49:44.620Z"
   },
   "he-words-alphabet-build-0": {
     "text": "המילה היא תות. הרכיבי את המילה תות, מימין לשמאל.",
@@ -7466,12 +7602,18 @@
   "en-n-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-n-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.621Z"
   },
   "en-n.en-n-more-words.example.0": {
     "text": "nut",
@@ -7486,12 +7628,18 @@
   "en-n-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-n-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.621Z"
   },
   "en-n-trace": {
     "text": "Trace the lowercase letter N.",
@@ -7616,12 +7764,18 @@
   "en-p-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-p-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.621Z"
   },
   "en-p.en-p-more-words.example.0": {
     "text": "pumpkin",
@@ -7636,12 +7790,18 @@
   "en-p-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-p-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.622Z"
   },
   "en-p-trace": {
     "text": "Trace the lowercase letter P.",
@@ -7766,12 +7926,18 @@
   "en-c-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-c-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.622Z"
   },
   "en-c.en-c-more-words.example.0": {
     "text": "carrot",
@@ -7786,12 +7952,18 @@
   "en-c-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-c-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.622Z"
   },
   "en-c-trace": {
     "text": "Trace the lowercase letter C.",
@@ -7916,12 +8088,18 @@
   "en-k-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-k-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.622Z"
   },
   "en-k.en-k-more-words.example.0": {
     "text": "kitten",
@@ -7936,12 +8114,18 @@
   "en-k-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-k-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.623Z"
   },
   "en-k-trace": {
     "text": "Trace the lowercase letter K.",
@@ -8256,12 +8440,18 @@
   "en-e-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-e-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.623Z"
   },
   "en-e.en-e-more-words.example.0": {
     "text": "elf",
@@ -8276,12 +8466,18 @@
   "en-e-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-e-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.623Z"
   },
   "en-e-trace": {
     "text": "Trace the lowercase letter E.",
@@ -8406,12 +8602,18 @@
   "en-h-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-h-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.624Z"
   },
   "en-h.en-h-more-words.example.0": {
     "text": "house",
@@ -8426,12 +8628,18 @@
   "en-h-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-h-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.624Z"
   },
   "en-h-trace": {
     "text": "Trace the lowercase letter H.",
@@ -8556,12 +8764,18 @@
   "en-r-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-r-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.624Z"
   },
   "en-r.en-r-more-words.example.0": {
     "text": "rose",
@@ -8576,12 +8790,18 @@
   "en-r-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-r-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.625Z"
   },
   "en-r-trace": {
     "text": "Trace the lowercase letter R.",
@@ -8706,12 +8926,18 @@
   "en-d-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-d-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.625Z"
   },
   "en-d.en-d-more-words.example.0": {
     "text": "drum",
@@ -8726,12 +8952,18 @@
   "en-d-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-d-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.625Z"
   },
   "en-d-trace": {
     "text": "Trace the lowercase letter D.",
@@ -8856,12 +9088,18 @@
   "en-g-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-g-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.626Z"
   },
   "en-g.en-g-more-words.example.0": {
     "text": "gorilla",
@@ -8876,12 +9114,18 @@
   "en-g-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-g-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.626Z"
   },
   "en-g-trace": {
     "text": "Trace the lowercase letter G.",
@@ -9196,12 +9440,18 @@
   "en-o-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-o-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.627Z"
   },
   "en-o.en-o-more-words.example.0": {
     "text": "ox",
@@ -9216,12 +9466,18 @@
   "en-o-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-o-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.627Z"
   },
   "en-o-trace": {
     "text": "Trace the lowercase letter O.",
@@ -9346,12 +9602,18 @@
   "en-u-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-u-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.627Z"
   },
   "en-u.en-u-more-words.example.0": {
     "text": "uncle",
@@ -9366,12 +9628,18 @@
   "en-u-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-u-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.628Z"
   },
   "en-u-trace": {
     "text": "Trace the lowercase letter U.",
@@ -9446,12 +9714,18 @@
   "en-words-short-vowels.en-words-short-vowels-intro.example.2": {
     "text": "sun",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "66c6d77e76ea8cf5fa7e3735230ac803ca1fd23fdf480330c9abd0bea862916d",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-words-short-vowels.en-words-short-vowels-intro.example.2.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "6e3d3e9d54a01e90b59d7166a47dfc3b374d2f0468822c5d63d15e3f95f083cc",
+    "generatedAt": "2026-11-16T03:26:36.677Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s.en-s-hello.example.0",
+    "reusedAt": "2026-11-16T05:49:44.628Z"
   },
   "en-words-short-vowels.en-words-short-vowels-intro.example.3": {
     "text": "run",
@@ -9686,12 +9960,18 @@
   "en-l-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-l-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.628Z"
   },
   "en-l.en-l-more-words.example.0": {
     "text": "lamp",
@@ -9706,12 +9986,18 @@
   "en-l-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-l-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.628Z"
   },
   "en-l-trace": {
     "text": "Trace the lowercase letter L.",
@@ -9836,12 +10122,18 @@
   "en-f-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-f-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.629Z"
   },
   "en-f.en-f-more-words.example.0": {
     "text": "frog",
@@ -9856,12 +10148,18 @@
   "en-f-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-f-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.629Z"
   },
   "en-f-trace": {
     "text": "Trace the lowercase letter F.",
@@ -9986,12 +10284,18 @@
   "en-b-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-b-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.629Z"
   },
   "en-b.en-b-more-words.example.0": {
     "text": "boat",
@@ -10006,12 +10310,18 @@
   "en-b-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-b-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.629Z"
   },
   "en-b-trace": {
     "text": "Trace the lowercase letter B.",
@@ -10136,12 +10446,18 @@
   "en-j-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-j-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.630Z"
   },
   "en-j.en-j-more-words.example.0": {
     "text": "jacket",
@@ -10156,12 +10472,18 @@
   "en-j-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-j-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.630Z"
   },
   "en-j-trace": {
     "text": "Trace the lowercase letter J.",
@@ -10286,12 +10608,18 @@
   "en-v-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-v-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.630Z"
   },
   "en-v.en-v-more-words.example.0": {
     "text": "volcano",
@@ -10306,12 +10634,18 @@
   "en-v-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-v-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.631Z"
   },
   "en-v-trace": {
     "text": "Trace the lowercase letter V.",
@@ -10436,12 +10770,18 @@
   "en-w-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-w-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.631Z"
   },
   "en-w.en-w-more-words.example.0": {
     "text": "whale",
@@ -10456,12 +10796,18 @@
   "en-w-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-w-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.631Z"
   },
   "en-w-trace": {
     "text": "Trace the lowercase letter W.",
@@ -10586,12 +10932,18 @@
   "en-x-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-x-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.631Z"
   },
   "en-x.en-x-more-words.example.0": {
     "text": "wax",
@@ -10606,12 +10958,18 @@
   "en-x-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-x-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.632Z"
   },
   "en-x-trace": {
     "text": "Trace the lowercase letter X.",
@@ -10736,12 +11094,18 @@
   "en-y-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-y-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.632Z"
   },
   "en-y.en-y-more-words.example.0": {
     "text": "yak",
@@ -10756,12 +11120,18 @@
   "en-y-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-y-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.632Z"
   },
   "en-y-trace": {
     "text": "Trace the lowercase letter Y.",
@@ -10886,12 +11256,18 @@
   "en-z-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-z-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.633Z"
   },
   "en-z.en-z-more-words.example.0": {
     "text": "zero",
@@ -10906,12 +11282,18 @@
   "en-z-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-z-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.633Z"
   },
   "en-z-trace": {
     "text": "Trace the lowercase letter Z.",
@@ -11036,12 +11418,18 @@
   "en-q-more-words": {
     "text": "Listen to some more familiar words.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "50a3e5c8c92cde07c4744f365ce474666459da83b2169a39e5a88d5936654b4f",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-q-more-words.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "dc995eb271860b80a009a5d2ed02543831d7883171e43255494a628fd8ec5981",
+    "generatedAt": "2026-11-16T03:25:09.496Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-more-words",
+    "reusedAt": "2026-11-16T05:49:44.634Z"
   },
   "en-q.en-q-more-words.example.0": {
     "text": "question",
@@ -11056,12 +11444,18 @@
   "en-q-free-paint": {
     "text": "Choose a color and paint the picture. You can draw with your finger or the mouse.",
     "lang": "en",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "0c9457a63b1dd4c936b52b9e8819d1f8addefd772da86a0248a8980d8bd2fb67",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/en-q-free-paint.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "cgSgspJ2msm6clMCkdW9",
+    "voiceName": "Jessica",
+    "fingerprint": "356159b4323863fc39242c9ad56a7bddadfa7f878bbd1e10038d22a25412c239",
+    "generatedAt": "2026-11-16T03:25:11.091Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "en-s-free-paint",
+    "reusedAt": "2026-11-16T05:49:44.634Z"
   },
   "en-q-trace": {
     "text": "Trace the lowercase letter Q.",
@@ -11558,12 +11952,18 @@
   "numbers-6-10-count-6": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-6-10-count-6.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.634Z"
   },
   "numbers-6-10-free-paint-6": {
     "text": "בחרי צבע וצבעי את המספר 6. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11588,12 +11988,18 @@
   "numbers-6-10-count-7": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-6-10-count-7.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.635Z"
   },
   "numbers-6-10-free-paint-7": {
     "text": "בחרי צבע וצבעי את המספר 7. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11618,12 +12024,18 @@
   "numbers-6-10-count-8": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-6-10-count-8.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.635Z"
   },
   "numbers-6-10-free-paint-8": {
     "text": "בחרי צבע וצבעי את המספר 8. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11648,12 +12060,18 @@
   "numbers-6-10-count-9": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-6-10-count-9.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.635Z"
   },
   "numbers-6-10-free-paint-9": {
     "text": "בחרי צבע וצבעי את המספר 9. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11678,12 +12096,18 @@
   "numbers-6-10-count-10": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-6-10-count-10.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.635Z"
   },
   "numbers-6-10-free-paint-10": {
     "text": "בחרי צבע וצבעי את המספר 10. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11738,12 +12162,18 @@
   "numbers-11-20-count-11": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-11.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.636Z"
   },
   "numbers-11-20-free-paint-11": {
     "text": "בחרי צבע וצבעי את המספר 11. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11768,12 +12198,18 @@
   "numbers-11-20-count-12": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-12.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.636Z"
   },
   "numbers-11-20-free-paint-12": {
     "text": "בחרי צבע וצבעי את המספר 12. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11798,12 +12234,18 @@
   "numbers-11-20-count-13": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-13.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.637Z"
   },
   "numbers-11-20-free-paint-13": {
     "text": "בחרי צבע וצבעי את המספר 13. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11828,12 +12270,18 @@
   "numbers-11-20-count-14": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-14.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.637Z"
   },
   "numbers-11-20-free-paint-14": {
     "text": "בחרי צבע וצבעי את המספר 14. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11858,12 +12306,18 @@
   "numbers-11-20-count-15": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-15.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.637Z"
   },
   "numbers-11-20-free-paint-15": {
     "text": "בחרי צבע וצבעי את המספר 15. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11888,12 +12342,18 @@
   "numbers-11-20-count-16": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-16.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.638Z"
   },
   "numbers-11-20-free-paint-16": {
     "text": "בחרי צבע וצבעי את המספר 16. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11918,12 +12378,18 @@
   "numbers-11-20-count-17": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-17.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.638Z"
   },
   "numbers-11-20-free-paint-17": {
     "text": "בחרי צבע וצבעי את המספר 17. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11948,12 +12414,18 @@
   "numbers-11-20-count-18": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-18.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.638Z"
   },
   "numbers-11-20-free-paint-18": {
     "text": "בחרי צבע וצבעי את המספר 18. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -11978,12 +12450,18 @@
   "numbers-11-20-count-19": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-19.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.639Z"
   },
   "numbers-11-20-free-paint-19": {
     "text": "בחרי צבע וצבעי את המספר 19. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
@@ -12008,12 +12486,18 @@
   "numbers-11-20-count-20": {
     "text": "געי בכל פריט וספרי. כמה פריטים יש כאן?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
-    "fingerprint": "67d28f085922b022d33869a68484e2071c95d9430bf8481c5713c9d2dabe7d68",
-    "engine": "gemini",
-    "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "status": "ready",
+    "src": "audio/numbers-11-20-count-20.elevenlabs.mp3",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice": "EXAVITQu4vr4xnSDxMaL",
+    "voiceName": "Sarah",
+    "fingerprint": "d2cf79041a28dab230fc74aa8a66b57395e3f455ecbd7e2fa6eb7ba6fcf3c570",
+    "generatedAt": "2026-11-16T03:25:45.826Z",
+    "creditCost": 0,
+    "creditCostEstimated": false,
+    "reusedFrom": "numbers-0-5-count-1",
+    "reusedAt": "2026-11-16T05:49:44.639Z"
   },
   "numbers-11-20-free-paint-20": {
     "text": "בחרי צבע וצבעי את המספר 20. אפשר לצייר בחופשיות ולסיים מתי שתרצי.",
