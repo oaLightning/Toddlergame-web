@@ -5052,122 +5052,134 @@
   "he-words-to-mem-count-0": {
     "text": "ספרי את האותיות הכתובות במילה מים. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-0.wav",
     "fingerprint": "f77e3332a8bc2387528cc705f35b5d8199a827289960c82f9f89ab9fa420d84a",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:50:32.903Z"
   },
   "he-words-to-mem-build-1": {
     "text": "המילה היא ים. הרכיבי את המילה ים, מימין לשמאל.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-build-1.wav",
     "fingerprint": "728a915cf84d86eed2b365606eee57425411e3617c45f0bf2f2c9dd51b7073b5",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:50:43.473Z"
   },
   "he-words-to-mem-count-1": {
     "text": "ספרי את האותיות הכתובות במילה ים. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-1.wav",
     "fingerprint": "f01e24688cb35d053837f167aea87c1888b728d22273dc372412c1cecb9fd908",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:50:55.718Z"
   },
   "he-words-to-mem-build-2": {
     "text": "המילה היא לחם. הרכיבי את המילה לחם, מימין לשמאל.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-build-2.wav",
     "fingerprint": "9e0eeb148ad06cf211a45323e6decf962529751c6aaea015233286f252565ca7",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:51:08.701Z"
   },
   "he-words-to-mem-count-2": {
     "text": "ספרי את האותיות הכתובות במילה לחם. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-2.wav",
     "fingerprint": "424ae5a360d150733cbcfa4e3091099e09a945699214289b64da3d4651c62808",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:51:20.153Z"
   },
   "he-words-to-mem-build-3": {
     "text": "המילה היא כלב. הרכיבי את המילה כלב, מימין לשמאל.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-build-3.wav",
     "fingerprint": "73e05b96be641d9a9875745a1b69d8b57fba1d361046c8956465a63c1ee0a025",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:52:05.502Z"
   },
   "he-words-to-mem-count-3": {
     "text": "ספרי את האותיות הכתובות במילה כלב. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-3.wav",
     "fingerprint": "104fb91c54af6e41345b0dde7955a69b8968002015006792085c7611a60b2674",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:52:16.898Z"
   },
   "he-words-to-mem-build-4": {
     "text": "המילה היא חלב. הרכיבי את המילה חלב, מימין לשמאל.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-build-4.wav",
     "fingerprint": "d86bdc7391db0b7cf30a91dc139eaf801fbade5e04d9e8f421c5a97d16ddd64c",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:52:28.563Z"
   },
   "he-words-to-mem-count-4": {
     "text": "ספרי את האותיות הכתובות במילה חלב. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-4.wav",
     "fingerprint": "02cbd2052034ff53bd585bbcf24701acb6bf236ec9d921c86677063f83cf0df1",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:52:40.516Z"
   },
   "he-words-to-mem-build-5": {
     "text": "המילה היא מלך. הרכיבי את המילה מלך, מימין לשמאל.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-build-5.wav",
     "fingerprint": "eb39e307db9c7c9d3c462d30b459969fc59f944831b4a880e8b804336772a0e3",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:52:51.566Z"
   },
   "he-words-to-mem-count-5": {
     "text": "ספרי את האותיות הכתובות במילה מלך. כמה אותיות יש בה?",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-words-to-mem-count-5.wav",
     "fingerprint": "95e464941b42fd986e96389c11d49c7f7aa56f83efdc14ef3351d85510e2f9a9",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:53:02.232Z"
   },
   "he-nun-hello": {
     "text": "זאת האות נון. בואי נכיר אותה יחד.",
     "lang": "he",
-    "status": "pending",
-    "src": null,
+    "status": "ready",
+    "src": "audio/he-nun-hello.wav",
     "fingerprint": "0cc88681ab581525f5924328d26001a952d8772ce13119f45f6676accc60f600",
     "engine": "gemini",
     "model": "gemini-2.5-flash-preview-tts",
-    "voice": "Kore"
+    "voice": "Kore",
+    "generatedAt": "2026-11-16T08:53:12.751Z"
   },
   "he-nun.he-nun-hello.example.0": {
     "text": "נעל",
