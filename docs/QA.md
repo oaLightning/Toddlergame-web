@@ -56,3 +56,12 @@ The first authorized Actions run generated number.he.5, committed it, dispatched
 - Random praise uses three Hebrew and three English phrases, without consecutive repetition. Retry variations retain the exercise language. Three additional bundled playful effects rotate with the original success chime.
 - Parent audio review lists actual ready clips and clearly labelled device-voice instruction examples.
 -46automated tests, production/privacy check and content validation pass. Browser review confirmed ready/pending labels and playback activation.
+
+## Approved ElevenLabs integration —2026-11-16
+- Parent approved Sarah/v3 and Jessica/v4 after listening to Hebrew trial samples.
+- Mixed-provider generator preserves existing Gemini recordings and resumes missing content with stable per-lesson voices. Identical payloads reuse existing MP3s, preserving credits.
+- Gemini generator test verifies it retains unchanged approved ElevenLabs recordings, including MP3 source paths.
+- Parent review now identifies ElevenLabs voice provenance, includes attribution and paginates long recording lists. Instruction samples reflect actual ready status.
+-52automated tests pass. First144ElevenLabs files decode successfully with ffprobe; browser playback accepted a recorded Hebrew instruction after explicit audio activation.
+
+Release results: 208 ElevenLabs entries ({'Sarah': 70, 'Jessica': 138}), 3695 reported credits plus130trialcredits; 47 entries reused existing audio. 221 total ready recordings. All new files decode successfully.

@@ -14,6 +14,12 @@ const delivery = 'You are a friendly, calm preschool narrator, never a fictional
 export function fingerprint(clip, options) {
   return createHash('sha256').update(JSON.stringify({text: clip.text, lang: clip.lang, delivery, ...options})).digest('hex');
 }
+/** Keep approved recordings from another provider when the spoken content is unchanged. */
+export function reusableRecording(previous,clip,options) {
+  const approvedOtherProvider = previous?.engine === 'elevenlabs' && previous.text === clip.text && previous.lang === clip.lang;
+  const validSource = previous?.src === clipPath(clip.id) || (previous?.engine === 'elevenlabs' && previous.src === `audio/${clip.id}.elevenlabs.mp3`);
+  return !!((previous?.fingerprint===fingerprint(clip,options) || approvedOtherProvider) && previous?.status==='ready' && validSource);
+}
 export function clipPath(id) {
   if (!/^[a-zA-Z0-9_.-]+$/.test(id) || id.includes('..')) throw new Error(`Unsafe audio id: ${id}`);
   return `audio/${id}.wav`;
@@ -217,7 +223,7 @@ export async function main(args = process.argv.slice(2)) {
   for (const clip of catalog) {
     const hash=fingerprint(clip,options), previous=manifest[clip.id];
     let ready=false;
-    if (previous?.fingerprint===hash && previous.status==='ready' && previous.src===clipPath(clip.id)) {
+    if (reusableRecording(previous,clip,options)) {
       try { ready=(await stat(resolve(root,'public',previous.src))).size>100; } catch { /* missing */ }
     }
     current[clip.id]=ready ? previous : {text:clip.text,lang:clip.lang,status:'pending',src:null,fingerprint:hash,...options};

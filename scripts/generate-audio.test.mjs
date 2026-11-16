@@ -122,3 +122,13 @@ test('feedback catalog contains bilingual variations without changing the origin
  assert.equal(catalog.find(c=>c.id==='feedback.success.he').text,'כל הכבוד! הצלחת!');
  assert.equal(catalog.find(c=>c.id==='feedback.retry.en').text,'Let’s try again, slowly.');
 });
+
+
+test('Gemini resume preserves approved ElevenLabs files but invalidates changed content and unsafe paths', async()=>{
+ const {reusableRecording}=await import('./generate-audio.mjs');
+ const clip={id:'he-alef-hello',text:'זאת האות אלף',lang:'he'};
+ const existing={...clip,engine:'elevenlabs',status:'ready',src:'audio/he-alef-hello.elevenlabs.mp3',fingerprint:'other-provider'};
+ assert.equal(reusableRecording(existing,clip,{engine:'gemini',model:'test',voice:'Kore'}),true);
+ assert.equal(reusableRecording({...existing,text:'different'},clip,{engine:'gemini'}),false);
+ assert.equal(reusableRecording({...existing,src:'../private.mp3'},clip,{engine:'gemini'}),false);
+});

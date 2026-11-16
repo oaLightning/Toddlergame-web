@@ -75,3 +75,16 @@ Gemini is now the CLI default for this project, so catalog checks/resumes retain
 Recorded narration plays at 1.15× with pitch preserved; device speech rate is 0.95 (previously0.8). Playback changes do not invalidate existing recording fingerprints. Shared feedback text lives in `src/content/feedback.json`: six praise options across Hebrew/English and six gentle retry options. Praise freely mixes languages and avoids immediate repeats; retries stay in the exercise language. Missing recordings use the labeled device-speech fallback. Local sparkle/bubble/boing WAV effects vary independently of narration and require no provider.
 
 Parents can open להורים → האזנה להקלטות ולהוראות to hear ready recordings and representative lesson instructions. Each sample explicitly distinguishes a ready recording from device speech. The initial12ready clips include numbers0–5, activation, retry/praise and freeze victory; no lesson instructions were recorded at that checkpoint. Generate feedback variants with the Actions workflow prefix `feedback.` before resuming the full catalog.
+
+
+## Approved ElevenLabs voices
+The parent approved Sarah (`eleven_v3`) and Jessica (`eleven_v4`) after hearing the trial on2026-11-16. Both voices are assigned deterministically by lesson, and feedback includes both. This is offline generation only: `ELEVENLABS_API_KEY` lives in the generation process environment and is not configured in GitHub Actions.
+
+```sh
+node scripts/generate-elevenlabs.mjs --dry-run --max-credits 8000 --limit 150
+node scripts/generate-elevenlabs.mjs --max-credits 8000 --limit 150
+```
+
+The key must already be in the environment. Defaults reserve at most8,000credits conservatively for one invocation. Check remaining monthly credits before another invocation; the cap is per run, not a provider-enforced account spending limit. Subscription-read permission was unavailable on the supplied key. Requests stop on quota/permission errors or unavailable cost metadata rather than retrying blindly. Each successful MP3 is saved atomically with voice/model, generation time and actual `character-cost`. Duplicate text in the same voice/model reuses audio for no extra credits. A per-clip manifest retains Gemini clips alongside ElevenLabs clips; later Gemini resumes preserve unchanged approved ElevenLabs assets.
+
+Generation prioritizes feedback, standalone-game instructions, Hebrewא–ד and Englishs/a/t/m page instructions, early counting/arithmetic and examples. Playback still uses the existing1.15× pace. Ready recordings and voice attribution are visible in the parent listening section. Public ElevenLabs attribution is included there.

@@ -32,7 +32,7 @@ Assets live under `public/` and use paths relative to that root. Keep IDs stable
 
 The game includes local success/retry WAVs and real Gemini-generated narration. Remaining clips are generated incrementally; missing narration falls back to a matching device voice. Use the visible sound activation/test button on iPhone. Parent controls show playback status and the current number of ready clips. Actual device voice availability varies.
 
-The build-time generator supports Gemini and OpenAI, resumable caching and bounded quota/transient retries. See `docs/AUDIO.md`. The manual `Generate speech recordings` Actions workflow can generate and commit clips after an appropriately authorized provider secret is configured. No key is placed in the frontend or repository files.
+The build-time generators support Gemini, OpenAI and approved ElevenLabs Sarah/Jessica voices, resumable caching and bounded quota/transient retries. See `docs/AUDIO.md`. The manual `Generate speech recordings` Actions workflow can generate and commit clips after an appropriately authorized provider secret is configured. No key is placed in the frontend or repository files.
 
 ## Public deployment and new play books
 
