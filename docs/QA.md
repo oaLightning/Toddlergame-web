@@ -67,3 +67,6 @@ The first authorized Actions run generated number.he.5, committed it, dispatched
 Release results: 208 ElevenLabs entries ({'Sarah': 70, 'Jessica': 138}), 3695 reported credits plus130trialcredits; 47 entries reused existing audio. 221 total ready recordings. All new files decode successfully.
 
 Exact-content reuse release: 55tests pass; 127 reused entries match their source text/language and audio bytes. 80 additional entries became ready with zero API calls; number6/7generated during bounded quota checks.
+
+## Further ElevenLabs generation —2026-11-16
+User confirmed6,175credits available. A5,500credit cap was used; actual response-header cost was5147, leaving estimated1028. Added288ready entries including exact reuse; 591totalready. All new audio files decoded successfully (0failures). Hebrew letter books throughמ/finalsךם, arithmetic and keyboard names were prioritized. No additional key storage or billing changes.
